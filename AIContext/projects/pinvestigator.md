@@ -65,3 +65,16 @@ Every file has an explicit role tag. At runtime, the agent reads only the files 
 6. **Layered context loading** — developers modifying the skill read ARCHITECTURE.md. MCP errors trigger MCP_SETUP.md. Default context stays clean.
 
 7. **Human reference files don't consume agent context** — principles.md (~400 lines, full examples) is for human investigators. Subagents use compact inline excerpts instead.
+
+## Interview Positioning (March 2026)
+
+PINvestigator is James's hands-on agentic AI case study — he's acting as tech lead, building it himself with Claude Code. This is complementary to the UPP case study (Director-scale oversight):
+
+- **UPP**: Shows James operates at Director scale (oversight, architecture, cross-org stakeholder management)
+- **PINvestigator**: Shows James can go deep and build (hands-on, novel agentic architecture, eval-driven)
+
+Key differentiators for interviews:
+1. **Parallel subagent architecture** — most candidates can't talk about building agent systems from scratch
+2. **Eval harness** (Q2 focus) — demonstrates the "hard part" of agent engineering that separates real systems from demos
+3. **Three-level evaluation**: black-box (report quality), glass-box (trajectory), white-box (per-step)
+4. **Failure handling as architecture** — one subagent per data source means failures are contained, partial results are useful

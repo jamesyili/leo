@@ -64,9 +64,10 @@ Senior Engineering Manager at Pinterest, Homefeed Candidate Generation team. Di 
 
 Jarvis maintains a rolling session log at `outputs/session-log.md` for cross-session context.
 
-- **On session start:** Read `outputs/session-log.md` before engaging on anything substantive. Use the most recent entry to orient — reference prior "Next time" items if relevant, and pick up where things left off without James having to re-explain.
-- **On session end:** When James is wrapping up, says goodbye, or the conversation is winding down, proactively run the `/session-log` skill to log what happened and suggest next steps. If James explicitly says "log it" or "update the log," do it immediately.
+- **On session start:** Run `/start-session`. This reads the session log, orients on prior context, and grills James on session goals until aligned — one question at a time.
+- **On session end:** When James is wrapping up, says goodbye, or the conversation is winding down, proactively run `/end-session`. This grills for capture (decisions, open items, next steps), then writes the session log entry. If James explicitly says "log it" or "update the log," run `/end-session` immediately.
 - If a session was trivial (quick one-off question, no project impact), skip the log update.
+- `/session-log` is still available for quick log updates without the full grill protocol.
 
 ## Conventions
 

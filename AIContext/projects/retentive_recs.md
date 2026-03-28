@@ -1,5 +1,5 @@
 # System Context: Retentive Recommendations & The Prediction Engine
-**Current Status: January 2026**
+**Current Status: January 2026 (updated March 2026 with James's framing of key innovations)**
 
 ## 1. Core Objective: Solving the "Serendipity" Problem
 **Transitioning from Reactive Exploitation to Proactive Prediction.**
@@ -303,3 +303,25 @@ This architecture is the technical engine for the company-wide **Anticipation** 
 * **Journey Jumps:** By implementing **Vector Transport**, we move from "reactive matching" to "predictive jumps" (e.g., Firepit $\rightarrow$ S'mores).
 * **Downstream Rewards:** By managing **Lifecycle States**, we explicitly trade short-term CTR for long-term retention (WAU), optimizing for the "Golden Cohort" trajectory rather than the "Clickbait" trajectory.
 * **Cross-Surface Portability:** Because UICs are externalized in GSS, the "Predicted Next Interest" is available instantly to **Search** (query suggestions) and **Notifications** (alerting), creating a unified "Theory of Mind" for the user across the platform.
+
+---
+
+## 8. James's Framing: The Three Key Innovations (March 2026)
+
+This section captures how James frames the core innovations of Retentive Recommendations — useful for interview prep, stakeholder comms, and learning agenda alignment.
+
+### Innovation 1: Personalized Interest Representation
+We moved beyond a global interest definition into a personalized one. We don't cluster over all possible pins, but rather cluster over only the pins the user has engaged with. This makes a much easier problem and a much more accurate representation. Improvements:
+- Longer history (L500 sequence instead of shorter windows)
+- Dynamic cluster count (not fixed categories — users with diverse interests have more clusters)
+- Complete-link hierarchical clustering ensures high coherence within each UIC
+
+### Innovation 2: Embedding-Space Prediction at the Interest Level
+We are predicting a point in space in the embedding space where the user is likely to engage, using what they have historically already engaged with. This is fundamentally different from pin-level prediction. This is "use case" or "interest level" prediction personalized to the user. The Geometric Prediction strategies (Vector Transport, Sensible Sourcing, Graph Completeness) all operate at this level — predicting where in the embedding space the user is heading, not which specific pin they'll click.
+
+### Innovation 3: The RL Feedback Loop
+How we build an actual feedback loop to do reinforcement learning for explore-exploit, to make sure we thoroughly and effectively explore the different regions of the embedding space for each user. The Geometric Bandit (Thompson Sampling over LSH keys with Log-Lift reward) is the mechanism. This is novel because:
+- Exploration is systematic and trackable (per-region Beta distributions)
+- Reward measures momentum (Log-Lift) not absolute engagement
+- Negative feedback collapses exploration immediately (no zombie clusters)
+- The bandit handles the explore/exploit tradeoff automatically through posterior width
