@@ -57,6 +57,7 @@ Senior Engineering Manager at Pinterest, Homefeed Candidate Generation team. Di 
 | `projects/l1_utility.md` | L1 Utility technical spec |
 | `projects/retentive_recs.md` | Retentive Recs system context + technical spec |
 | `projects/upp_must_win_march2026.md` | UPP cross-surface expansion strategy, must-win presentation, Jinfeng resolution |
+| `projects/pinvestigator.md` | PINvestigator — LLM-powered metrics investigation tool, Claude Code skill architecture, parallel subagent design |
 | `pinterest2025.md` | 2025 year-in-review, self-review, M18 mapping |
 
 ## Conventions
