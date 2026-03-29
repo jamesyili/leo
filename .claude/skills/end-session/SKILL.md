@@ -41,6 +41,14 @@ Once aligned, write the session log entry following the format in `outputs/sessi
    - **Next time:** (specific, actionable)
 3. Keep the log to ~20 entries max. Trim oldest if needed.
 
+### Phase 3: Commit Changes
+
+After writing the session log, commit all changes from the session:
+
+1. Run `git add -A` and `git status` to review what's being committed.
+2. Write a concise commit message summarizing the session's work (not just "end session" — capture what was actually done).
+3. Commit. Do not push unless James asks.
+
 ## Rules
 
 - You were in the session — lead with your recommended answers. Don't make James reconstruct everything from scratch.
