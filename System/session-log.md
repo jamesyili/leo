@@ -1,5 +1,44 @@
 # Session Log
 
+## 2026-03-29 — Leo: full restructure, NotebookLM integration, MW prep, growth reflections, CLR/P2P docs
+
+**Done:**
+- Renamed Jarvis → Leo. Rewrote CLAUDE.md with new persona, folder index, context loading guide.
+- Full folder restructure: flat AIContext/ → 5 top-level domains (Work+Self, Learning, SideProjects, NotebookLM, System). Merged journal+growth, communication+speaking, q2_roadmap into goals.
+- Created team_members.md (17 reports with context, risks, dynamics). Removed redundant files (timeline, pinterest2025).
+- NotebookLM MCP: installed Chrome in WSL, stable auth, tested end-to-end. Created /consult-notebook skill + NotebookLM/ folder with registry + query log.
+- ELT talk tracks rewritten using "How to Speak" notebook (Wes Kao: BLUF, compressed funnel, $6.5M moved up).
+- Created speaking_reminders (6 patterns + checklist), merged into communication.md.
+- Created growth.md with Roberto/altitude lesson, success definition Q2-Q3, coaching triggers.
+- CLR + P2P LR deep technical references + codebase learning notes written.
+- Added escape hatches to CLAUDE.md and skills. Enhanced end-session with Phase 4.
+- Created Leo improvement backlog (System/jarvis_backlog.md) with skills, automation, monetization, side projects.
+- Moved Pinvestigator skill to Work+Self/projects/pinvestigator-skill/.
+
+**Decisions:**
+- Leo (not Jarvis). Folder structure: Work+Self, Learning, SideProjects, NotebookLM, System.
+- Work+Self combines work + personal (portable for Google Drive sync).
+- Global ~/.claude/skills/ is active; project-level is git-synced replica. Update both.
+- Escape hatches: Leo must stop and ask when info is missing, not guess.
+- End-session auto-commits without prompting.
+- Jeff buys demos, not strategy. Match altitude to audience.
+- Wednesday: JJ + Pinvestigator demo on real incident.
+- Don't engage Kurchi/Jinfeng 1:1 next week. Ask Dylan Thursday about Kurchi relationship.
+
+**Open:**
+- Full Leo rename sweep across remaining files (backlog)
+- Org chart update (James sending screenshot)
+- /prep and /debrief skills not built (carried over 4 sessions)
+- Growth reflections grill not fully completed
+
+**Next time:**
+- Monday: Meet JJ to run Pinvestigator on active incident, package Wednesday demo
+- Message Wednesday AI forum coordinator to offer demo slot
+- Send org chart screenshot to update organization.md
+- Build /prep skill
+
+---
+
 ## 2026-03-29 — MW prep, stakeholder expansion, NotebookLM integration, growth reflections, CLR/P2P docs
 
 **Done:**
