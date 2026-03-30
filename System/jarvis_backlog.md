@@ -6,6 +6,10 @@ Last updated: 2026-03-29
 
 ---
 
+## Update Work+Self/org/organization.md
+
+- [ ] **Refresh the org chart** — James will provide a screenshot of the current org chart. Update `Work+Self/org/organization.md` with the latest structure, reporting lines, and scope. Current file may be stale post-reorg (Dylan's org expanded with ~30-40 new people).
+
 ## Rename: Jarvis → Leo
 
 - [ ] **Complete rename across all remaining files** — CLAUDE.md and key skills updated. Remaining: scan all context files, memory files, and remaining skills for "Jarvis" references and update to "Leo". Low priority but should be cleaned up.
