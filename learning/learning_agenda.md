@@ -1030,6 +1030,12 @@ UPP decisions happen at the architecture level — pretraining, fine-tuning, tow
 - **Cross-surface pretraining**: The base CLR is trained on data from multiple surfaces. The hypothesis: cross-surface signal improves each surface's retrieval because user behavior on one surface is informative for another.
 - **The semantic relevance challenge**: Standard CLR optimizes for engagement. Search needs relevance. Multi-head objectives (engagement loss + relevance loss) are the solution, but balancing the heads is non-trivial.
 
+### Codebase deep dives (completed 2026-03-29)
+- **CLR technical reference**: `AIContext/projects/clr_technical.md` — full architecture walkthrough (condition system, routing masks, DHEN, training, inference, fine-tuning)
+- **P2P LR technical reference**: `AIContext/projects/p2p_lr_technical.md` — Closeup learned retrieval (multi-tower DHEN, SID/RQ-VAE, distillation, C2C/Q2Q losses)
+- **Personal learning notes**: `learning/clr_codebase_notes.md` — what I understand, what's still fuzzy, how it connects to UPP work
+- **Key architectural difference**: CLR uses explicit conditions (interest/board/pin) with routing masks; P2P uses query pin as implicit condition in the viewer tower. The UPP co-design must reconcile these approaches.
+
 ### Resources
 | Resource | URL | Hours | Priority |
 |----------|-----|-------|----------|

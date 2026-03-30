@@ -32,20 +32,21 @@ Two problems that initially seem disparate — (1) knob proliferation / engineer
 
 **Talk Track:**
 
-> Hi everyone, my name is James and I lead the Homefeed Candidate Generation teams. I'll start by framing two problems that initially seem quite different, but turn out to share an elegant common solution.
+> Hi everyone, I'm James — I lead Homefeed Candidate Generation. With me are Sai, who leads Related Pins CG, and Mehdi from ATG. We're presenting together because this work lives at the intersection of surface-specific optimizations and a shared ML solution framework. I'll start with the problem, Sai will show you the vision, and Mehdi will walk through the technology.
 >
-> Let me first quickly orient everyone on how we serve recommendations today. This is the funnel architecture that we share across Homefeed, Related Pins, Search, and Notifications.
+> I want to show you two problems that initially seem quite different, but converge on a single elegant solution — one that's already saving us nearly a million dollars a year while improving engagement.
 >
-> We start with billions of pins in the corpus, and each of our ~20 candidate generators pulls a fixed number of candidates. CG1 always fetches 500, CG2 always 1,000, and so on. These then go through lightweight scoring, and 2,000 candidates are fed into the heavy ranker scoring.
+> This is the funnel architecture we share across Homefeed, BMI, Related Pins, Search, and Notifications. Billions of pins in the corpus, ~20 candidate generators pulling candidates, lightweight scoring, then heavy ranking.
 >
-> Here's what I want you to notice. Every highlighted number on this slide — 500, 1,000, etc. — these are all hard-coded constants. They don't change based on who the user is, what they're looking for, or what time of the day it is. A power shopper and a casual browser get the exact same configuration, every single time.
+> Here's what I want you to notice. Every number highlighted on this slide — 500, 1,000, etc. — these are all hard-coded constants. They don't change based on who the user is, what they're looking for, or what time of day it is. A power shopper and a casual browser get the exact same configuration, every single time.
 >
-> And tuning these numbers is time-consuming. This is just one surface — multiply it by every surface we run and you see that complexity is growing faster than our ability to manually optimize, which slows down iteration speed.
+> And tuning these numbers is time-consuming. This is just one surface — multiply it by every surface we run and the complexity is growing faster than our ability to manually optimize.
 
 **Key guidance:**
+- BLUF the stakes right after signposting — "$938K saved, engagement up" hooks the room before any technical detail
+- Funnel walkthrough compressed to one sentence — the diagram is on the slide, don't narrate every box
+- "Here's what I want you to notice" is a verbal spotlight — use it to focus attention on the constants
 - Point at the diagram as you reference specific numbers
-- "Here's what I want you to notice" is a verbal spotlight — use it to focus attention
-- Don't narrate every box in the funnel; skim the flow, land on the constants
 
 ### Slide 4 — "A rare opportunity to save costs and increase personalization at once"
 
@@ -53,25 +54,26 @@ Two problems that initially seem disparate — (1) knob proliferation / engineer
 
 **Talk Track:**
 
-> *(PAUSE. Let them read the headline.)*
+> *(PAUSE. LET THEM READ THE HEADLINE.)*
 >
-> The second problem: as we scale toward more users, our serving costs scale with it. The question we asked ourselves is: does it have to be linear? Can we bend that curve without degrading the experience?
+> The second problem: as we scale toward more users, our serving costs scale with it. And here the stakes are significant — our pre-ranking and ranking models alone cost over six and a half million dollars a year, and that cost scales linearly with the number of candidates we send them.
 >
-> And the team surfaced something that seems obvious in hindsight but has big implications: today, we give every user the same compute budget on every request. Same candidate generators fire. Same number of candidates fetched. Same depth of ranking.
+> The team surfaced something that seems obvious in hindsight but has big implications: today, we give every user the same compute budget on every request. Same candidate generators fire. Same number of candidates fetched. Same depth of ranking.
 >
 > Whether you're a power user deep in wedding planning or someone who opens the app once a month — identical.
 >
-> *(PAUSE)*
+> *(PAUSE BRIEFLY)*
 >
-> Now, this connects directly to the knob problem I mentioned a moment ago. The reason we allocate uniformly is that all of these knobs are static. And the reason they're static is that the configuration space is already too complex to tune by hand. So we end up with two problems feeding each other: static knobs lead to flat compute allocation, and as we add more knobs, the manual tuning gets even slower.
+> Now, this connects directly to the knob problem I just showed you. The reason we allocate uniformly is that all of these knobs are static. And the reason they're static is that the configuration space is already too complex to tune by hand. Two problems feeding each other: static knobs lead to flat compute allocation, and as we add more knobs, the manual tuning gets even slower.
 >
-> These two problems converge on a single solution. But before we get there, I want to show you why retrieval specifically is the highest-leverage place to solve it.
+> The team has already proven that a learned system can break this cycle — Sai and Mehdi will walk you through the results. But first, let me show you why we started in Retrieval.
 
 **Key guidance:**
 - The headline does its own work — don't narrate it, let silence do the selling
+- $6.5M figure moved here from Slide 5 — anchor the stakes before the "identical" line so the audience feels the cost of uniformity
 - "Wedding planning vs. once-a-month" is your most memorable line — pause after "identical"
 - Don't read the bottom bullets; make the connection verbally
-- The bridge to slide 5 should feel purposeful, not like a detour
+- Bridge to slide 5 should feel purposeful, not like a detour
 
 ### Slide 5 — "Retrieval Optimizes for Recall — and that's expensive when it's untargeted"
 
@@ -79,21 +81,22 @@ Two problems that initially seem disparate — (1) knob proliferation / engineer
 
 **Talk Track:**
 
-> So where in the recommendation funnel do these problems matter the most? At the top. And there's a specific reason why.
+> Where in the funnel do these problems matter the most? At the top. Retrieval is the gate to everything downstream.
 >
-> Retrieval's job is recall — don't miss the right content. It does this by casting a wide net across many candidate generators, each designed for a different purpose. Some are learned and deeply personalized. Some are heuristic-based for diversity. Some are generative — powerful, but expensive. They also all serve different goals: shopping vs. organic, fresh vs. evergreen, personalized vs. relevant.
+> Retrieval's job is recall — don't miss the right content. It casts a wide net across many candidate generators, each designed for a different purpose. Some are learned and deeply personalized. Some are heuristic-based for diversity. Some are generative — powerful, but expensive. They serve different goals: shopping vs. organic, fresh vs. evergreen, personalized vs. relevant.
 >
-> But here's the thing — retrieval is pursuing all of these goals, for all users, all of the time. A user who's actively shopping for furniture gets the same CGs firing as someone who just opened the app to browse.
+> But retrieval is pursuing all of these goals, for all users, all of the time. A user who's actively shopping for furniture gets the same CGs firing as someone who just opened the app to browse.
 >
-> *(PAUSE)*
+> *(PAUSE BRIEFLY)*
 >
-> And this matters because retrieval is the gate to everything downstream. Pre-ranking and ranking are our most expensive models — over six million dollars a year combined — and their cost scales linearly with the number of candidates we send them. If we can right-size the retrieval net — fire fewer CGs when the user doesn't need them, fetch less when the marginal candidate won't help — we're not just saving at retrieval. We're saving everywhere downstream.
+> If we can right-size that retrieval net — fire fewer CGs when the user doesn't need them, fetch less when the marginal candidate won't help — we're not just saving at retrieval. We're saving everywhere downstream. And we've already observed this working: $938K in annualized savings shipped, with repins up, not down.
 >
-> So that's the opportunity. The question becomes: can we learn to right-size that net per request, per user? Sai is going to show you what that looks like.
+> So the question becomes: can we learn to right-size that net per request, per user? Sai is going to show you what that looks like.
 
 **Key guidance:**
-- Left side takes ~20 seconds (context-setting), right side takes ~40–50 seconds (the argument)
-- The $6M+ figure makes "linearly" feel expensive rather than abstract — anchor it
+- Opens with conclusion ("Retrieval is the gate") instead of building to it — no "specific reason why" preamble
+- Ends with shipped proof ($938K, repins up) right before Sai handoff — the last thing they hear from you is evidence
+- "We've already observed this working" — observation framing is more credible than opinion framing
 - Bridge to Sai is one sentence. Clean, confident handoff. Don't linger.
 
 ## Anticipated Executive Questions

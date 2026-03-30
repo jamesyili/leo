@@ -379,38 +379,58 @@ This is an excellent outcome:
 
 ## 13. Must-Win Talking Points (March 30)
 
-### James's Prepared Talking Point (15 seconds)
+### Operating Principles for the Room
+- **Role:** Practitioner with shipped results. Not the advocate, not the strategist — that's Dylan and Rajat.
+- **Airtime:** 1-2 chances max. If past sentence four, past your window.
+- **Posture:** Collaborative framing in every line. Credit SSJ people by name. Frame all work as joint.
+- **Discipline:** Speak on execution/feasibility questions (your lane). Stay quiet on product, political, and director-level alignment questions (not your lane).
+- **Intel collection:** Even when silent, watch Jeff's body language on UPP, Kurchi's engagement level (quiet = dangerous), what Rajat emphasizes, and any new objections from Vicky.
 
-"We aligned on co-designing a unified base retriever with P2P last week. Jaewon and Jinfeng are leading the design together, building on CLR's cross-surface foundation and incorporating P2P's context modeling strengths. The co-design review is next week."
+### Top 5 Lines (Collaborative Framing, Priority Order)
 
-### Reactive Talking Points (Use Only If Moment Calls for It)
+**#1. Co-design update (PROACTIVE — seek one moment for this)**
+> "Jaewon and Jinfeng's teams are co-designing the unified base retriever together — building on our cross-surface foundation and incorporating P2P's context modeling strengths. First review is next week."
 
-**If asked: "What gives us confidence this will work for P2P?"**
+Lead with their names. Not "we aligned" or "my team."
 
-"We shipped +156k WAU on Notifs with CLR architecture replication, and +130k WAU in-flight with pretrained fine-tuning. Notifs was the first expansion surface. The playbook exists and the infra is built."
+**#2. If asked about confidence / "is this real?" (REACTIVE — short version)**
+> "On the retrieval side — we've already proven this works. We shipped cross-surface retrieval on Notifications with strong WAU wins, and the same pre-train and fine-tune approach applies to P2P. Jinfeng and Jaewon are co-designing the base retriever to make sure relevance is built in from the start. First review is next week."
 
-**If the relevance concern comes up:**
+Extended version if someone pulls the thread — add: scaling the base model to GPU serving (strong offline results), relevance co-design with Jinfeng's team, and enabling cross-surface training on retrieval for the first time (borrowing from CFM ranking wins).
 
-"We already support relevance loss in production on Notifs, and we shipped without relevance regressions. Extending this to P2P is a key part of the co-design. Jinfeng's team is co-owning that piece."
+**#3. If relevance comes up (REACTIVE)**
+> "Relevance is a key part of the co-design — Jinfeng's team is co-owning that piece. We already support relevance loss in production on Notifs without regressions, so the foundation is there, but getting it right for Search and P2P is exactly what the joint design work is focused on."
 
-Note: naming Jinfeng positively in front of Jeff and Kurchi reinforces co-ownership and makes it harder to frame this as P13N imposing on SSJ.
+Lead with Jinfeng's ownership. Acknowledge "getting it right" is real work — don't dismiss Kurchi's concern.
 
-**If asked about timeline or risk:**
+**#4. If asked about timeline or risk (REACTIVE)**
+> "We're running due diligence in parallel with the co-design. We'll have a clearer picture after next week's joint review — the right milestone structure will come from that."
 
-"We're running due diligence on Base CLR for P2P in parallel with the co-design to get preliminary numbers. We'll have a clearer picture after next week's review."
+"Joint review" and "come from that" — defer to the co-design process. Respects Kurchi's "I need data" stance.
 
-Don't overcommit on timeline. Kurchi's "I need data" stance was reasonable.
+**#5. If staffing dependency / "what if P2P can't staff this?" comes up (REACTIVE — don't take the bait)**
+> "I can speak to the retrieval side — the co-design of the base retriever is a relatively scoped exercise and is already underway with Jaewon, Jinfeng, and Piyush. First draft next week. The fine-tuning work should ideally be driven by the surface team, so that's where this group should decide."
+
+De-risk without blaming. Don't throw Kurchi's team under the bus even if Jeff is offering the opening.
 
 ### What NOT to Do
 
 - Don't relitigate Option 1 vs. Option 2
-- Don't mention Jinfeng's earlier pushback
+- Don't mention Jinfeng's earlier pushback or the misrepresentation incident
 - Don't get into CLR vs. P2P LR architecture details
 - Don't overclaim on timeline — Kurchi's "I need data" stance was reasonable
+- Don't answer product questions (Vicky) — that's Dylan/Andrew/Krystal
+- Don't comment on director-level alignment questions — thumbs up, let Dylan and Kurchi handle it
+- Don't speak just to be heard — silence is fine, it preserves your shot
 
 ### The Meta-Point
 
 Retrieval is the only part of UPP with shipped online wins AND active cross-org co-design in progress. Ranking has promising offline signal. Retrieval has production results and a joint team already working. If Dylan needs a proof point that UPP's collaboration model works, James's side of the house is it. Let Dylan use that — James doesn't need to say it himself.
+
+### Mock Q&A Insights (March 29 prep session)
+- **Best instinct:** Knowing when NOT to speak. Letting Dylan handle Kurchi's process question. Thumbs-up on alignment check.
+- **Key coaching point:** When speaking, lead with conviction + evidence, not technical mechanics. Have short (4-sentence) and extended versions ready. Read Jeff's energy to decide which to deploy.
+- **Collaborative framing works:** Every line names SSJ people positively, frames work as joint, positions James as practitioner reporting on collaborative progress.
 
 ---
 
@@ -443,8 +463,14 @@ Retrieval is the only part of UPP with shipped online wins AND active cross-org 
 
 ### On Kurchi
 
-- She's reasonable, not political. "I don't know how anyone can decide without data" is fair.
-- Her must-win framing (fine-tuning experiments + backup plans, two schools of thought being evaluated) was actually workable.
+- She's reasonable AND political — both are true simultaneously. "I don't know how anyone can decide without data" is fair AND maintains her optionality over architecture decisions.
+- Political veteran who has survived multiple VPs of Discovery. Has leverage beyond Rajat's chain (likely directly with Jeff). Can push back on Rajat and make it stick (moved Search from monthly milestones to H2).
+- Her core motivation: be the originator of technical strategy, not the adopter. Relevance is her differentiator — the one area where SSJ leads and personalization hasn't solved it.
+- Uses reasonableness as her primary tool — process requests, data demands, design reviews. These are simultaneously fair and strategic.
+- Jinfeng is her champion in technical debates. His positions reflect her strategic interests.
+- She will not overtly block UPP (Jeff/Rajat too strong), but she will condition, slow-play, and steer toward SSJ ownership of the technical direction.
+- James's meta-goal with Kurchi: shift from "Rajat's battering ram" to "the practitioner who made SSJ's surfaces better."
+- Krishna (her most trusted lieutenant) is a strong trust channel — James has good direct rapport with him.
 - The relevance doc addressing her BMI/Notif questions was the right move — evidence, not promises.
 
 ### On Timing and Staffing

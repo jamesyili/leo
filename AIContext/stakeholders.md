@@ -375,17 +375,20 @@ Markdown
 ---  
   
 ## Current trust state
-- **Overall trust level:** Positive (Strengthening)
-  - **Evidence:** Rajat championed Option 1 for UPP, called Dylan directly to force alignment, ran hour meeting with Kurchi. Actively protecting UPP thesis. James's team is now central to Rajat's highest priority. Earlier signals: asked explicitly for pain points, infra costs, outages, “what should we stop/start” — system diagnosis mode confirmed.
-  - **Confidence:** High.
+- **Overall trust level:** High (Active Sponsorship)
+  - **Evidence:** Rajat championed Option 1 for UPP, called Dylan directly to force alignment, ran hour meeting with Kurchi. Actively protecting UPP thesis. James's team is now central to Rajat's highest priority. Earlier signals: asked explicitly for pain points, infra costs, outages, “what should we stop/start” — system diagnosis mode confirmed. **March 2026:** Gave James Exceeds rating and strong comp. Sent direct message: “I want you to keep pushing and looking forward to partnering on a lot of projects this year.” This is explicit encouragement of James's aggressive operating style from the VP level.
+  - **Confidence:** Very High.
 
-### Early signals validated
-- Whether he:
-  - pulls you into follow-ups on platform questions — **Yes, actively championing UPP**
-  - asks you to “own” or draft something — **Yes, UPP architecture**
-  - or references your framing in broader discussions — **Yes, explicit alignment calls**
+### Early signals validated → matured into active sponsorship
+- Pulls James into follow-ups on platform questions — **Yes, actively championing UPP**
+- Asks James to “own” or draft something — **Yes, UPP architecture**
+- References James's framing in broader discussions — **Yes, explicit alignment calls**
+- **Directly encouraging James to maintain intensity** — “keep pushing” is not generic praise; it's a mandate.
 
-These signals have now matured into active sponsorship.  
+### Key dynamic: Rajat vs. Kurchi
+- Rajat wants **quarterly milestones** and faster UPP execution. Kurchi pushes back — successfully moved Search from monthly milestones to H2.
+- This means Kurchi has **leverage beyond Rajat's chain** (likely directly with Jeff or through tenure/institutional relationships). Rajat cannot unilaterally override her on execution pace.
+- James is positioned as Rajat's instrument for UPP velocity, which Kurchi recognizes. This is both an asset (VP backing) and a liability (perceived as battering ram).  
   
 ---  
   
@@ -560,7 +563,179 @@ These signals have now matured into active sponsorship.
 
 ---
 
-# 6) Key Team Members — Retention & Development Intel (March 2026)
+# 6) Kurchi — Peer Senior Director (SSJ: Search, Shopping, Journey)
+
+## Role in my 6–12 month goals
+- **Primary political counterweight to UPP expansion.** She controls the surfaces (Search, P2P) that UPP must expand to for the platform thesis to hold.
+- **Gatekeeper for IC access.** Her org's engineers (Jinfeng, Krishna, Huizhong's reports) are the ones who must engage for cross-surface scoping and co-design.
+- **The relationship that determines whether UPP succeeds through collaboration or attrition.** If Kurchi actively cooperates, Q2 cross-surface goals are achievable. If she slow-plays, progress stalls regardless of Jeff/Rajat support.
+
+## DiSC Profile (Inferred)
+- **Primary:** **C (Conscientious)** — leads with "I need data," "show me the evidence," reasonable-sounding process demands
+- **Secondary:** **D (Dominant)** — fiercely turf-protective, will push back on Rajat directly, doesn't fold under VP pressure
+- **Low:** I (Influence), S (Steadiness)
+
+### Implications
+- Uses **reasonableness as a weapon** — "I need data before committing" sounds fair and *is* fair, but it also maintains optionality and keeps her influence over architecture decisions alive.
+- When caught without her delegates' prep, goes **reactive and defensive** (observed in Jeff's "what would it take for Search?" question).
+- Most effective **behind the scenes** — pre-wiring, coalition-building, controlling narrative before the room meets. James has not seen her in this mode directly, which is a visibility gap.
+- Delegates technical details to lieutenants (Jinfeng, Krishna) and fights the political air war herself.
+
+> **Operational takeaway:** Don't try to out-politic her. Make yourself *safe* — credit her org's work, name her people positively, demonstrate that UPP gives SSJ more, not less.
+
+## Background & Political Context
+- **Political veteran.** Has survived and thrived under multiple VPs of Discovery at Pinterest. This is rare and signals deep institutional relationships — likely directly with Jeff or other senior leaders beyond Rajat's chain.
+- **Not deeply technical**, but extremely sharp politically. Knows how to read rooms, build coalitions, and time her moves.
+- Recently had **Huizhong's P2P org rolled under her**. Told Dylan she doesn't believe Huizhong's promotion from Sr. EM to Director was warranted — signals willingness to be candid with peers when it serves her positioning.
+- **Promoted Jinfeng to IC18** despite his reputation for weak technical output. This is a loyalty signal — she rewards political alignment and org defense, not just technical contribution. Jinfeng is her champion in technical debates.
+
+## Org structure (under Kurchi)
+| Person | Role | Notes |
+|--------|------|-------|
+| Krishna | Sr. EM, Text Search Relevance | Long-standing report. Past collaboration with Dhruvil built trust. |
+| Huizhong | Director, P2P Backend/ML | Recently rolled under Kurchi. Kurchi skeptical of her promotion. Making IC access difficult. |
+| Jinfeng | IC18, P2P ML Lead | Kurchi's lieutenant. Fights technical battles on her behalf. Pushed for P2P LR as base model. Now co-designing UPP CLR after Dylan/Rajat forced alignment. |
+
+## Current trust state (with James)
+- **Overall trust level: Neutral / Wary**
+  - **Evidence:** Limited direct interaction. She's seen James in calibration rooms (his case succeeded, signaling leadership backing). ML Day coordination built light goodwill. But structurally, James is the execution engine behind the thing threatening her org's technical identity.
+  - **Confidence:** Medium. James has a visibility gap on how she operates when effective.
+
+### Trust dimensions
+- **Competence recognition:** Medium-High. She's seen the calibration results and knows Jeff/Rajat back him.
+- **Political threat assessment:** High. James is Dylan's most effective operator and Rajat's instrument for UPP velocity. The Option 1 escalation went over her head and forced her hand — she'll remember that.
+- **Personal rapport:** Low. One intro 1:1 (no follow-up), ML Day goodwill (thin), bar raiser stint (minimal engagement).
+
+### How she likely sees James
+> "James is Dylan's guy — competent, aggressive, gets things done. He's the one who triggered the Rajat escalation that forced Option 1. I respect the impact but he's not my ally. He's the battering ram for the platform that could subsume my org's technical identity."
+
+## What Kurchi optimizes for
+- **Turf protection through ownership, not obstruction.** She won't fight UPP directly (Jeff/Rajat too strong), but she wants her org to *drive* the technical strategy, not adopt someone else's.
+- **Origination over adoption.** Jinfeng's "rebuild using P2P LR codebase" play was Kurchi's strategy in architecture form: if the base model is built on SSJ's code, the innovation flows *from* SSJ outward.
+- **Relevance as her differentiator.** This is SSJ's one technical area where they lead and personalization hasn't solved it. She'll keep this front and center to maintain architectural influence.
+- **Her people's careers.** Protecting and promoting her reports (Jinfeng IC18) builds deep loyalty and ensures her org fights for her interests in technical forums.
+- **Maintaining optionality.** "I need data" buys time, preserves her influence over design decisions, and looks reasonable to leadership. She won't commit until she has to.
+
+## Communication preferences
+
+### Known / observed
+- Delegates details; don't expect her to go deep on architecture. Her lieutenants handle that.
+- Responds defensively when challenged without prep time.
+- Uses process-oriented language ("let's review both approaches," "I need data") that is simultaneously reasonable and strategic.
+- Receptive to **credit and recognition** of her org's contributions (ML Day positive signal).
+
+### Uncertain / to validate
+- How she operates in 1:1 vs. group settings (James has mostly group signal).
+- Whether she responds to direct alliance-building or views it as manipulation.
+- Her tolerance for James engaging her ICs directly vs. going through her.
+
+> **Working default:** Credit her org publicly. Go through her (or Dylan↔Kurchi channel) for political asks. Engage her ICs only on clearly scoped technical work.
+
+## Relationship dynamics
+
+### Kurchi ↔ Dylan
+- **Tenuous.** Adversarial undertone. Dylan is visibly nervous about this political battle.
+- Kurchi sees Dylan's org (personalization) as the vanguard of rec systems — a threat to SSJ's relevance and independence.
+- They are peer directors under Rajat, but the power balance favors Dylan on the UPP thesis because Jeff and Rajat are backing it.
+
+### Kurchi ↔ Rajat
+- She can **push back on Rajat and make it stick** (pushed Search from monthly milestones to H2). This suggests leverage beyond the Rajat chain — likely direct with Jeff or through tenure/institutional relationships.
+- Rajat has forced her hand on Option 1 ("disagree and commit"), but she retains meaningful influence on execution pace and design direction.
+
+### Kurchi ↔ Dhruvil
+- **Positive.** Past collaboration between Dhruvil's ranking team and Krishna's search relevance team built real trust. She favors Dhruvil among the personalization EMs.
+
+### James ↔ Krishna (Kurchi's most trusted lieutenant)
+- **Strong.** James has a good direct relationship with Krishna — Krishna is reasonable, enjoys talking to James, and is Kurchi's most trusted report. This is a significant trust channel into Kurchi's org, potentially even more direct than the Dhruvil bridge. How to leverage this strategically is TBD but the rapport is real.
+
+### Kurchi ↔ Jeff
+- Likely has a **direct or long-standing relationship** that gives her air cover Rajat can't override. She's outlasted multiple VPs — she knows how to maintain executive sponsors.
+
+## Risks with Kurchi (and mitigations)
+
+- **Risk: Being seen as Rajat's battering ram**
+  - **Context:** Rajat explicitly told James "keep pushing." Kurchi will pattern-match every aggressive move as VP-backed encroachment.
+  - **Mitigation:** Let Dylan and Rajat fight the political air war. James should be the *practitioner*, not the *advocate*. Credit SSJ's work. Name Jinfeng positively. Make co-design feel genuine.
+
+- **Risk: Slow-play through "reasonableness"**
+  - **Context:** "I need data" and "let's review both approaches" are simultaneously fair *and* strategic delay tactics. Hard to counter without looking unreasonable yourself.
+  - **Mitigation:** Don't fight it. Produce the data. Make the evidence so clear that delaying becomes harder to justify. Notif results (+156k WAU shipped, +130k in-flight) are the strongest counter.
+
+- **Risk: Jinfeng re-litigating through architecture**
+  - **Context:** Krystal warned "let's see if we don't re-litigate next week." Jinfeng could steer co-design toward P2P LR with CLR elements rather than CLR with P2P elements.
+  - **Mitigation:** Jaewon is co-leading the design and is technically credible with both sides. Ensure the co-design artifact is CLR-based with P2P extensions, not the reverse. Flag to Dylan if the architecture drifts.
+
+- **Risk: Alienating her by cutting her out**
+  - **Context:** The Option 1 escalation worked but went over her head. Repeating that pattern will harden resistance.
+  - **Mitigation:** Involve, don't bypass. The co-design framing gives Jinfeng real ownership. Extend this posture — make SSJ feel like co-authors, not adopters.
+
+## What increases Kurchi's trust in James
+- **Crediting her org's work publicly** — especially relevance contributions and Jinfeng's co-design role.
+- **Producing data, not promises.** She asked for evidence; delivering it earns respect even if the results favor UPP.
+- **Not escalating over her head again** unless absolutely necessary. The Rajat play worked once; doing it repeatedly will make her an active enemy rather than a cautious skeptic.
+- **Leveraging the Krishna relationship.** James has strong direct rapport with Krishna, Kurchi's most trusted lieutenant. This is the highest-fidelity trust channel into Kurchi's org — more direct than the Dhruvil bridge.
+- **Building rapport through Krishna/Dhruvil bridge.** The Dhruvil↔Krishna relationship is an additional organic trust channel. Use both.
+
+## What could damage trust
+- Escalating to Rajat without giving her a chance to engage first.
+- Overclaiming on timeline or results — she will fact-check.
+- Framing co-design as "SSJ adopting UPP" rather than genuine joint work.
+- Undermining Jinfeng's reputation (even if justified) — he's her promoted champion.
+
+## Operating plan (how I work with Kurchi)
+- **Default posture:** Practitioner, not politician. Be the person with shipped results and operational answers, not the person advocating for a platform.
+- **In shared rooms:** Credit SSJ contributions. Name Jinfeng and Krishna positively. Let Dylan/Rajat make the structural arguments.
+- **Direct engagement:** Look for natural opportunities to build rapport (similar to ML Day). Don't force a political alliance — she'll see through it.
+- **Through Dhruvil:** The Krishna↔Dhruvil trust channel is the one organic bridge. Use it for soft alignment where appropriate.
+- **Escalation threshold:** Only escalate to Dylan/Rajat if Kurchi's team is *actively blocking* scoped work, not if they're moving slowly. Slow-play requires patience and evidence, not escalation.
+
+> **Meta-goal:** Shift from "Rajat's battering ram" to "the practitioner who made SSJ's surfaces better." That's the only narrative that converts Kurchi from skeptic to neutral — and neutral is a win.
+
+---
+
+# 7) Jinfeng — IC18, P2P ML Lead (Kurchi's org)
+
+## Role in my 6–12 month goals
+- **Co-design counterpart for UPP retrieval expansion to P2P.** Named POC alongside Jaewon for the unified base retriever design.
+- **Kurchi's champion in technical debates.** His positions in architecture discussions reflect Kurchi's strategic interests, not just his own technical judgment.
+- **The person who determines whether co-design is genuine or performative.** If Jinfeng invests real effort in the UPP CLR design, the platform thesis advances. If he sandbaGs or steers toward P2P LR, the co-design stalls.
+
+## Profile
+- **IC18** — promoted by Kurchi. Has a reputation for **weak technical output** but **strong political skills**. The promotion signals Kurchi rewards loyalty and org defense over raw technical contribution.
+- **Built P2P Learned Retrieval (P2P LR)** — this is his technical identity. Any architecture decision that sidelines P2P LR threatens his legacy and IC18 justification.
+- **His delegate Jiaxing Qu** is the day-to-day P2P co-design counterpart. Jiaxing is still confused about UPP's scope — initially thought UPP = replacing P2P.
+
+## Political Behavior (Observed)
+
+### The Option 2 Play
+Jinfeng's initial proposal: rebuild a new base model using the **P2P LR codebase**, then drive adoption across surfaces including Homefeed. This was Kurchi's strategy manifested in architecture — if the base model is built on SSJ's code, innovation flows *from* SSJ outward, and Jinfeng owns the technical direction.
+
+### The Misrepresentation Incident
+After Dylan/Rajat/Kurchi aligned on Option 1 (CLR-based), Jinfeng told the Slack channel he'd agreed with Dylan/Kurchi to start with P2P LR as the backbone — **directly contradicting Dylan's actual directive.** His proposed sequencing was designed to produce underwhelming CLR results (low investment) while directing real engineering into P2P LR. This was Option 2 relabeled as a roadmap.
+
+- Jaewon called it out diplomatically: "Shouldn't we also try re-designing today's CLR base model?"
+- James escalated to Dylan, who confirmed: "That's not what I agreed."
+- Resolution: Kurchi proposed design review → Wednesday meeting → co-design with CLR as base
+
+### Pattern
+Jinfeng operates through **positioning and narrative control**, not direct obstruction. He'll comply with the letter of a decision while steering implementation toward his preferred outcome. Watch for architecture drift in the co-design — Krystal warned: "Let's see if we don't re-litigate next week."
+
+## What Jinfeng Optimizes For
+- **Ownership of technical direction.** His IC18 case rests on P2P LR being the foundational retrieval model. UPP CLR threatens that narrative.
+- **Kurchi's approval.** She promoted him; he fights her battles in technical forums.
+- **Face-saving.** The co-design gives him a role (named POC). Any framing that makes him feel like an adopter rather than a co-author will trigger resistance.
+
+## How James Should Interact with Jinfeng
+- **Name him positively in front of leadership.** "Jinfeng's team is co-owning the relevance piece" — reinforces co-ownership and makes it harder for him to frame this as P13N imposing on SSJ.
+- **Don't undermine his reputation** even if justified. He's Kurchi's promoted champion — attacking him attacks her judgment.
+- **Let Jaewon be the technical counterbalance.** Jaewon has credibility with both sides and can challenge architecture drift without the political baggage James carries.
+- **Watch the co-design artifact closely.** The key question: is it CLR extended with P2P elements, or P2P LR with CLR elements? The former is aligned; the latter is re-litigation in disguise.
+
+> **Meta-goal:** Make Jinfeng feel like a co-author who chose to build on CLR, not a defeated opponent who was forced to comply.
+
+---
+
+# 8) Key Team Members — Retention & Development Intel (March 2026)
 
 ## Piyush (IC16 MLE, UPP Technical Lead)
 - **Status:** Most performant IC. Full trust with James. Holds core retrieval architecture context.

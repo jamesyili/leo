@@ -1,5 +1,38 @@
 # Session Log
 
+## 2026-03-29 — MW prep, stakeholder expansion, weekly prep, growth reflections
+
+**Done:**
+- MW mock Q&A: 5 rounds pressure-testing when to speak, what to say, when to stay quiet. Key coaching: lead with conviction then evidence, read Jeff's energy to pick short vs extended version.
+- Rewrote MW talking points with collaborative framing — every line names SSJ people first. Updated Section 13 + Section 14 (Kurchi assessment) in `upp_must_win_march2026.md`.
+- Built Kurchi profile (~200 lines) and Jinfeng profile in `stakeholders.md`. Updated Rajat trust level to "High (Active Sponsorship)."
+- Created `dylan_1on1_log.md` — rolling log with Thursday April 3 agenda (MW debrief, ELT/PhP signal, Andrew's Reflex, team pulse, Charlie backfill).
+- Weekly calendar mapped. Identified JJ + Pinvestigator as Wednesday AI demo opportunity.
+- Growth reflections: dissected the Roberto/Jeff AI recognition gap. Core lesson — James engaged at architect/coordinator altitude when Jeff was buying demos and shipped artifacts.
+- Planned Pinvestigator demo strategy: run it on the active incident JJ is investigating, co-present Wednesday.
+
+**Decisions:**
+- Don't engage Kurchi or Jinfeng 1:1 next week — wait for MW and co-design signals first
+- Ask Dylan Thursday whether to build direct line to Kurchi or let her own that relationship
+- Wednesday AI demo: offer JJ + Pinvestigator slot, don't coordinate the session. Let someone else run the agenda.
+- Altitude lesson: Jeff buys demos, not strategy. Save "architect of transition" framing for Dylan/Rajat.
+- Dylan 1:1 team pulse: frame as status report ending with "nothing I need from you"
+- Charlie: yes/no backfill question only, don't discuss ER process details
+
+**Open:**
+- `AIContext/growth.md` not yet created — grilled on content but not written
+- NotebookLM auth still broken (stale cookies in WSL, needs fresh browser session)
+- Pinvestigator test run on real incident — JJ meeting Monday
+- Wednesday demo slot — need to message meeting coordinator
+
+**Next time:**
+- Meet with JJ Monday to run Pinvestigator on active incident and package 5-min demo
+- Create `AIContext/growth.md` from today's reflections (Roberto lesson, altitude mismatch, success definition for Q2-Q3)
+- Solve NotebookLM auth for stable workflow
+- Build `/prep` and `/debrief` skills (carried over)
+
+---
+
 ## 2026-03-28 — ELT presentation mock Q&A and talk track sharpening
 
 **Done:**
