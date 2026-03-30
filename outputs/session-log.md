@@ -1,35 +1,40 @@
 # Session Log
 
-## 2026-03-29 — MW prep, stakeholder expansion, weekly prep, growth reflections
+## 2026-03-29 — MW prep, stakeholder expansion, NotebookLM integration, growth reflections, CLR/P2P docs
 
 **Done:**
-- MW mock Q&A: 5 rounds pressure-testing when to speak, what to say, when to stay quiet. Key coaching: lead with conviction then evidence, read Jeff's energy to pick short vs extended version.
-- Rewrote MW talking points with collaborative framing — every line names SSJ people first. Updated Section 13 + Section 14 (Kurchi assessment) in `upp_must_win_march2026.md`.
-- Built Kurchi profile (~200 lines) and Jinfeng profile in `stakeholders.md`. Updated Rajat trust level to "High (Active Sponsorship)."
-- Created `dylan_1on1_log.md` — rolling log with Thursday April 3 agenda (MW debrief, ELT/PhP signal, Andrew's Reflex, team pulse, Charlie backfill).
-- Weekly calendar mapped. Identified JJ + Pinvestigator as Wednesday AI demo opportunity.
-- Growth reflections: dissected the Roberto/Jeff AI recognition gap. Core lesson — James engaged at architect/coordinator altitude when Jeff was buying demos and shipped artifacts.
-- Planned Pinvestigator demo strategy: run it on the active incident JJ is investigating, co-present Wednesday.
+- MW mock Q&A (5 rounds), rewrote talking points with collaborative framing, built Kurchi + Jinfeng profiles, updated Rajat trust level
+- Created `dylan_1on1_log.md` with Thursday April 3 agenda. Weekly calendar mapped.
+- Growth reflections: Roberto/Jeff altitude lesson, created `AIContext/growth.md` with 5 distilled lessons, success definition, coaching triggers
+- ELT talk tracks rewritten using NotebookLM "How to Speak" (Wes Kao frameworks): BLUF, compressed funnel, moved $6.5M up
+- Created `speaking_reminders.md` (6 patterns to watch for + pre-presentation checklist)
+- NotebookLM MCP: installed Chrome in WSL, stable auth working, tested end-to-end with How to Speak + Improving Jarvis notebooks
+- Created `/consult-notebook` skill for proactive notebook consultation during presentation prep
+- Added escape hatches to CLAUDE.md (principle #8) and key skills (grill-me, end-session)
+- Enhanced end-session with Phase 4 (context update check)
+- CLR + P2P LR deep technical references written to `AIContext/projects/`. Learning notes + agenda updated.
+- Deprecated project-level skills in favor of global `~/.claude/skills/`
 
 **Decisions:**
-- Don't engage Kurchi or Jinfeng 1:1 next week — wait for MW and co-design signals first
-- Ask Dylan Thursday whether to build direct line to Kurchi or let her own that relationship
-- Wednesday AI demo: offer JJ + Pinvestigator slot, don't coordinate the session. Let someone else run the agenda.
-- Altitude lesson: Jeff buys demos, not strategy. Save "architect of transition" framing for Dylan/Rajat.
-- Dylan 1:1 team pulse: frame as status report ending with "nothing I need from you"
-- Charlie: yes/no backfill question only, don't discuss ER process details
+- Jeff buys demos, not strategy. Match altitude to audience. Coordinator role makes you invisible.
+- Wednesday AI demo: JJ + Pinvestigator on real incident. Don't coordinate the session.
+- Don't engage Kurchi or Jinfeng 1:1 next week — wait for MW and co-design signals
+- Ask Dylan Thursday whether to build direct line to Kurchi
+- Global skills only — project-level `.claude/skills/` deprecated
+- Escape hatches: Jarvis must stop and ask when info is missing, not guess
+- NotebookLM consult is a first-class capability, proactively offered during presentation prep
 
 **Open:**
-- `AIContext/growth.md` not yet created — grilled on content but not written
-- NotebookLM auth still broken (stale cookies in WSL, needs fresh browser session)
 - Pinvestigator test run on real incident — JJ meeting Monday
 - Wednesday demo slot — need to message meeting coordinator
+- Meta-prompting workflow for improving skills (from Improving Jarvis notebook) — not implemented yet
+- `/prep` and `/debrief` skills still not built (carried over)
 
 **Next time:**
 - Meet with JJ Monday to run Pinvestigator on active incident and package 5-min demo
-- Create `AIContext/growth.md` from today's reflections (Roberto lesson, altitude mismatch, success definition for Q2-Q3)
-- Solve NotebookLM auth for stable workflow
-- Build `/prep` and `/debrief` skills (carried over)
+- Message Wednesday AI forum coordinator to offer demo slot
+- Build `/prep` and `/debrief` skills
+- Try meta-prompting: feed a skill's failed output back to improve the skill prompt
 
 ---
 
