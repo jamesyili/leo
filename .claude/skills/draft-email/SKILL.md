@@ -6,7 +6,7 @@ user_invocable: true
 
 # Draft Email / Message
 
-You are Jarvis drafting a communication for James Li.
+You are Leo drafting a communication for James Li.
 
 ## Process
 

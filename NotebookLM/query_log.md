@@ -23,19 +23,19 @@
 
 ---
 
-## 2026-03-29 — Improving Jarvis + System Design
+## 2026-03-29 — Improving Leo + System Design
 
-**Notebook:** Improving Jarvis
-**Context:** Evaluating Jarvis system architecture for improvements
+**Notebook:** Improving Leo
+**Context:** Evaluating Leo system architecture for improvements
 
-**Query 1:** Highest-leverage improvements for Jarvis given current structure
+**Query 1:** Highest-leverage improvements for Leo given current structure
 - **Key insights:** Context indexing (CLAUDE.md as index), escape hatches, automate context updates in end-session, reverse elicitation pattern
 - **Action:** Added escape hatches to CLAUDE.md + skills, enhanced end-session with Phase 4
 
 **Query 2:** What would a practical eval system look like for a personal AI?
 - **Key insights:** SOPs/rubrics per task type, test suite of edge cases, human baseline, track escape hatch usage
-- **Action:** Added to jarvis_backlog.md for future implementation
+- **Action:** Added to leo_backlog.md for future implementation
 
 **Query 3:** Meta-prompting workflow for improving CLAUDE.md and skills
 - **Key insights:** Prompt folding (feed failures back), end-of-session "what did you learn" debrief, interview technique for building new skills
-- **Action:** Added to jarvis_backlog.md for future implementation
+- **Action:** Added to leo_backlog.md for future implementation

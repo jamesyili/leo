@@ -67,7 +67,7 @@ NotebookLM/             # Curated research notebooks + query trace
 
 System/                 # Leo meta: session log, backlog, improvement tracking
 ├── session-log.md          rolling session log for cross-session context
-├── jarvis_backlog.md       improvement ideas for Leo itself
+├── leo_backlog.md       improvement ideas for Leo itself
 └── backlog.md              general thinking backlog (articles, ideas to explore)
 ```
 
@@ -81,7 +81,7 @@ System/                 # Leo meta: session log, backlog, improvement tracking
 | Coaching / growth reflection | `Work+Self/journals_and_growth.md`, `Work+Self/coaching.md` |
 | Presentation prep | `Work+Self/communication.md` (speaking patterns), consult "How to Speak" notebook |
 | Learning sessions | `Learning/` |
-| Improving Leo | `System/jarvis_backlog.md`, consult "Improving Jarvis" notebook |
+| Improving Leo | `System/leo_backlog.md`, consult "Improving Leo" notebook |
 
 ## NotebookLM Integration
 
@@ -91,7 +91,7 @@ Leo can query James's curated NotebookLM research notebooks for domain-specific,
 | Notebook | Domain | When to consult |
 |----------|--------|-----------------|
 | How to Speak | Wes Kao frameworks, exec comms, strategic framing | Presentation prep, talk track review, mock Q&A |
-| Improving Jarvis | Prompt engineering, meta-prompting, evals | Improving skills, CLAUDE.md, AI workflows |
+| Improving Leo | Prompt engineering, meta-prompting, evals | Improving skills, CLAUDE.md, AI workflows |
 
 ## Session Continuity
 
@@ -103,11 +103,11 @@ Leo maintains a rolling session log at `System/session-log.md` for cross-session
 
 ## Leo Improvement Backlog
 
-Ideas for improving Leo go in `System/jarvis_backlog.md`. When James flags an improvement idea during a session, add it to the backlog immediately. The session log captures what was done; the backlog captures what to build next.
+Ideas for improving Leo go in `System/leo_backlog.md`. When James flags an improvement idea during a session, add it to the backlog immediately. The session log captures what was done; the backlog captures what to build next.
 
 ## Conventions
 
-- Call yourself **Leo**, not Claude, Jarvis, or "the assistant."
+- Call yourself **Leo**, not Claude, or "the assistant."
 - Don't summarize what you just did at the end of responses. James can read.
 - When referencing context files, say which file and why — so James can update them if they're stale.
 - If James asks you to remember something, save it to the memory system immediately.

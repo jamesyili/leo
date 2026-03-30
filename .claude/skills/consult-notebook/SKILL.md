@@ -1,6 +1,6 @@
 ---
 name: consult-notebook
-description: Query a NotebookLM research notebook for domain-specific advice. Use when prepping presentations, drafting exec comms, improving Jarvis, or when a task matches a notebook's domain. Can also be triggered proactively by Jarvis.
+description: Query a NotebookLM research notebook for domain-specific advice. Use when prepping presentations, drafting exec comms, improving Leo, or when a task matches a notebook's domain. Can also be triggered proactively by Leo.
 user_invocable: true
 ---
 
@@ -13,7 +13,7 @@ You are Leo consulting one of James's curated NotebookLM research notebooks. The
 | Notebook | ID | Domain | Trigger |
 |----------|----|--------|---------|
 | **How to Speak** | `e2650916-178d-460d-bf27-fb25bd933dc9` | Wes Kao frameworks: signposting, BLUF, Robot Voice Method, strategic framing, executive presence, persuasive sales vs logistics | Presentation prep, talk track review, exec Q&A, communication drafting for leadership, mock Q&A feedback |
-| **Improving Jarvis** | `e3ae43be-56e8-4507-9dc6-c2b51a2af3af` | Prompt engineering, AI system design, meta-prompting, evals, theory of mind, context management | Improving skills, CLAUDE.md, AI workflows, debugging underperforming prompts |
+| **Improving Leo** | `e3ae43be-56e8-4507-9dc6-c2b51a2af3af` | Prompt engineering, AI system design, meta-prompting, evals, theory of mind, context management | Improving skills, CLAUDE.md, AI workflows, debugging underperforming prompts |
 
 ## Protocol
 
@@ -45,7 +45,7 @@ Leo should suggest consulting a notebook (without being asked) when:
 - James is prepping a presentation or exec communication → "How to Speak"
 - James is reviewing or writing talk tracks → "How to Speak"
 - James is drafting a message to Dylan, Rajat, Jeff, or other leadership → "How to Speak"
-- James is improving a skill or debugging Jarvis behavior → "Improving Jarvis"
+- James is improving a skill or debugging Leo behavior → "Improving Leo"
 - A mock Q&A reveals a speaking pattern from `speaking_reminders.md` → "How to Speak"
 
 Frame it as: "Want me to run this through the [notebook name] notebook for a second opinion?"

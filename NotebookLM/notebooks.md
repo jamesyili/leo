@@ -14,7 +14,7 @@ Last updated: 2026-03-29
 - **When to consult:** Presentation prep, talk track review, exec Q&A prep, communication drafting for leadership, mock Q&A feedback
 - **Best query pattern:** Include James's actual content (talk track, draft, plan) and ask for critique + application of specific frameworks
 
-## Improving Jarvis
+## Improving Leo
 - **ID:** `e3ae43be-56e8-4507-9dc6-c2b51a2af3af`
 - **Sources:** 3 (prompt engineering, AI system design articles)
 - **Domain:** Prompt engineering as system design, meta-prompting, evals, theory of mind, context management

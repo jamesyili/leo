@@ -92,9 +92,9 @@ Related to Lesson 1. James has a habit of explaining what the work means instead
 
 ---
 
-## Jarvis Coaching Triggers
+## Leo Coaching Triggers
 
-When Jarvis sees these patterns, intervene:
+When Leo sees these patterns, intervene:
 
 | Pattern | Signal | Intervention |
 |---------|--------|-------------|

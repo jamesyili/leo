@@ -1,6 +1,6 @@
 # Thinking Backlog
 
-Items to think through with Jarvis when there's time.
+Items to think through with Leo when there's time.
 
 ---
 

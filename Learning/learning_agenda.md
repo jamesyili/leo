@@ -2,7 +2,7 @@
 
 Personal structured curriculum. Five tracks, each independent. Prioritized for Q2 2026 and beyond.
 
-**Time budget:** ~3 hrs/week dedicated learning + continuous on-the-job learning with Jarvis/Claude Code.
+**Time budget:** ~3 hrs/week dedicated learning + continuous on-the-job learning with Leo/Claude Code.
 
 **Companion system:**
 - **Concept notes** live in this `learning/` folder as individual `.md` files (e.g., `condition-token.md`, `pretraining-finetuning.md`). Variable granularity — some broad, some very specific. Each focuses on key nuances, what I understand, what I'm still working through.
@@ -59,7 +59,7 @@ Granularity is intentionally variable. "Two-tower retrieval" and "condition toke
 # Track 1: Claude Code & Claude AI Mastery
 
 ## Why This Track
-Building Jarvis, PINvestigator, and daily workflow all run on Claude Code. This track fills gaps systematically so I stop discovering features by accident and start wielding the full toolkit intentionally.
+Building Leo, PINvestigator, and daily workflow all run on Claude Code. This track fills gaps systematically so I stop discovering features by accident and start wielding the full toolkit intentionally.
 
 ---
 
@@ -106,7 +106,7 @@ Building Jarvis, PINvestigator, and daily workflow all run on Claude Code. This 
 - **Layering**: User-level -> project-level -> directory-level rules; more specific overrides more general
 
 ### What I already have
-Jarvis CLAUDE.md is thorough — persona, operating principles, AIContext references, session continuity, conventions. Good template for future projects.
+Leo CLAUDE.md is thorough — persona, operating principles, AIContext references, session continuity, conventions. Good template for future projects.
 
 ### Practice
 - Add a `.claude/rules/` directory with a rule specific to ML work
@@ -133,11 +133,11 @@ Jarvis CLAUDE.md is thorough — persona, operating principles, AIContext refere
 | `/review` | Code review |
 | `/commit` | Create a git commit |
 
-### Custom skills (what I'm building in Jarvis)
+### Custom skills (what I'm building in Leo)
 - Located in `.claude/skills/`
 - Frontmatter: name, description, trigger conditions, tool access
 - User-invocable (slash commands) or auto-triggered
-- Current Jarvis skills: `/grill-me`, `/start-session`, `/end-session`, `/thinking-partner`, `/coach-check`, `/session-log`
+- Current Leo skills: `/grill-me`, `/start-session`, `/end-session`, `/thinking-partner`, `/coach-check`, `/session-log`
 
 ### Subagent types
 - **Explore**: Fast codebase exploration (search, find, understand)
@@ -1208,6 +1208,6 @@ Prioritize Modules 5.1-5.3 (T1). Modules 5.4-5.5 deepen as UPP work demands.
 | **Watch** | Lectures, demos, walkthroughs | ~30% after 1 week |
 | **Build** | Code, experiment, integrate into your project | ~75% after 1 week |
 | **Whiteboard** | Draw diagrams, practice explaining, mock interviews | ~60% after 1 week |
-| **Discuss** | Teach someone, explain to a peer, rubber-duck to Jarvis | ~90% after 1 week |
+| **Discuss** | Teach someone, explain to a peer, rubber-duck to Leo | ~90% after 1 week |
 
 Best approach: Read -> Whiteboard -> Discuss for conceptual material. Watch -> Build for tools/code. The concept notes in `learning/` are the "Discuss" artifact — writing forces understanding.

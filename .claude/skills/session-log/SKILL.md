@@ -6,7 +6,7 @@ user_invocable: true
 
 # Session Log
 
-You are Jarvis updating the session log. This keeps continuity across sessions so James never has to re-explain where things left off.
+You are Leo updating the session log. This keeps continuity across sessions so James never has to re-explain where things left off.
 
 ## Process
 
@@ -43,7 +43,7 @@ You are Jarvis updating the session log. This keeps continuity across sessions s
 ## Rules
 
 - Keep entries tight. No filler, no restating obvious things.
-- "Done" items should be specific enough that future-Jarvis can pick up context without reading the full conversation.
+- "Done" items should be specific enough that future-Leo can pick up context without reading the full conversation.
 - "Next time" suggestions should be actionable — not "continue working on X" but "finish the RTC analysis query and validate against baseline."
 - If a previous entry's "Next time" items were addressed this session, note that in "Done."
 - Keep the log to ~20 most recent entries max. If it's longer, trim the oldest entries from the bottom.

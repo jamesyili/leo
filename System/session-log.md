@@ -1,9 +1,36 @@
 # Session Log
 
+## 2026-03-29 — Leo rename sweep, /debrief skill, end-session upgrade, backlog cleanup
+
+**Done:**
+- Fixed start-session to check date/time before referencing "Next time" items — no more asking about things that haven't happened yet
+- Completed full Jarvis → Leo rename across all 17 files; renamed jarvis_backlog.md → leo_backlog.md
+- Built `/debrief` skill: daily-first, free dump → per-meeting extraction → cross-meeting synthesis → context file updates → follow-ups
+- Upgraded end-session with Phase 4 (self-improvement pass) inspired by wrap-up skill pattern
+- Added auto-exit to end-session
+- Added 3 backlog items: aman.ai scraper, GSD integration, interview-prep mode for OpenAI/Anthropic
+- Removed /retro from skills backlog
+- Discussed hooks vs skills, OpenClaw vs Leo, Leo as always-on on old MacBook
+
+**Decisions:**
+- `/debrief` is daily by default; single meeting is just a mode (say so at the start)
+- Leo on old MacBook is sufficient for always-on scheduled tasks — no VPS needed
+- NotebookLM MCP setup on Mac deferred to next session
+
+**Open:**
+- Org chart update (James sending screenshot)
+- /prep skill still not built (carried over 4 sessions)
+
+**Next time:**
+- Set up NotebookLM MCP on Mac: `brew install uv` → `uv tool install notebooklm-mcp-server` → `claude mcp add notebooklm-mcp -- notebooklm-mcp` → `notebooklm-mcp-auth`
+- Build `/prep` skill
+
+---
+
 ## 2026-03-29 — Leo: full restructure, NotebookLM integration, MW prep, growth reflections, CLR/P2P docs
 
 **Done:**
-- Renamed Jarvis → Leo. Rewrote CLAUDE.md with new persona, folder index, context loading guide.
+- Renamed Leo → Leo. Rewrote CLAUDE.md with new persona, folder index, context loading guide.
 - Full folder restructure: flat AIContext/ → 5 top-level domains (Work+Self, Learning, SideProjects, NotebookLM, System). Merged journal+growth, communication+speaking, q2_roadmap into goals.
 - Created team_members.md (17 reports with context, risks, dynamics). Removed redundant files (timeline, pinterest2025).
 - NotebookLM MCP: installed Chrome in WSL, stable auth, tested end-to-end. Created /consult-notebook skill + NotebookLM/ folder with registry + query log.
@@ -12,11 +39,11 @@
 - Created growth.md with Roberto/altitude lesson, success definition Q2-Q3, coaching triggers.
 - CLR + P2P LR deep technical references + codebase learning notes written.
 - Added escape hatches to CLAUDE.md and skills. Enhanced end-session with Phase 4.
-- Created Leo improvement backlog (System/jarvis_backlog.md) with skills, automation, monetization, side projects.
+- Created Leo improvement backlog (System/leo_backlog.md) with skills, automation, monetization, side projects.
 - Moved Pinvestigator skill to Work+Self/projects/pinvestigator-skill/.
 
 **Decisions:**
-- Leo (not Jarvis). Folder structure: Work+Self, Learning, SideProjects, NotebookLM, System.
+- Leo (not Leo). Folder structure: Work+Self, Learning, SideProjects, NotebookLM, System.
 - Work+Self combines work + personal (portable for Google Drive sync).
 - Global ~/.claude/skills/ is active; project-level is git-synced replica. Update both.
 - Escape hatches: Leo must stop and ask when info is missing, not guess.
@@ -26,7 +53,6 @@
 - Don't engage Kurchi/Jinfeng 1:1 next week. Ask Dylan Thursday about Kurchi relationship.
 
 **Open:**
-- Full Leo rename sweep across remaining files (backlog)
 - Org chart update (James sending screenshot)
 - /prep and /debrief skills not built (carried over 4 sessions)
 - Growth reflections grill not fully completed
@@ -47,7 +73,7 @@
 - Growth reflections: Roberto/Jeff altitude lesson, created `AIContext/growth.md` with 5 distilled lessons, success definition, coaching triggers
 - ELT talk tracks rewritten using NotebookLM "How to Speak" (Wes Kao frameworks): BLUF, compressed funnel, moved $6.5M up
 - Created `speaking_reminders.md` (6 patterns to watch for + pre-presentation checklist)
-- NotebookLM MCP: installed Chrome in WSL, stable auth working, tested end-to-end with How to Speak + Improving Jarvis notebooks
+- NotebookLM MCP: installed Chrome in WSL, stable auth working, tested end-to-end with How to Speak + Improving Leo notebooks
 - Created `/consult-notebook` skill for proactive notebook consultation during presentation prep
 - Added escape hatches to CLAUDE.md (principle #8) and key skills (grill-me, end-session)
 - Enhanced end-session with Phase 4 (context update check)
@@ -60,13 +86,13 @@
 - Don't engage Kurchi or Jinfeng 1:1 next week — wait for MW and co-design signals
 - Ask Dylan Thursday whether to build direct line to Kurchi
 - Global skills only — project-level `.claude/skills/` deprecated
-- Escape hatches: Jarvis must stop and ask when info is missing, not guess
+- Escape hatches: Leo must stop and ask when info is missing, not guess
 - NotebookLM consult is a first-class capability, proactively offered during presentation prep
 
 **Open:**
 - Pinvestigator test run on real incident — JJ meeting Monday
 - Wednesday demo slot — need to message meeting coordinator
-- Meta-prompting workflow for improving skills (from Improving Jarvis notebook) — not implemented yet
+- Meta-prompting workflow for improving skills (from Improving Leo notebook) — not implemented yet
 - `/prep` and `/debrief` skills still not built (carried over)
 
 **Next time:**
@@ -94,7 +120,7 @@
 - Use "shared ML solutions" not "ML infrastructure" to emphasize RL framework as reusable asset
 
 **Open:**
-- MW mock Q&A still not done — James prepping independently, Jarvis reviews tomorrow
+- MW mock Q&A still not done — James prepping independently, Leo reviews tomorrow
 - UPP weekly prep deferred to tomorrow
 - No dry run with Sai and Mehdi confirmed yet — highest-priority ELT prep item remaining
 - Matt Madrigal stakeholder profile missing from AIContext — would help tune emphasis
@@ -150,7 +176,7 @@
 - Created `learning/learning_agenda.md` — 5-track personalized curriculum (~700 lines), adapted from two source documents via grill-me protocol
 - Updated `AIContext/projects/retentive_recs.md` with Section 8 (James's 3 key innovations framing)
 - Updated `AIContext/projects/pinvestigator.md` with interview positioning section
-- Pushed repo to `git@github.com:jamesyili/jarvis_cc.git`
+- Pushed repo to `git@github.com:jamesyili/leo_cc.git`
 - Set up memory system with 3 entries (learning priorities, grill-me question style, save grill context)
 
 **Decisions:**
@@ -163,7 +189,7 @@
 
 ---
 
-## 2026-03-27 (evening) — Evaluated Claude Code repos, planned new Jarvis skills
+## 2026-03-27 (evening) — Evaluated Claude Code repos, planned new Leo skills
 
 **Done:**
 - Created `/session-log` skill and wired CLAUDE.md to read on start / update on end
@@ -190,11 +216,11 @@
 **Done:**
 - Created `/session-log` skill for cross-session continuity
 - Updated CLAUDE.md with Session Continuity section (read log on start, update on end)
-- Continued structuring the jarvis_cc repo (prior session: git init, 4 skills, PINvestigator full port)
+- Continued structuring the leo_cc repo (prior session: git init, 4 skills, PINvestigator full port)
 
 **Decisions:**
 - Session log is a single rolling file (`outputs/session-log.md`), newest-first, capped at ~20 entries
-- Jarvis reads the log proactively at session start — no need for James to ask
+- Leo reads the log proactively at session start — no need for James to ask
 
 **Open:**
 - None

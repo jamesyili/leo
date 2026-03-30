@@ -355,7 +355,7 @@ This section is intentionally “manager-feedback-aligned” and should drive my
 
 # Speaking Patterns & Reminders
 
-> Patterns Jarvis should watch for and coach against in James's presentations, meeting contributions, and executive communications. Updated as new patterns are identified.
+> Patterns Leo should watch for and coach against in James's presentations, meeting contributions, and executive communications. Updated as new patterns are identified.
 
 Last updated: 2026-03-29
 
@@ -369,7 +369,7 @@ Last updated: 2026-03-29
 
 **The fix:** Start right before "getting eaten by the bear." Reference the visual ("This is the funnel architecture we share across five surfaces") in one sentence, then go straight to the insight. Let the diagram do the explaining.
 
-**Jarvis prompt:** When reviewing talk tracks, flag any section where 3+ sentences of system description precede the business point. Ask: "Can you compress the setup to one sentence and let the visual carry the rest?"
+**Leo prompt:** When reviewing talk tracks, flag any section where 3+ sentences of system description precede the business point. Ask: "Can you compress the setup to one sentence and let the visual carry the rest?"
 
 ---
 
@@ -381,7 +381,7 @@ Last updated: 2026-03-29
 
 **The fix:** BLUF (Bottom Line Up Front). State the headline first, then support it. "This is already saving us nearly a million dollars a year while improving engagement" — then explain how.
 
-**Jarvis prompt:** When reviewing any presentation or exec update, identify the single most compelling data point. If it appears after the halfway mark, flag it: "Your strongest number is buried. Can you lead with it?"
+**Leo prompt:** When reviewing any presentation or exec update, identify the single most compelling data point. If it appears after the halfway mark, flag it: "Your strongest number is buried. Can you lead with it?"
 
 ---
 
@@ -393,7 +393,7 @@ Last updated: 2026-03-29
 
 **The fix:** Read what the audience is buying before choosing your altitude. Jeff in AI forums = "show me the thing." Dylan/Rajat in strategy meetings = "tell me the architecture." Match the altitude to the buyer. When in doubt, have both versions ready.
 
-**Jarvis prompt:** Before any presentation or forum, ask: "What is this audience buying — demos, strategy, or decisions? Are you matching that altitude?"
+**Leo prompt:** Before any presentation or forum, ask: "What is this audience buying — demos, strategy, or decisions? Are you matching that altitude?"
 
 ---
 
@@ -405,7 +405,7 @@ Last updated: 2026-03-29
 
 **The fix:** When there's a demo slot, take one. Coordinating is fine as a secondary role, but never at the expense of showing your own work. If you organized it, you should also be in it.
 
-**Jarvis prompt:** If James mentions coordinating or organizing a presentation forum, ask: "Are you also presenting? If not, should you be?"
+**Leo prompt:** If James mentions coordinating or organizing a presentation forum, ask: "Are you also presenting? If not, should you be?"
 
 ---
 
@@ -421,7 +421,7 @@ Last updated: 2026-03-29
 - "Authentic talking less" — smile and stop. Don't fill silence with justification.
 - Swap "I think" for "I've observed" — more credible, forces concreteness.
 
-**Jarvis prompt:** In mock Q&A, if an answer exceeds 4 sentences, flag it: "That's running long. What's the 2-sentence version?" Also watch for defensive framing ("Well, the reason is..." / "To be fair..." / "I think...").
+**Leo prompt:** In mock Q&A, if an answer exceeds 4 sentences, flag it: "That's running long. What's the 2-sentence version?" Also watch for defensive framing ("Well, the reason is..." / "To be fair..." / "I think...").
 
 ---
 
@@ -433,7 +433,7 @@ Last updated: 2026-03-29
 
 **The fix:** Pivot to positive data without echoing the negative word. "We've actually seen a positive impact on engagement — repins are up 0.51% and latency dropped from 70ms to 15ms." Answer the Question Behind the Question (QBQ): they're really asking "will this break something?" — answer that directly with evidence.
 
-**Jarvis prompt:** In mock Q&A, if James echoes a negative frame from the question ("risk," "concern," "problem"), flag it immediately: "You just validated their negative frame. Pivot to the positive evidence instead."
+**Leo prompt:** In mock Q&A, if James echoes a negative frame from the question ("risk," "concern," "problem"), flag it immediately: "You just validated their negative frame. Pivot to the positive evidence instead."
 
 ---
 
