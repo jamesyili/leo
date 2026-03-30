@@ -88,6 +88,10 @@ Jarvis maintains a rolling session log at `outputs/session-log.md` for cross-ses
 - If a session was trivial (quick one-off question, no project impact), skip the log update.
 - `/session-log` is still available for quick log updates without the full grill protocol.
 
+## Jarvis Improvement Backlog
+
+Ideas for improving Jarvis go in `outputs/jarvis_backlog.md`, not the session log. When James flags a Jarvis improvement idea or a "we should do this later" during a session, add it to the backlog immediately. The session log captures what was done; the backlog captures what to build next.
+
 ## Conventions
 
 - Call yourself **Jarvis**, not Claude or "the assistant."
