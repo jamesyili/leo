@@ -395,4 +395,118 @@ This section operates on a longer timeline deliberately. The 6–12 month goals 
 - **[Risk]** Chasing the Director title for status rather than for what it enables
   - **[Mitigation]** Return to the question: am I pursuing this because I want to build at scale, or because I need it to feel okay? The answer should always be the former.
 
-===END FILE===
+---
+
+# Q2 2026 Roadmap & Structural Plan
+
+> Last updated: 2026-03-27
+> Status: Active planning. Bowen departed March 30. EM backfill in progress. 17 direct reports.
+
+---
+
+## Context: The Q2 transition
+
+Bowen Deng (M16 EM, UPP Retrieval) departed Pinterest on March 30, 2026 for OpenAI. This was a management headcount gap, not a technical crisis — Piyush already held retrieval architecture context. James now manages 17 reports directly while hiring an experienced EM.
+
+The Q2 story is about what was built, not who left.
+
+---
+
+## Project Staffing & Priorities
+
+### UPP — Top Priority (Never drop)
+- **Staffing:** Piyush (TL), Zihao, Sophia, Devin (indirect via CLR + direct), ATG team, Ryan (from April)
+- **Q2 Goal:** At least one surface beyond Homefeed has working UPP integration with measurable results by end of June
+- **Strategic context:** Dylan's #1 priority. Centerpiece of Director case.
+
+### RecGPT — Strategic Alliance with ATG
+- **Staffing:** Bella (TL), Yuke (partial), Hanlin (stays, mid-April checkpoint)
+- **Q2 Goal:** One production-quality generative retrieval result + ATG proactively wants to invest more
+- **Drop conditions:** Reduce to maintenance if ATG pulls back or technical approach hits fundamental wall
+
+### Retentive Recs / p(UIC) — Andrew's Anticipation Story (Never drop)
+- **Staffing:** Yuke (TL), Chuxi (primary, promo vehicle), Yidi
+- **Q2 Goal:** p(UIC) model integrated into anticipation flow with measurable retention improvement.
+
+### CLR — UPP Backbone (Never drop)
+- **Staffing:** Devin (TL), Ryan (from April)
+- **Q2 Goal:** CLR improvements contribute measurably to UPP cross-surface performance.
+
+### LWS — Lightweight Scoring
+- **Staffing:** Yali (de facto owner), Hedi, Zili
+- **Q2 Goal:** Continued steady gains. Yali feels recognized.
+
+### Real-Time & L1 Utility — JJ's Promo Vehicle (Never drop before promo decision)
+- **Staffing:** JJ (TL, absorbs L1 Utility from David in April)
+- **Q2 Goal:** JJ promoted to IC16 by end of June.
+
+### PhP / Dynamic Triggering — Conditional
+- **Staffing:** Alok (contributor), Mehdi (ATG IC17, conditional), Darren's infra team (conditional)
+- **Funding gate:** CTO presentation end of March. All three conditions must be met.
+
+### Content Exploration — Low Priority
+- **Staffing:** Zihao (~50%), Yidi (fractional)
+- **Drop conditions:** First cannibalization target when UPP needs bandwidth.
+
+### AI (Pinvestigator, Pinsight) — James as TL
+- **Staffing:** JJ (partial — promo credit), Charlie (under James)
+- **Q2 Goal:** Pinvestigator path to production. Pinsight working prototype.
+
+---
+
+## Performance Decisions (Deferred to Mid-Q2)
+
+| Person | Checkpoint | Action if not met |
+|--------|-----------|-------------------|
+| Charlie | Producing under direct supervision? | Clearest case for action |
+| Hanlin | Shipping by mid-April? | Moves to LWS |
+| Sophia | Improving under Piyush? | Performance conversation |
+| Zili | Monitor via Piyush | Act if Yali flags |
+
+Sequencing: Charlie first. Start the clock so by H2 there are options.
+
+---
+
+## Alternative Org Frameworks (Back Pocket)
+
+**Pod Model** — Emergency fallback if EM hire takes too long. 3-4 pods of 4-5 people. Deploy if no signed EM offer by mid-May.
+
+**Two-Track Org** — Ideal end state. Production track (UPP, CLR, LWS, Real-Time) goes to new EM. Frontier track (RecGPT, Retentive Recs, AI, cross-functional) stays with James. This is the Director portfolio.
+
+---
+
+## What to Ask Dylan For
+
+1. EM backfill timeline and ownership (Now)
+2. GULP protection (Now)
+3. Air cover for performance decisions (Next month)
+4. Sponsorship into VP-level rooms (Mid-April)
+
+---
+
+## Risk Mitigation
+
+### Tier 1 — Could Derail Q2
+- Must-Win Presentation doesn't land → UPP expansion blocked
+- JJ's promo doesn't land in June → flight risk
+- James burns out → emergency lever is pod model
+
+### Tier 2 — Costly but Manageable
+- Bowen announcement triggers flight risk conversations
+- Alok if PhP deprioritized
+- Hanlin continues not shipping
+- EM backfill takes longer than 6 weeks (mid-May tripwire)
+
+### Monthly Tripwire Calendar
+- **April 1:** Piyush absorbed UPP? Presentation landed? Ryan onboarding? Burnout indicators?
+- **May 1:** EM offer signed? UPP progress? Hanlin shipping? JJ packet drafted?
+- **June 1:** UPP results ready? JJ packet final? Retentive Recs impact? H2 design started?
+
+---
+
+## Q2 Operating Principles
+
+- Monday mornings are sacred. 1:1s are 25 minutes.
+- UPP expansion, Retentive Recs, and AI are where personal time goes. Everything else delegated.
+- Anchor every person to their own growth path.
+- When the rumination engine starts: name the pattern, ask what's actually true, take one concrete action, then stop.
