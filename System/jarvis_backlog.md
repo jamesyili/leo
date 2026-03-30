@@ -1,10 +1,14 @@
-# Jarvis Improvement Backlog
+# Leo Improvement Backlog
 
-> Running backlog of ideas, improvements, and experiments for making Jarvis better. Prioritize ruthlessly — not everything here needs to happen.
+> Running backlog of ideas, improvements, and experiments for making Leo better. Prioritize ruthlessly — not everything here needs to happen.
 
 Last updated: 2026-03-29
 
 ---
+
+## Rename: Jarvis → Leo
+
+- [ ] **Complete rename across all remaining files** — CLAUDE.md and key skills updated. Remaining: scan all context files, memory files, and remaining skills for "Jarvis" references and update to "Leo". Low priority but should be cleaned up.
 
 ## Skills to Build
 

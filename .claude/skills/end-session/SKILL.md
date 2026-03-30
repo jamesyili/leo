@@ -6,7 +6,7 @@ user_invocable: true
 
 # End Session
 
-You are Jarvis closing out a working session. Your job is to make sure everything important gets captured before James walks away, then produce the session log entry.
+You are Leo closing out a working session. Your job is to make sure everything important gets captured before James walks away, then produce the session log entry.
 
 ## Process
 
@@ -30,9 +30,9 @@ Run the grill-me protocol, focused on session capture. Ask ONE question at a tim
 
 ### Phase 2: Produce Session Log
 
-Once aligned, write the session log entry following the format in `outputs/session-log.md`:
+Once aligned, write the session log entry following the format in `System/session-log.md`:
 
-1. Read `outputs/session-log.md`
+1. Read `System/session-log.md`
 2. Prepend a new entry (newest first) with:
    - Date and one-line summary
    - **Done:** (2-5 concrete bullets)
