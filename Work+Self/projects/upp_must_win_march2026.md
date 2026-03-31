@@ -561,3 +561,63 @@ Dylan and Kurchi added to the thread → Kurchi proposed design review of both a
 - POCs: Jaewon, Jinfeng, Piyush, Hongtao, plus P2P engineer TBD
 - Success criteria: no regression on semantic relevance, flexibility in fine-tuning
 - Reconvene next week to review co-designed artifact
+
+---
+
+## 15. Must-Win Outcome (March 30, 2026)
+
+**Result: Strong success. Jeff fully bought in. Rajat pushing for more. Kurchi positioning but not blocking.**
+
+### Jeff's Signals (Critical — Decision Maker)
+
+- **Loved four things:** fragmentation callout, legacy CG deprecation, CFM for ranking, velocity/adoption exceeding expectations
+- **Called out the team dynamic as a key win** — the cross-org collaboration story landed. This is the highest-value signal from the room.
+- **Key question:** Is UPP about (1) roadmap feature compression or (2) unlocking new capabilities you couldn't do before? **He wants the answer to be (2).** This is the narrative going forward.
+- **"Any cons other than infra bills?"** — he's arming himself to sell UPP internally. Suggested adding "myths busted along the way" as a framing.
+- **On Kurchi/optics:** "There's a bit of concern in terms of optics... the goal should not be a foregone conclusion." Then immediately: "Kurchi, don't think you're getting out of things here." He's threading the needle — wants buy-in, not compliance, but expects participation.
+- **"Kudos to everyone on this!!!"** — public endorsement. Dylan +1, Matt "looking forward to next time we share."
+- **Liked HF Retrieval benefiting from feature alignment** (with Shipeng) — this is James's lane and it registered.
+
+### Kurchi's Signals (Critical — Key Political Dynamic)
+
+- **Completely silent for most of the session.** No emojis. Huizhong, Jinfeng, Sai also silent. This appeared coordinated — they came in as a bloc and watched.
+- **First thumbs up:** Business objectives unchanged by UPP (Jaewon's section). Her safety check: does UPP threaten my org's metrics?
+- **Hearted** Jeff's "not a foregone conclusion" comment — taking any air cover for optionality.
+- **Raised semantic relevance** as the key P2P/Search differentiator. Credited Jinfeng: "Jinfeng is contributing a lot to this." Playing her strongest card.
+- **Seemed to support Jaewon** on Mixture of Experts design — finding technical allies on architecture flexibility.
+- **Thumbed up** Dylan's "relevance measurement benefits from UPP" — she engages when relevance is centered.
+- **Asked a real technical question:** Which features go into base vs. finetuning? — engaging on substance, not just blocking.
+- **Assessment:** Not opposing. Positioning. She wants relevance to be the lens through which SSJ's contribution is recognized. This is workable — and more constructive than silence alone would suggest.
+
+### Other Key Signals
+
+| Person | Signal | Implication |
+|--------|--------|------------|
+| Dhruvil | Called out "CFM on Notifs" as example of (2) — new capabilities. Jeff loved it. | Genuine ally, reinforcing retrieval+ranking partnership. |
+| Dimitra | "UPP can evolve into the next generation of models" | Product org sees long-term thesis. |
+| Vicky | Asked about Assistant benefiting from UPP | Thinking about breadth. Jeff confirmed non-LLM layers will benefit. |
+| Huizhong | Asked about complexity of same features in base + finetuning | Engaging technically, not blocking. Jaewon handled well. |
+| Jinfeng | "Also considering CFM on Search, would like how to get the best of both worlds" | Engaging constructively — wants MoE-style flexibility. |
+| Rajat | "Looking forward to getting TBDs filled out" + asked about BMI/board feeds | Pushing for more surfaces. Acceleration pressure. |
+| Shipeng | Liked HF Retrieval feature alignment benefit | Visibility for James's retrieval work. |
+
+### Strategic Implications
+
+1. **Jeff's frame (2) is the narrative going forward.** UPP enables new capabilities, not just efficiency. Every future update should lead with "here's what we can do now that we couldn't before."
+2. **Kurchi's play is relevance-as-differentiator.** Meet her there. If relevance is well-handled in co-design, she has no blocking position left. If relevance is ignored, she has legitimate grounds to slow-play.
+3. **The silence-as-a-bloc (Kurchi, Huizhong, Jinfeng, Sai) is a deliberate coordination.** More calculated than pure individual caution. Treat them as a unit in political reads.
+4. **Dhruvil is a genuine ally.** His unprompted CFM-on-Notifs callout helped the room. The retrieval+ranking partnership is real.
+5. **New surfaces emerging as pull:** BMI/board feeds (Rajat), Assistant (Vicky). Combined with Ads and T&S from ELT presentation, the platform demand is broadening.
+6. **"Team dynamic" as a selling point.** Jeff noticed and valued the cross-org collaboration. Continue crediting SSJ people by name in every forum.
+
+### Post-MW: Jinfeng Interaction (March 30 evening)
+
+Jinfeng DMed James flagging that Piyush "seemed reluctant" to incorporate P2P LR relevance components into the base retriever redesign. James responded by:
+1. Strongly validating P2P LR's semantic relevance and context modeling as "by far the best at Pinterest"
+2. Confirming Piyush is aligned and already working with Jiaxing
+3. Empowering Jiaxing as co-owner ("she's the right person to drive this")
+4. Proposing Friday working session (James, Jinfeng, Sai, Jaewon, Piyush, Hongtao)
+
+**Jinfeng's response:** "That's awesome, really appreciate James!!" + told Jiaxing to collaborate fully on proposing the best technical design. Offered to be added to sessions if helpful.
+
+**Significance:** This is the strongest positive signal from Jinfeng since the co-design was established. The shift from misrepresenting alignment (3 weeks ago) to genuine enthusiasm came from James leading with credit for P2P's strengths rather than defending CLR's position. The "practitioner who made SSJ's surfaces better" meta-goal is becoming operational.

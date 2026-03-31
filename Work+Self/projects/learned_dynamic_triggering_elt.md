@@ -188,3 +188,43 @@ Two problems that initially seem disparate — (1) knob proliferation / engineer
 - Claim identical treatment for all users — say "largely uniform"
 - Get defensive on questions
 - Linger on Sai handoff
+
+---
+
+## ELT Presentation Outcome (March 30, 2026)
+
+**Result:** Strong success. High excitement, detailed technical questions, cross-org demand.
+
+**CTO (Matt Madrigal):** Pulled into CEO meeting, missed first ~15 minutes. Will watch recording. James's problem framing section was on recording; Sai/Mehdi presented live for most of Q&A.
+
+**James's section:** Landed cleanly. No questions needed — problem framing did its job. Credited Sai and RP results prominently.
+
+**Sai's section:** Handled Q&A well. Answered all questions confidently. Strong showing in front of senior leadership.
+
+**Kurchi:** Gave thumbs up — specifically around RP cost savings and cross-surface results. First positive public signal from her on Dynamic Triggering work.
+
+### Key Engagement (Post-Presentation)
+
+| Person | Title | Signal | Follow-up |
+|--------|-------|--------|-----------|
+| Kartik Paramasivam | Chief Architect | Wants to join feature review. Asked about feature list adaptability (how system handles new features from engineers). | Reply drafted. Include in next steps. |
+| Faisal Farooq | VP Eng, Trust & Safety/Signals | Cold-start concern (new + low-freq + resurrected users). Engaged in DM. | James responded with 3 design considerations. Monitor for follow-up. |
+| Ads VP (new to company) | VP Eng, Ads | Detailed technical questions. Interest in Ads surface expansion. | Coordinate with Mehdi for scoping. |
+| Ads Principal ML Engineer | Principal ML, Ads | Detailed technical questions alongside Ads VP. | Same — Mehdi drives technical follow-up. |
+
+### Strategic Implications
+
+- **Funding gate cleared.** PhP / Dynamic Triggering moves from conditional to active for Q2.
+- **Cross-org demand is inbound (pull, not push):** Ads, T&S/Signals, plus existing RP. Three orgs beyond James's own.
+- **Platform thesis validated:** "Not a model, a platform" framing is landing with senior technical leadership.
+- **Alok:** Moving to ~50% allocation on Dynamic Triggering. First task: scope Ads surface with Mehdi.
+- **Mehdi:** Drives technical roadmap and Ads scoping. James holds exec relationships.
+- **Darren (infra):** Funding conversation deferred until infra needs are scoped by Mehdi's technical roadmap.
+
+### Next Steps
+
+1. Reply to Kartik — invite to feature review, offer architecture walkthrough
+2. Monitor Faisal thread — offer cold-start data walkthrough if he re-engages
+3. Sync with Mehdi this week — align on Ads scoping, sequencing, and roles
+4. Message Alok — 50% allocation, first deliverable is Ads scoping support for Mehdi
+5. Do NOT respond to Ads interest directly until Mehdi is aligned on approach

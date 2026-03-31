@@ -87,6 +87,19 @@ James can read technical rooms well. Political rooms — where the real decision
 ### 3. Knowing When NOT to Speak
 This is actually a strength (MW mock Q&A confirmed it — James correctly deferred in 3 of 5 rounds). But it needs to stay a conscious practice, not just instinct. The temptation under pressure is to fill silence with contribution.
 
+### 5. Observation-as-Contribution (The Dhruvil Pattern)
+**Source:** MW presentation March 30, 2026. Dhruvil spoke up several times — on infra, on agents, on how CFM on Notifs is an example of new capabilities (Jeff loved it). Every contribution was framed as an *observation*, not *advocacy*. "You're already getting at the latter" is additive without being territorial. It offers perspective without pitching.
+
+**Why this matters for James:** James's default in senior rooms is either silence (safe but invisible) or advocacy (effective but triggers Kurchi's pattern-matching). The middle register — observation from the practitioner — is the unlock. It lets James speak more without raising the political cost.
+
+**The skill to develop:**
+- Frame contributions as observations from the field, not arguments for a position. "What we're seeing on the retrieval side is..." vs. "I think we should..."
+- Offer one concrete example that illustrates someone else's point (the way Dhruvil amplified Dylan's type-2 framing with CFM-on-Notifs)
+- Keep it to one or two sentences. Don't expand unless pulled.
+- Study how Dhruvil reads moments to insert — he's not asking for floor time, he's adding to an existing thread
+
+**Practice plan:** In the next 3 senior meetings, find one moment to offer an observation-style contribution. Debrief with Leo: what was the moment, what did you say, how did it land?
+
 ### 4. Letting the Work Speak
 Related to Lesson 1. James has a habit of explaining what the work means instead of letting others experience the value directly. The Pinvestigator demo is the current test case: show the tool, show the before/after, let Jeff feel the value. Don't narrate the architecture.
 

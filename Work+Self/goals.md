@@ -344,7 +344,7 @@ This section operates on a longer timeline deliberately. The 6–12 month goals 
 ---
 
 ### [Now]
-- Land the must-win presentation (March 30). UPP cross-surface expansion depends on this.
+- ~~Land the must-win presentation (March 30).~~ **LANDED (March 30).** Jeff fully bought in, pushing for ambition (type 2: new capabilities). Rajat asking about more surfaces. Kurchi positioning but not blocking. Dynamic Triggering funding gate also cleared same day (ELT). See `Work+Self/projects/upp_must_win_march2026.md` Section 15 for full debrief.
 - Hire experienced EM. Draft JD targeting Two-Track Org end state. Run pipeline, Dylan in for finals.
 - Ship Retentive Recs / p(UIC) integration into anticipation flow. Andrew needs CTO-demo-ready data.
 - Start JJ's promo packet (April). Address ML depth gap.
@@ -440,9 +440,11 @@ The Q2 story is about what was built, not who left.
 - **Staffing:** JJ (TL, absorbs L1 Utility from David in April)
 - **Q2 Goal:** JJ promoted to IC16 by end of June.
 
-### PhP / Dynamic Triggering — Conditional
-- **Staffing:** Alok (contributor), Mehdi (ATG IC17, conditional), Darren's infra team (conditional)
-- **Funding gate:** CTO presentation end of March. All three conditions must be met.
+### PhP / Dynamic Triggering — ACTIVE (gate cleared March 30)
+- **Staffing:** Alok (~50%), Mehdi (ATG IC17, driving technical roadmap), Darren's infra team (deferred until needs scoped)
+- **Funding gate:** CLEARED. ELT presentation March 30 generated strong excitement. Inbound interest from Ads (VP + Principal ML), Chief Architect (Kartik), and T&S/Signals (Faisal, VP Eng).
+- **James's role:** Strategic sponsor + exec relationship holder. Mehdi drives technical scoping. Sai drives RP expansion.
+- **Q2 immediate:** Mehdi scopes Ads surface expansion. Alok supports. Kartik invited to feature review.
 
 ### Content Exploration — Low Priority
 - **Staffing:** Zihao (~50%), Yidi (fractional)

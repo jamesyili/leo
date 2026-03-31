@@ -597,8 +597,10 @@ Markdown
 | Jinfeng | IC18, P2P ML Lead | Kurchi's lieutenant. Fights technical battles on her behalf. Pushed for P2P LR as base model. Now co-designing UPP CLR after Dylan/Rajat forced alignment. |
 
 ## Current trust state (with James)
-- **Overall trust level: Neutral / Wary**
+- **Overall trust level: Neutral / Wary → Slightly Warming**
   - **Evidence:** Limited direct interaction. She's seen James in calibration rooms (his case succeeded, signaling leadership backing). ML Day coordination built light goodwill. But structurally, James is the execution engine behind the thing threatening her org's technical identity.
+  - **New signal (March 30, ELT):** Gave thumbs up during ELT Dynamic Triggering presentation — specifically on RP cost savings ($680K, majority of shipped impact) and cross-surface results. First positive public signal from Kurchi on work James presented. Context: James prominently credited Sai (SSJ/RP) during the presentation.
+  - **New signal (March 30, MW):** Came in silent as a bloc with Huizhong, Jinfeng, Sai — coordinated watching brief. First thumbs up was on "business objectives unchanged by UPP." Hearted Jeff's "not a foregone conclusion" comment. Raised semantic relevance and credited Jinfeng. Asked a real technical question (base vs. finetuning features). Seemed to support Jaewon's MoE design. Thumbed up Dylan's relevance measurement point. **Jeff called her out directly (jokingly): "Kurchi don't think you're getting out of things here."** Assessment: positioning around relevance, not blocking. More constructive than silence alone suggests.
   - **Confidence:** Medium. James has a visibility gap on how she operates when effective.
 
 ### Trust dimensions

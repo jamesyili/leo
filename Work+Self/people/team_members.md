@@ -47,10 +47,10 @@ Last updated: 2026-03-29
 - **Promo timeline:** Not ready by mid-year. Needs p(UIC) successfully built and landed. End of year is right window.
 - **Dynamic:** Doesn't get along with Devin. See Chuxi-Devin-Yuke dynamics in goals.md.
 
-### Alok (Real-Time, PhP conditional)
-- **Workstream:** Real-Time, PhP / Dynamic Triggering (conditional on CTO presentation)
+### Alok (Real-Time, Dynamic Triggering)
+- **Workstream:** Real-Time, PhP / Dynamic Triggering (~50% allocation, gate cleared March 30)
 - **1:1:** Thu 2:30pm
-- **Context:** If PhP is a go, Alok stays funded on it. If not, need alternative scope.
+- **Context:** ELT presentation cleared funding gate. Alok moving to ~50% on Dynamic Triggering. Needs tight leash — give one scoped deliverable at a time. First task: scope Ads surface expansion with Mehdi (data, CG architecture, transfer analysis). Weekly review cadence on DT work.
 
 ### Chuxi (Retentive Recs)
 - **Role:** Primary IC on Retentive Recs / p(UIC). Promo vehicle.
