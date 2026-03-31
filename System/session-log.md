@@ -24,11 +24,9 @@
 - Debrief skill not loading from global ~/.claude/skills/ — needs debugging
 
 **Next time:**
-- Send Kartik reply, Mehdi message, Alok message
-- Talk to Piyush — get his read on Jiaxing conversation before Friday
-- Friday: UPP co-design working session
-- Fix debrief skill loading issue
+- Fix debrief skill loading issue (exists in project .claude/skills/ but not picked up globally)
 - Prep for Dylan 1:1 Thursday — debrief MW outcome, Kurchi dynamics, DT activation
+- Practice observation-as-contribution (Growth Edge #5) in next senior meeting
 
 ---
 
