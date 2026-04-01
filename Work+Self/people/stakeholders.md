@@ -1,5 +1,5 @@
 # stakeholders.md  
-Last Updated: 2026-03-27  
+Last Updated: 2026-03-31  
 ---  
   
 # Stakeholders & Dynamics  
@@ -776,3 +776,84 @@ Jinfeng operates through **positioning and narrative control**, not direct obstr
 
 ## Alok
 - **Risk:** If PhP deprioritized after CTO presentation. Keep 20% bandwidth, have alternative scope ready.
+- **Pinsight connection:** Original hackathon team member. Motivated to work on Pinsight. Completing HF full funnel logging by April 4, 2026. After logging done, shifts to DT (~50%), then picks up Pinsight extension work as DT scoping stabilizes.
+
+---
+
+# 9) Andrew Yaroshevsky — Sr. Director of Product
+
+## Role in my 6–12 month goals
+- **Reflex sponsor.** Andrew wrote the Reflex two-pager (self-healing discovery stack) and is pitching it to the CTO and Kartik (Chief Architect). He invited James to co-own the engineering side — specifically the Detect + Diagnose layers.
+- **Strategic amplifier for AI investments.** With Andrew championing the product vision and James building the sensing layer, the AI work is no longer a side project — it's a platform play with Sr. Director product sponsorship.
+- **Anna's manager.** James already has strong trust with Anna (Inner Circle level). Andrew is the next level up in the product chain.
+
+## Current relationship
+- **Status:** Early but promising. Andrew approached James directly about Reflex. Invited James to add his name to the doc.
+- **Trust level:** Medium (new, based on shared excitement about AI + James's demonstrated prototypes)
+- **What Andrew wants:** Engineering leaders who will pick up the Reflex vision and make it real. He's shopping this around to see who leans in.
+
+## What Andrew optimizes for
+- **Vision + momentum.** He wrote a two-pager, not a PRD. He wants believers and builders, not process owners.
+- **Product narrative.** Reflex is framed as "the industrial revolution for recommendations" — Andrew thinks in big product narratives.
+- **Cross-team leverage.** Reflex touches all surfaces (HF, Search, P2P, Growth). Andrew wants this to be an org-wide shift, not a team project.
+
+## Operating plan
+- **Add name to Reflex doc now.** He invited it; don't wait.
+- **Let Andrew own the CTO pitch.** James owns the engineering proof points (PINvestigator, Pinsight).
+- **Align after CTO pitch.** Once Andrew has CTO/Kartik feedback, converge on what the Detect + Diagnose roadmap looks like.
+- **Don't over-coordinate.** Andrew is a vision seller. James is a builder. Keep the interface lightweight.
+
+---
+
+# 10) Darren Regers — Sr. EM, Infrastructure
+
+## Role in my 6–12 month goals
+- **Primary AI partnership.** Darren's team has an eval DS who can build eval frameworks for both PINvestigator and Pinsight. This is the most critical capability gap in James's AI work.
+- **Potential Director peer.** Darren is interviewing for his previous boss's Director role. If he gets it, this becomes a senior alliance.
+- **Personal ally.** James and Darren are close. High-trust, low-friction collaboration.
+
+## Current relationship
+- **Status:** Active. Darren has asked James for milestones so he can invest resources and move things around.
+- **Trust level:** Very High (personal friendship + professional respect)
+- **What Darren wants:** Clear milestones from James so he can justify the resource investment.
+
+## Operating plan
+- **Give him the Q2 milestones immediately.** He's ready to commit resources — don't make him wait.
+- **Get the eval DS committed.** This is the single highest-leverage resource ask for the AI portfolio.
+- **Keep the interface simple.** Darren manages both DS and Eng. The eval DS reports to him. No coordination overhead needed.
+
+---
+
+# 11) Brian Lee — EM, Activation/Growth
+
+## Role in my 6–12 month goals
+- **Visibility venue.** Brian hosts a weekly AI forum where Roberto and James are invited to showcase progress. This is a low-effort, high-visibility demo opportunity.
+- **Long-standing collaborator.** James and Brian have been collaborating on debuggability and observability since early 2025. War stories together. High trust.
+- **Front-end tooling expertise.** Brian's team builds front-end tools. Useful for visualization but not core to Pinsight's LLM analysis work.
+
+## Current relationship
+- **Status:** Active collaboration. Brian started the weekly forum specifically to bring people together around AI tooling.
+- **Trust level:** High (shared history, mutual respect)
+
+## Operating plan
+- **Use the forum.** Demo PINvestigator and Pinsight M1 here. Great visibility with low coordination cost.
+- **Don't force engineering collaboration.** James doesn't need front-end engineers. The domain expertise lives in James's head. Forcing a collab would create make-work.
+- **Keep the relationship warm.** Brian is a good ally. Show up, share progress, don't over-promise joint deliverables.
+
+---
+
+# 12) Roberto — Sr. EM, Search
+
+## Role in my 6–12 month goals
+- **The "parity" benchmark.** Roberto built a funnel debugging tool on Search logs using Claude Code. Jeff highlighted it to the entire org. James needs to match this for HF (Pinsight M1) before differentiating.
+- **Potential Reflex co-owner.** If Reflex becomes real, Roberto's Search sensing tool + James's HF sensing tool could form a shared platform. Natural collaboration, but only after both have shipped independently.
+- **Peer dynamic.** Roberto is a Sr. EM who built something with AI and got Jeff's attention. James has deeper AI craft (PINvestigator architecture, Pinsight vision) but shipped visible demos later.
+
+## Current relationship
+- **Status:** Cordial. James sent congratulatory message and shared the Reflex two-pager. No formal collaboration ask yet.
+- **Trust level:** Neutral/Positive (no friction, limited direct interaction)
+
+## Operating plan
+- **Ship M1 first, then talk.** Don't approach Roberto for collaboration until Pinsight M1 is working. Come as a peer with something to show, not empty-handed.
+- **Frame collaboration as shared platform.** "Here's what I built for HF, here's what you built for Search — should we think about a shared sensing layer?" That's peer-to-peer.
+- **Don't compete.** Roberto shipping first is a tailwind (Jeff is excited about the category), not a threat. James's differentiation is user understanding (M2/M3), not debugging.

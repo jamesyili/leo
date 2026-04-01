@@ -66,6 +66,28 @@ Every file has an explicit role tag. At runtime, the agent reads only the files 
 
 7. **Human reference files don't consume agent context** — principles.md (~400 lines, full examples) is for human investigators. Subagents use compact inline excerpts instead.
 
+## Current Status (March 2026)
+
+### Ownership Transition
+- **JJ is taking over as primary owner.** Picking it up fast and running with it.
+- **James provides judgment layer** — reviews output quality for metric debugging accuracy (1-2 hrs/week). JJ lacks deep metric debugging experience; James's intuition is the quality gate.
+- This builds JJ's debugging judgment, supporting his IC16 promo case.
+
+### Quality Control
+- Significant progress over past 2-3 weeks, but **quality issues in output** discovered — inaccurate or misleading metric investigation results could alarm leadership (Rajat, Jeff).
+- **Decision:** Hold off on Jeff demo until quality issues resolved. Bad news from an AI tool is worse than no demo.
+- **Next step:** Fix quality issues, then demo to Jeff at next bi-weekly standup. PINvestigator demos before Pinsight.
+
+### Reflex Connection
+PINvestigator is the **"Detect" layer** of Andrew Yaroshevsky's Reflex vision (self-healing discovery stack). It surfaces metric anomalies; Pinsight (separate project) handles diagnosis. Together they form the sensing foundation for Reflex.
+
+### Demo Strategy
+- Demo to Jeff at bi-weekly standup (after quality fix)
+- Demo at Brian Lee's weekly AI forum for broader visibility
+- Each demo builds toward the Reflex narrative
+
+---
+
 ## Interview Positioning (March 2026)
 
 PINvestigator is James's hands-on agentic AI case study — he's acting as tech lead, building it himself with Claude Code. This is complementary to the UPP case study (Director-scale oversight):

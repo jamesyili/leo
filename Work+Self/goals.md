@@ -1,6 +1,6 @@
 # goals.md
 
-Last Updated: 2026-03-27
+Last Updated: 2026-03-31
 
 ---
 
@@ -450,9 +450,12 @@ The Q2 story is about what was built, not who left.
 - **Staffing:** Zihao (~50%), Yidi (fractional)
 - **Drop conditions:** First cannibalization target when UPP needs bandwidth.
 
-### AI (Pinvestigator, Pinsight) — James as TL
-- **Staffing:** JJ (partial — promo credit), Charlie (under James)
-- **Q2 Goal:** Pinvestigator path to production. Pinsight working prototype.
+### AI (PINvestigator, Pinsight) — James as TL → transitioning
+- **Staffing:** JJ (PINvestigator owner, partial — promo credit), Alok (logging done → DT → extends Pinsight), Darren's eval DS (eval framework), James (Pinsight v0 architect, timeboxed)
+- **Q2 Goal:** PINvestigator demoed to Jeff + quality-controlled + JJ owns it. Pinsight M1 (HF debugger) shipped. Pinsight M2 (User Understanding) working prototype tied to UIC eval. Darren's eval DS actively contributing.
+- **Strategic context:** Pinsight is the sensing/diagnosis layer of Andrew Yaroshevsky's Reflex vision (self-healing discovery stack). James co-owns Detect + Diagnose layers. Andrew pitching to CTO.
+- **Demo sequence:** PINvestigator to Jeff first (fix quality issues) → Pinsight M1 → Pinsight M2
+- **Partnerships:** Darren (go deep — eval DS), Brian Lee (weekly forum for visibility), Roberto (peer collaboration after M1 ships)
 
 ---
 
