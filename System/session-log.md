@@ -1,5 +1,36 @@
 # Session Log
 
+## 2026-03-31 — Q2 AI strategy: Pinsight milestones, Reflex positioning, partnership plan
+
+**Done:**
+- Full grill on Q2 AI strategy — crystallized PINvestigator + Pinsight + Reflex as coherent platform play
+- Established Pinsight milestones: M1 (HF Request Debugger, mid-April, Roberto parity), M2 (User Understanding, UIC eval tie-in), M3 (Scale Analysis, Reflex Detect layer)
+- Partnership strategy mapped: Darren (go deep — eval DS), Brian (forum visibility), Kent (pass), Roberto (ship first, collaborate later)
+- Built Dylan framing for AI investments: inform + invite perspective, not permission-seeking
+- Created `Work+Self/projects/pinsight.md` with full context (origin, logging, milestones, Reflex, partnerships)
+- Updated pinvestigator.md (JJ ownership, quality gate), goals.md (AI section rewritten), stakeholders.md (added Andrew, Darren, Brian, Roberto)
+
+**Decisions:**
+- Pinsight M1 = HF Request Debugger (Roberto parity, ~10hrs). Comes before User Understanding.
+- PINvestigator demos to Jeff first (after quality fix), then Pinsight M1
+- JJ owns PINvestigator; James provides metric debugging judgment (1-2 hrs/week)
+- James builds Pinsight v0 (timeboxed), Alok extends after DT scoping stabilizes
+- Darren is primary AI partnership — eval DS is the critical resource
+- Add name to Andrew's Reflex doc now. Don't wait for Dylan.
+- Dylan framing: "Andrew invited me to co-own Detect + Diagnose. Ties to RetRecs. Darren contributing eval. I'd love your take."
+
+**Open:**
+- Dylan 1:1 prep not done (moved to Friday)
+- Kurchi's Friday P2P retrieval design review — not discussed, needs attention
+- Pinsight handoff criteria — resolve after M1 ships
+- Roberto's code — worth scoping out for M1 inspiration
+
+**Next time:**
+- Dylan 1:1 prep: MW debrief, Kurchi design review dynamics, AI 60-sec pitch, EM backfill urgency
+- Scope out Roberto's Search debugging tool code
+
+---
+
 ## 2026-03-30 — Skill sync housekeeping: Mac/PC setup fixed
 
 **Done:**
