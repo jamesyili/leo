@@ -131,6 +131,18 @@
 * **The practice:** Notice the moment uncertainty converts to analysis and make the gap slightly longer. Not mastery — just slightly more tolerance for discomfort.
 * **When the rumination engine starts:** Name the pattern, ask what's actually true, ask what you can control, take one concrete action, then stop. Let the gaps be gaps.
 
+### Tool 8: "Signal, not truth" + Redirect the Fuel (March 2026)
+* **Distinct from Tai Chi:** Tai Chi (Tool 4) is for absorbing *external* force. "Signal, not truth" is for the *internal* status sensor — which doesn't need an external attack, just a comparison point.
+* **The mechanism:** "I feel low status" instantly converts to "I AM low status." Feeling and belief merge with zero gap. Once merged, it becomes an identity emergency that demands action (prove, chase, compare).
+* **The muscle:** Feeling low status without believing it. Building a gap between the sensation and the identity.
+* **The rep:**
+  1. Name it: "The status sensor is firing. Signal, not truth."
+  2. Locate it physically (chest, stomach, throat) — moves from "I'm not enough" to "there's a sensation happening."
+  3. Redirect within 10 minutes — the feeling is fuel, not a fire alarm. Point it at the internal scoreboard: build something, learn something, write something.
+  4. The rule: energy goes to my own scoreboard. Not to prove anything. Not to close a gap.
+* **Why it works for James:** "Sit with the feeling" doesn't land. He processes through action. The old action was comparison math. The new action is building. Same energy, different target.
+* **Origin:** Cheng Ju comp conversation, March 27 2026 — less than 48 hours after Exceeds + $1.2M grant. The status sensor fired anyway. See journal entry for full context.
+
 ### On Position in Senior Rooms
 * **Speaking power** comes from being the practitioner, not the strategist.
 * One calm, specific, experience-based answer is worth more than multiple strategic arguments.
@@ -140,6 +152,14 @@
 * Surface teams fear consolidation → layoffs. Never address directly. Reinforce: "UPP unlocks surface teams to do higher-value work."
 * Pushback is often about pride of ownership, not bad faith. Co-design gives people a role.
 * Cross-surface training data is shared work that sidesteps the architecture debate.
+
+### Managing Up: The Three-Beat Framework
+* **The principle:** Managing up is not about updating your manager. It's a three-part move:
+  1. **Share what's hardest** about your job right now — make the difficulty legible
+  2. **Show how you're crushing it** despite that difficulty — demonstrate capability
+  3. **Enlist your manager's help** on the specific thing only they can unblock — give them a role
+* **Why it works with Dylan:** Reduces her cognitive load (she sees the situation is handled) while making your impact visible (she sees the difficulty you're absorbing) and giving her a clear action (she has something concrete to do for you).
+* **The anti-pattern:** Only reporting status ("things are going well") or only reporting problems ("I need help with X"). The three-beat version shows *range* — I see the hard thing, I'm handling it, and I know when to pull you in.
 
 ### On Escalation (Refined)
 * Surface the right questions to the right people at the right time and let them act.

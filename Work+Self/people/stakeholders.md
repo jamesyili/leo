@@ -1,5 +1,5 @@
 # stakeholders.md  
-Last Updated: 2026-03-31  
+Last Updated: 2026-04-01  
 ---  
   
 # Stakeholders & Dynamics  
@@ -8,11 +8,38 @@ Last Updated: 2026-03-31
 This file captures the *state I don’t want to repeat* about key stakeholders: trust, incentives, communication preferences, historical interactions, risks, and my operating plan.  
   
 ## Quick map (current)  
-- **Dylan (Manager / Director, Homefeed Relevance)** — primary evaluator + scope allocator; high leverage relationship.  
-- **Anna (PM partner for Retentive Recommendations)** — co-owns product narrative and prioritization; key to “flagship outcome” legibility.  
-- **Dhruvil (Peer Sr EM, Homefeed Ranking)** — peer coalition partner; alignment reduces cross-team friction and increases exec confidence.  
-- **Rajat C (VP, Discovery / Personalization)** — new skip-level; system architect + org designer; primary driver of reorg shape and platform bets.  
-- 
+
+### Inner Circle (high trust, high leverage)
+- **Dylan (Sr. Director, Homefeed Relevance)** — primary evaluator + scope allocator + AI guide relationship. Peak trust.
+- **Anna (PM partner for Retentive Recommendations)** — co-owns product narrative; inner circle ally.
+- **Dhruvil (Peer Sr EM, Homefeed Ranking)** — peer coalition partner; emotional/strategic ally.
+- **Darren Regers (Sr. EM, Infrastructure)** — primary AI partnership; eval DS resource.
+
+### Senior Sponsors (VP+)
+- **Rajat C (VP, Engineering)** — skip-level; system architect + org designer; active UPP sponsor. Reports to Jeff.
+- **Jeff Harrell (VP, Engineering - Core)** — Rajat’s manager; engineering culture sponsor; loves demos + AI.
+- **Kartik Paramasivam (Chief Architect)** — CTO direct report; publicly supports James’s work; Dylan hints his support matters for promo.
+- **Faisal Farooq (VP, Engineering — T&S/Signals)** — UPP supporter; very technical (KDD chair); owns content/user understanding.
+
+### Peer Managers (under Dylan)
+- **Yan Li (Sr. Manager, P13N-Experiences)** — new peer; owns Explore/IB surfaces; ownership boundary negotiation active.
+- **Tim Leung (Manager II, Frontend)** — James mentors him; great collaboration via Yu Zhao + JJ.
+- **Francisco Navarrete (Sr. Manager, Platform/Labeling)** — team in Mexico; good mutual respect; stretched by horizontal platform work.
+
+### Cross-Org (Growth / Search)
+- **Shipeng Yu (Sr. Director, Growth)** — close to Dylan; now UPP supporter after initial friction; Brian Lee + Tingting are trust anchors.
+- **Kurchi (Sr. Director, SSJ)** — primary political counterweight to UPP; relationship warming but structurally adversarial.
+- **Jinfeng (IC18, P2P ML Lead)** — Kurchi’s champion; co-design counterpart.
+
+### Strategic Partners
+- **Andrew Yaroshevsky (Sr. Director, Product)** — Reflex sponsor; invited James to co-own Detect + Diagnose.
+- **Brian Lee (EM, Activation/Growth)** — AI forum host; long-term ally.
+- **Roberto (Sr. EM, Search)** — parity benchmark; future Reflex co-owner.
+
+### Under Rajat (non-Dylan)
+- **Kaanon MacFarlane (Director, Eng)** — re-orged out of Dylan’s org; now working on AI initiative with Karina for Rajat. Frontend/backend, no ML.
+- **Karina Sobhani (Director, Eng)** — team shrunk to 15; working on AI initiative with Kaanon. Minimal interaction with James.
+
   
 ---  
   
@@ -857,3 +884,148 @@ Jinfeng operates through **positioning and narrative control**, not direct obstr
 - **Ship M1 first, then talk.** Don't approach Roberto for collaboration until Pinsight M1 is working. Come as a peer with something to show, not empty-handed.
 - **Frame collaboration as shared platform.** "Here's what I built for HF, here's what you built for Search — should we think about a shared sensing layer?" That's peer-to-peer.
 - **Don't compete.** Roberto shipping first is a tailwind (Jeff is excited about the category), not a threat. James's differentiation is user understanding (M2/M3), not debugging.
+
+---
+
+# 13) Kartik Paramasivam — Chief Architect
+
+## Role in my 6–12 month goals
+- **CTO-level sponsor.** Reports directly to Matt Madrigal (CTO). Publicly supportive of James's work — has made it known that he thinks CG's work is very important.
+- **Promo coalition member.** Dylan has hinted that Kartik's support is important for James's future. This suggests Kartik's voice matters in Director-level calibration or scope allocation decisions at the CTO table.
+- **Reflex stakeholder.** Andrew is pitching Reflex to Kartik. If Kartik buys the Reflex vision, James's co-ownership of the sensing layer gets CTO-level visibility.
+- **ELT engagement.** Asked detailed technical questions during the March 30 ELT Dynamic Triggering presentation. Engaged and sharp.
+
+## Current relationship
+- **Status:** Positive, mostly indirect. Kartik has connected with Dylan about James specifically. Direct interaction limited to calibration rooms and ELT presentations.
+- **Trust level:** High (based on observed work quality + institutional endorsement)
+
+## Operating plan
+- **Let the work create the relationship.** PINvestigator, Pinsight, UPP results — these are the artifacts Kartik will see. Don't force a 1:1 relationship; let it emerge through the Reflex connection and demo opportunities.
+- **When Reflex lands with Kartik:** Be ready with a clear "here's the sensing layer and what it does" summary. Kartik is a Chief Architect — he'll want the system design, not the narrative.
+- **Don't bypass Dylan/Rajat.** Kartik's support is a tailwind, not an alternate reporting line.
+
+---
+
+# 14) Faisal Farooq — VP, Engineering (Trust & Safety, Signals)
+
+## Role in my 6–12 month goals
+- **UPP ally at the VP level.** Open and vocal supporter of UPP work. Very interested in personalization and recommendation systems.
+- **Content/User Understanding connection.** His org owns content understanding and user understanding signals — directly relevant to Pinsight M2 (User Understanding Summary) and UIC evaluation.
+- **Technical peer.** Very technical, academically inclined (KDD chair for many years). Values rigorous, research-grounded work. Sharp and engaged in technical discussions.
+- **Zhao Bo's manager.** Connection into the Signals org.
+
+## Current relationship
+- **Status:** Positive. Engaged during ELT presentation (asked about cold-start design). Values James's team's work.
+- **Trust level:** Medium-High (based on UPP support signals and ELT engagement)
+
+## Operating plan
+- **Maintain visibility.** Keep Faisal aware of UPP results and Pinsight progress through natural forums (ELT, AI forums).
+- **Explore content/user understanding synergy.** When Pinsight M2 matures, there may be a natural collaboration point with Faisal's content understanding team.
+- **Leverage his academic sensibility.** If James needs senior technical validation for AI approaches, Faisal is a credible reviewer.
+
+---
+
+# 15) Shipeng Yu — Sr. Director, ML (Growth)
+
+## Role in my 6–12 month goals
+- **Growth org leader.** Owns all of Growth (122 reports). His org was pushed into UPP by Jeff — initial friction, but he acted magnanimously and is now a big supporter of Dylan's organization.
+- **Close to Dylan.** Natural connection as they came into the org around similar times. Good political alignment.
+- **Trust anchors in his org:** Brian Lee (long-term ally, AI forum host) and Tingting (owns Notifications, good relationship with James + Bella). Notifications CLR results (+286k WAU shipped/in-flight) are in Shipeng's org.
+
+## Current relationship
+- **Status:** Positive. James has publicly aligned with Shipeng on responsiveness for low signal users. Mutual respect.
+- **Trust level:** Medium-High (indirect trust through Brian, Tingting, and shared UPP support)
+
+## Operating plan
+- **Maintain through allies.** Brian and Tingting are the natural relationship anchors. Keep those warm.
+- **Cross-surface results tell the story.** Notifications CLR wins are the strongest proof point that UPP benefits Growth. Let the numbers speak.
+- **Don't over-engage directly.** Shipeng is a Sr. Director; the relationship should be light-touch and signal-driven, not high-maintenance.
+
+---
+
+# 16) Yan Li — Sr. Manager, P13N-Experiences (Peer under Dylan)
+
+## Role in my 6–12 month goals
+- **Ownership boundary counterpart.** Yan's team (frontend + 6-person ML team) came in during the reorg. The "backend for Explore" work — explore seeds, UIC-to-medoid logic, unity-gulp integrations — is the active ownership negotiation.
+- **Peer under Dylan.** One of five managers reporting to Dylan. New to the org. Dylan told James she wants Yan's team to lean in on Explore/IB backend work.
+
+## Profile
+- Professional, calm, mature manager. Manages up well. Contrasts with James's fast/builder style and Dhruvil's steady/framing style.
+- Operating at high altitude — proposing frameworks and ownership models without deep codebase engagement yet (understandable for someone new).
+- Wrote a detailed Unity-HF Ownership Proposal using "Glean and Claude Code" — unclear if his own engineers fully reviewed.
+- Has TLs: AJ Oxendine (Staff SWE, direct/assertive, raising real architectural concerns), Daniel Liu (EM, has reviewed ownership doc).
+
+## Current relationship
+- **Status:** Constructive. James welcomed the ownership doc, asked the right process question (have TLs reviewed?), offered collaborative posture. Group sync with Dylan scheduled for April 3.
+- **Trust level:** Neutral/Early (limited history, no friction, no deep collaboration yet)
+
+## IC-Level Friction
+- AJ (Yan's team) and Devin (James's team) have had friction in Slack over explore seeds logic ownership. Multiple engineers on James's team independently describe AJ as difficult to work with.
+- James's assessment: AJ's concerns are substantively legitimate — friction is a symptom of the ownership gap, not a tone problem. Will resolve through structural clarity.
+
+## Operating plan
+- **Welcome his ownership.** James wants CG scope contained to ML/retrieval core. Routing, explore seeds, surface glue = natural fit for Yan's team.
+- **Propose maintenance vs development split.** CG maintains what it built, new surface development resourced by Yan's team.
+- **Offer transition support.** Onboarding/guidance through Q2, clean handoff by May.
+- **Address AJ friction in Yan 1:1, not group settings.** Frame as collaboration pattern to improve, not personnel complaint.
+- **Build working relationship density.** The Dhruvil/GULP model worked through shared debugging — engineer the same organic collaboration with Yan's team.
+
+---
+
+# 17) Tim Leung — Manager II, Frontend (under Dylan)
+
+## Role in my 6–12 month goals
+- **Ally and mentee.** James sees himself as a mentor to Tim. Great interactions and collaboration history.
+- **Frontend partner.** Tim's team handles frontend work that complements James's backend/ML org.
+- **Yu Zhao connection.** Tim's TL Yu Zhao is one of the best engineers in the org. James works with Yu Zhao through JJ on responsiveness — strong collab.
+
+## Current relationship
+- **Status:** Strong. Mentorship dynamic + active collaboration through JJ ↔ Yu Zhao on responsiveness.
+- **Trust level:** High
+
+## Notable: Raymond Su
+- Reports to Tim. Was the previous HF CG manager before James joined above him. Transitioned back to IC unwillingly by Dylan and James's decision. Holds resentment. Not an active risk but worth awareness.
+
+## Operating plan
+- **Maintain the mentorship.** Low cost, high goodwill. Tim being successful reflects well on James.
+- **Keep JJ ↔ Yu Zhao collaboration strong.** This is producing real value on responsiveness.
+
+---
+
+# 18) Francisco Navarrete — Sr. Manager, Platform/Labeling (under Dylan)
+
+## Role in my 6–12 month goals
+- **Peer and ally under Dylan.** Good mutual respect — exchanged compliments during calibrations. Collaborative before the reorg.
+- **Platform work overlap.** Francisco has worked on debugging tooling (never took off). His team does foundational platform work for all of Core — constantly stretched.
+- **Mexico-based team.** 16 reports, primarily in Mexico.
+
+## Current relationship
+- **Status:** Positive. Mutual respect from calibration interactions. Previous collaboration. Good relationship.
+- **Trust level:** Medium-High
+
+## Key dynamic
+- His team is stretched thin by horizontal platform work for all of Core. Hard to get bandwidth from them. Not a collaboration friction issue — just a resourcing reality.
+
+## Operating plan
+- **Keep the relationship warm.** Francisco is a natural ally in Dylan's org. Low-maintenance, high-trust.
+- **Don't depend on his team for resourcing.** They're stretched. Factor this into any cross-team planning.
+
+---
+
+# 19) Kaanon MacFarlane — Director, Engineering (under Rajat)
+
+## Role in my 6–12 month goals
+- **Repositioned, not marginalized.** Previously under Dylan; now reports directly to Rajat. Working with Karina on an AI initiative for Rajat.
+- **Frontend/backend, no ML.** His team (34 reports) doesn't overlap with James's ML/retrieval scope.
+- **Francisco and Tim's former manager.** Both were under Kaanon before the reorg moved them to Dylan.
+
+## Current relationship
+- **Status:** Minimal direct interaction post-reorg.
+- **Trust level:** Neutral
+
+## Key context
+- Dylan previously told James she "doesn't want to go through him" — this was before the reorg moved Kaanon out of her chain. Now a moot point.
+- Rajat is using Kaanon + Karina for AI delivery work. They own frontend/backend execution, not ML.
+
+## Operating plan
+- **Low priority.** Kaanon's scope doesn't intersect with James's. Monitor if the AI initiative creates overlap, but unlikely given the no-ML constraint.

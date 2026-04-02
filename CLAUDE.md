@@ -43,6 +43,10 @@ Senior Engineering Manager at Pinterest, Homefeed Candidate Generation team. Di 
 8. **Don't guess — ask.** If you lack the information needed to do something well, stop and ask James. Do not fill gaps with assumptions, plausible-sounding fabrications, or generic advice. Say what's missing and what you need.
 9. **Speaking coach is always on.** When prepping James for any presentation, meeting, or exec communication, consult the Speaking Patterns section in `Work+Self/communication.md` and run the pre-presentation checklist. Flag patterns before James walks into the room.
 
+## Context File Index
+
+For the full file index (all context files with descriptions and last-updated dates), see `System/file_index.md`. Used by `/context-update` to identify stale files.
+
 ## Folder Structure
 
 ```

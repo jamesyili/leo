@@ -1,5 +1,5 @@
 # organization.md
-Last Updated: 2026-03-27  
+Last Updated: 2026-04-01  
 ---  
   
 # Org & Technical Context (Homefeed Candidate Generation)  
@@ -19,19 +19,71 @@ Tier1 rule: **no raw docs here**. Point to them.
 - **CG scope (technical framing):** early-funnel candidate generation + retrieval + preranking + funnel efficiency + personalization foundations.  
   
 ---  
-  
+
+## Leadership Chain
+```
+Bill Ready (CEO)
+└── Matt Madrigal (CTO)
+    └── Jeff Harrell (VP, Engineering - Core)
+        ├── Rajat Chaturvedi (VP, Engineering)
+        │   ├── Dylan Wang (Sr. Director, ML — Homefeed Relevance) — 132 reports
+        │   │   ├── James Li (Sr. Manager, ML — HF Candidate Generation) — 17 reports
+        │   │   ├── Dhruvil Deven Badani (Sr. Manager, ML — HF Ranking) — 35 reports
+        │   │   │   ├── Rahul Goldam (Manager II, ML)
+        │   │   │   └── Dafeng He (Sr. Staff MLE)
+        │   │   ├── Yan Li (Sr. Manager, Eng — P13N-Experiences) — 27 reports
+        │   │   ├── Tim Leung (Manager II, Eng — Frontend) — 13 reports
+        │   │   ├── Francisco Navarrete (Sr. Manager, Eng — Platform/Labeling) — 16 reports
+        │   │   └── Olafur Gudmundsson (Sr. Staff MLE — IC)
+        │   ├── Kurchi Subhra Hazra (Sr. Director, ML — Search/SSJ) — 114 reports
+        │   │   └── Vasil Kasmitski (Manager II, Eng)
+        │   ├── Kaanon MacFarlane (Director, Eng) — 34 reports
+        │   │   └── (Frontend/backend, no ML. Working with Karina on AI initiative for Rajat)
+        │   └── Karina Sobhani (Director, Eng) — 15 reports
+        │       └── (Frontend/backend, no ML. Team has shrunk. Working on AI initiative with Kaanon)
+        ├── Faisal Farooq (VP, Engineering — Trust & Safety, Signals) — 200 reports
+        ├── Shipeng Yu (Sr. Director, ML — Growth) — 122 reports
+        ├── Manu Sharma (Sr. Director, Data Science) — 27 reports
+        └── Phil Price (Distinguished Engineer)
+
+Other CTO direct reports (outside Jeff's chain):
+├── Matthias Zenger (VP, Engineering)
+├── Vik Gupta (VP, G&I Monetization)
+├── Vicky Gkiza (VP, Product Management)
+├── Carmen Maierean (VP, EPD Strat & Ops)
+├── Chuck Rosenberg (VP, Engineering)
+├── Ken Cushman (CIO)
+├── Dana Cho (VP, Design)
+├── Andy Steingruebl (CSO)
+├── Brittan Bushman (Sr. Director, Corporate Strategy)
+└── Kartik Paramasivam (Chief Architect)
+```
+
 ## Key people / stakeholders (canonical)  
 - **James Li:** Sr ML Eng Manager for HF CG    
   - Known for: clarity, decisiveness, technical rigor, operational excellence    
   - Growth edges: communication flexibility, calm under pressure, pre-alignment before escalation  
-- **Bowen Deng:** Former EM for DRP (departed March 30, 2026 for OpenAI). Replaced by James as interim manager of all 17 reports while EM backfill is in progress.
-- **Dylan Wang:** Director of Homefeed Relevance
-  - Style: values accuracy and exec-ready comms; strong trust in James/Bowen
-- **Rajat C:** VP of Discovery (skip-level)
+- **Dylan Wang:** Sr. Director of Homefeed Relevance (132 reports)
+  - Style: values accuracy and exec-ready comms; peak trust with James
+  - Direct reports: James, Dhruvil, Yan, Tim, Francisco, Olafur
+- **Rajat C:** VP of Engineering under Jeff
   - Joined from leading Alexa at Amazon
-- **Dhruvil:** Sr EM for Homefeed Ranking (peer org)
+  - Direct reports: Dylan, Kurchi, Kaanon, Karina
+- **Jeff Harrell:** VP of Engineering - Core (Rajat's manager)
+  - High-I/D profile. Loves demos, “cool work,” and engineering culture modernization.
+- **Dhruvil:** Sr EM for Homefeed Ranking (peer under Dylan, 35 reports)
+- **Yan Li:** Sr EM for P13N-Experiences (peer under Dylan, 27 reports). New to org post-reorg. Frontend + 6-person ML team. Owns Explore/IB surfaces.
+- **Tim Leung:** Manager II under Dylan (13 reports). Frontend team. James mentors him. TL Yu Zhao is one of the best engineers in the org.
+- **Francisco Navarrete:** Sr Manager under Dylan (16 reports). Team primarily in Mexico. Labeling + foundational platform work. Stretched by horizontal platform work for all of Core. Good relationship with James.
+- **Olafur Gudmundsson:** Sr. Staff MLE under Dylan. IC. Involved in ownership boundary discussions.
+- **Kartik Paramasivam:** Chief Architect, reports to CTO. Fan of James's work. Has connected with Dylan about James. Dylan has hinted Kartik's support is important for James's future.
+- **Faisal Farooq:** VP Eng under Jeff. Owns T&S + Signals (content understanding, user understanding). Very technical, KDD chair. Open supporter of UPP.
+- **Shipeng Yu:** Sr. Director ML (Growth) under Jeff (122 reports). Close to Dylan. Org was pushed into UPP by Jeff — now supportive. Brian Lee and Tingting (Notifications) report to him.
 - **Piyush:** IC16 MLE, technical lead for UPP Retrieval. Most performant IC on team. Holds core retrieval architecture context.
-- **Cross-org partners (non-exhaustive):** ATG, ML Infra/Core Infra, Notifications ML, Growth/Activation, UU (User Understanding), Blending, Search/Related Pins surfaces  
+- **Cross-org partners (non-exhaustive):** ATG, ML Infra/Core Infra, Notifications ML, Growth/Activation, UU (User Understanding), Blending, Search/Related Pins surfaces
+
+### Notable: Raymond Su
+Reports to Tim Leung. Was the previous HF CG manager before James joined above him. Transitioned back to IC unwillingly. Holds resentment toward James. Not an active risk but worth tracking.  
   
 ### Name normalization (must preserve in outputs)  
 - Hong Tao → **Hongtao**  
@@ -311,5 +363,5 @@ Format requirement:
 ---  
   
 ## Review cadence
-- Last Updated: 2026-03-27
+- Last Updated: 2026-04-01
 - Next Review: monthly  

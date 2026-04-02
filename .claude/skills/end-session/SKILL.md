@@ -74,15 +74,16 @@ After applying, present a summary in two sections:
 **No action needed:**
 1. [what was observed] — already covered / too minor / not actionable
 
-### Phase 5: Context Update Check
+### Phase 5: Context Update
 
-After the self-improvement pass, quickly scan whether the session surfaced anything that should update context files. Propose specific updates (not vague "should we update X?"):
-- New stakeholder intel → flag which profile and what changed
-- Project status changes → flag which project file
-- New coaching patterns or speaking insights → flag `communication.md` or `coaching.md`
-- Goal shifts → flag `goals.md`
+Run `/context-update` in end-of-session mode (tight, not deep). This:
+1. Reads `System/file_index.md` to know what exists
+2. Scans the conversation for stale or missing context
+3. Proposes specific updates to James
+4. After confirmation, makes the edits and updates index timestamps
+5. Asks 1-2 targeted probing questions about potential gaps (keep it brief — James is wrapping up)
 
-If nothing needs updating, skip this phase.
+If context files were already heavily updated during the session, this may be a quick "nothing additional needed" pass. Don't re-propose updates that were already made.
 
 ## Rules
 

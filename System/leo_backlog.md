@@ -18,14 +18,14 @@ Last updated: 2026-03-29
 - [x] **`/debrief`** — Daily debrief. James dumps the day, Leo extracts signals, decisions, cross-meeting synthesis, updates context files. *(done 2026-03-29)*
 - [ ] **`/1pager`** — Generate a structured one-pager (problem, proposal, alternatives, ask) from a grill session or raw notes
 - [ ] **`/decision`** — Decision doc generator with options, tradeoffs, and recommendation
-- [ ] **`/context-update`** — Guided update of AIContext files when things change (reorg, new stakeholder, project pivot)
+- [x] **`/context-update`** — Guided update of context files when things change (reorg, new stakeholder, project pivot). Includes file index at `System/file_index.md`. *(done 2026-04-01)*
 
 ## Leo System Improvements
 
-- [ ] **Evals system** — Build rubrics for common Leo tasks (presentation prep, stakeholder analysis, communication drafting). Track quality over time instead of judging by feel. Start simple: after each task, rate output 1-5 on a few dimensions. Log to a file. Look for trends.
+- [ ] **Evals system** — Build rubrics for common Leo tasks (presentation prep, stakeholder analysis, communication drafting). Track quality over time instead of judging by feel. Start simple: after each task, rate output 1-5 on a few dimensions. Log to a file. Look for trends. **Must include trace logging** — capture input/output/context for each task so we have concrete examples to evaluate against, not just scores. Traces enable systematic improvement: spot failure patterns, test prompt changes against real examples, build a dataset over time. **PRIORITY: Next session.**
 - [ ] **Meta-prompting workflow** — When a skill underperforms, feed the failed output + original skill prompt into Claude and ask it to rewrite the skill. Systematic prompt improvement instead of manual tweaking.
 - [ ] **Mid-session process notes** — Before context compaction hits, Leo writes a checkpoint file summarizing decisions, open threads, and session state. Reads it back after compaction to maintain continuity.
-- [ ] **End-session auto-propose context updates** — Phase 4 of end-session skill. Already added to the skill definition, needs to be tested and refined in practice.
+- [x] **End-session auto-propose context updates** — Replaced Phase 5 of end-session with `/context-update` integration. Runs after session log, scans for stale files, proposes updates, probes for gaps. *(done 2026-04-01)*
 - [ ] **Better context structure** — Audit and restructure `AIContext/` for optimal loading. Questions to answer: Which files are loaded too often? Which are too large? Should CLAUDE.md be an index that points to context files loaded on-demand rather than describing everything inline? How to minimize context window waste while keeping Leo well-informed.
 
 ## Automation & Proactive Leo
@@ -50,4 +50,4 @@ Last updated: 2026-03-29
 ## Learning & Craft Projects
 
 - [ ] **Recommendation system codebase from scratch** — Create a dedicated folder where James and Leo collaboratively build a recommendation system from the ground up. Purpose: deepen James's hands-on ML craft, create interview-ready artifacts, and serve as a teaching tool. Could follow the CLR/P2P architecture James already understands but implement from first principles. Structure: `projects/recsys-from-scratch/` with progressive modules (embeddings → two-tower → training loop → eval → serving). Leo acts as pair programmer and teacher.
-- [ ] **NotebookLM notebook expansion** — Create notebooks for other domains James is learning: recommendation systems, agentic AI patterns, engineering leadership. Feed curated sources. Use `/consult-notebook` to query during relevant work.
+- [ ] **NotebookLM deep integration** — Two parts: (1) Use existing notebooks more aggressively — "How to Speak" for presentation prep, "Improving Leo" for skill/prompt work. Make `/consult-notebook` a reflex, not an afterthought. (2) Create new notebooks for recsys, agentic AI, leadership. Figure out the creation workflow (source curation, upload process, domain scoping). **PRIORITY: Next 1-2 sessions.**
