@@ -1,5 +1,32 @@
 # Session Log
 
+## 2026-04-03 — Medvi/Rekko strategy + Dylan 1:1 debrief + PM tone coaching
+
+**Done:**
+- Analyzed NYT Medvi article ($401M→$1.8B GLP-1 telehealth, 2 employees) — extracted lessons for Rekko: market selection + distribution > product sophistication
+- Created `SideProjects/rekko.md` — first context file for Rekko side project with Daniel. Captured full status, team dynamics, strategic options
+- Prepped 3 talking points for Daniel conversation: $1 revenue framing, pick-one-bet-for-30-days, content pipeline as the real product
+- Full Dylan 1:1 debrief: AI momentum confirmed (PR at 11:30pm), active shielding from ELT/Ads, peer differentiation on AI, "run things by me" signal, PM tone feedback
+- Added Akshanta (#20) and Lili Li (#21) to stakeholders. Updated direct_manager.md with April 2026 "Active AI Shielding" section
+- Journaled PM tone pattern: D:88% corrections landing hard on new PMs without relationship capital. Fix = warm DM to Akshanta + be warmer in meetings, no formal syncs
+- Coached on Akshanta approach: skip the sync (she's Yan's PM), send a warm DM, ask her opinion publicly next time in a meeting together
+
+**Decisions:**
+- Don't pivot away from Rekko — point existing content pipeline at the right market, don't start over
+- Daniel conversation: monetization as forcing function, not technical gaps
+- PM fix: warm DM to Akshanta, lighter touch with Lili Li, no formal syncs with either
+- ELT/Ads: let Mehdi drive, James stays focused on AI per Dylan's shielding
+
+**Open:**
+- Daniel conversation (2026-04-03) — Rekko direction decision pending
+- Akshanta DM not sent yet
+- Alok logging complete (April 4) — Pinsight M1 unblocked
+
+**Next time:**
+- Debrief Daniel conversation — what was decided on Rekko's 30-day plan?
+
+---
+
 ## 2026-04-02 — Medvi analysis, Rekko strategic direction, Daniel conversation prep
 
 **Done:**
