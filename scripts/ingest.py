@@ -25,7 +25,7 @@ from datetime import datetime, date
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent
-LEARNING_DIR = BASE_DIR / "Learning"
+LEARNING_DIR = BASE_DIR / "learning"
 ARTICLES_DIR = LEARNING_DIR / "articles"
 DIGEST_DIR = LEARNING_DIR / "digest"
 MANIFEST_FILE = LEARNING_DIR / ".ingested_manifest.json"

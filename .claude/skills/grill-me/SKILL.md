@@ -44,7 +44,7 @@ If you lack the context needed to provide a good recommended answer — because 
 
 ## Notebook Consultation
 
-If the grill involves **presentation prep, exec communication, or talk track review**, proactively offer to consult the "How to Speak" notebook: "Want me to run this through the How to Speak notebook for a Wes Kao lens?" Also check `Work+Self/communication.md` for known patterns.
+If the grill involves **presentation prep, exec communication, or talk track review**, proactively offer to consult the "How to Speak" notebook: "Want me to run this through the How to Speak notebook for a Wes Kao lens?" Also check `work+self/communication.md` for known patterns.
 
 ## Anti-patterns
 

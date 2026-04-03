@@ -18,7 +18,7 @@ Guided update of context files. I identify what's stale, propose changes, make t
 
 ### Step 1: Load the Index
 
-Read `System/file_index.md` to understand what files exist, what they cover, and when they were last updated.
+Read `system/file_index.md` to understand what files exist, what they cover, and when they were last updated.
 
 ### Step 2: Scan and Propose
 
@@ -46,7 +46,7 @@ If nothing needs updating, say so and skip to Step 4.
 
 ### Step 3: Execute Updates
 
-After James confirms (or adjusts), make the edits. Update `System/file_index.md` timestamps for any files touched.
+After James confirms (or adjusts), make the edits. Update `system/file_index.md` timestamps for any files touched.
 
 ### Step 4: Probe for Gaps
 
@@ -71,4 +71,4 @@ If James shares new context from the probing questions, update the relevant file
 - **When running at end-of-session:** Keep it tight. James is wrapping up. Propose, confirm, execute. Save the deep probing for manual invocations.
 - **When proactively suggesting mid-session:** Be brief. "We've covered a lot of ground on [topic] — want me to run a quick context update before we move on?" One sentence, not a pitch.
 - **New files:** Only propose a new file if there's enough substance to justify it. A one-paragraph note can go in an existing file.
-- **Index maintenance:** Always update `System/file_index.md` timestamps when editing files. If a new file is created, add it to the index.
+- **Index maintenance:** Always update `system/file_index.md` timestamps when editing files. If a new file is created, add it to the index.

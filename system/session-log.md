@@ -1,5 +1,34 @@
 # Session Log
 
+## 2026-04-03 (night) — Cross-session self-improvement: hooks, instinct system, ECC research
+
+**Done:**
+- Researched `everything-claude-code` repo (50K+ stars) — extracted 9 techniques into `system/ecc_techniques.md`
+- Built SessionStart hook: auto-loads last session log entry into context on every new session
+- Built PreCompact hook: logs compaction events, injects recovery instructions after context loss
+- Built suggest-compact Stop hook: tracks tool calls, nudges at 50 to compact at logical phase transitions
+- Built correction-detection Stop hook: parses transcript for correction patterns, prompts instinct creation
+- Designed and seeded instinct system: structured learning from corrections/confirmations with confidence scoring (0.3→0.95), evidence tracking, promotion pipeline
+- Migrated 4 existing feedback memories into seed instincts at 0.7 confidence
+- Added Phase 4b (Instinct Extraction) to `/end-session` skill
+- Grew James's understanding of the instinct model (ML analogy: online learning with promotion threshold)
+
+**Decisions:**
+- Hook-based (#2) + review-based (#3) instinct learning — not manual-only
+- Keep `/start-session` alongside SessionStart hook — hook is safety net, skill is full protocol
+- Instinct seeds at 0.7 confidence (already validated via feedback memories)
+- Remaining ECC techniques deferred — logged in research file, not built
+
+**Open:**
+- Validate SessionStart hook fires automatically on next fresh session
+- Remaining ECC techniques to explore (context modes, layered CLAUDE.md rules, more hook recipes)
+
+**Next time:**
+- Continue ECC deep-dive — work through remaining techniques in `system/ecc_techniques.md`
+- Validate hooks in fresh session
+
+---
+
 ## 2026-04-03 (evening) — NotebookLM integration + coaching capture + start-session improvement
 
 **Done:**
@@ -33,7 +62,7 @@
 - Designed and built automated knowledge ingest system inspired by Karpathy's LLM Knowledge Bases post
 - Researched and curated 13 content sources: Aman.ai, Wes Kao, Eugene Yan, Lilian Weng, Sebastian Raschka, Chip Huyen, Jay Alammar, Karpathy, Cameron Wolfe, Nathan Lambert, Simon Willison, Jefferson Fisher, Ethan Evans
 - Built `scripts/ingest.py` — handles Aman.ai bulk backfill, Substack pagination, RSS feed checking, daily digest generation
-- Backfilled 945 articles into `Learning/articles/` organized by source. Full content preserved (Substack/Aman.ai) or excerpts (blog RSS)
+- Backfilled 945 articles into `learning/articles/` organized by source. Full content preserved (Substack/Aman.ai) or excerpts (blog RSS)
 - Created `/ingest` and `/search` skills. Wired up daily cron at 6am PT via remote trigger
 
 **Decisions:**
@@ -59,7 +88,7 @@
 
 **Done:**
 - Analyzed NYT Medvi article ($401M→$1.8B GLP-1 telehealth, 2 employees) — extracted lessons for Rekko: market selection + distribution > product sophistication
-- Created `SideProjects/rekko.md` — first context file for Rekko side project with Daniel. Captured full status, team dynamics, strategic options
+- Created `sideprojects/rekko.md` — first context file for Rekko side project with Daniel. Captured full status, team dynamics, strategic options
 - Prepped 3 talking points for Daniel conversation: $1 revenue framing, pick-one-bet-for-30-days, content pipeline as the real product
 - Full Dylan 1:1 debrief: AI momentum confirmed (PR at 11:30pm), active shielding from ELT/Ads, peer differentiation on AI, "run things by me" signal, PM tone feedback
 - Added Akshanta (#20) and Lili Li (#21) to stakeholders. Updated direct_manager.md with April 2026 "Active AI Shielding" section
@@ -87,8 +116,8 @@
 **Done:**
 - Analyzed NYT Medvi article ($401M→$1.8B, 2 employees, GLP-1 telehealth) — extracted lessons for Rekko via Techmeme, HN, Marginal Revolution
 - Strategic assessment: Rekko has sophisticated tech but no feedback loop or revenue. Medvi lesson = market selection + distribution focus > product sophistication
-- Created `SideProjects/rekko.md` — first context file for the Rekko side project. Captured: what it is, team dynamics, current status (0 paying customers), Daniel's perspective, ML tracks, strategic options
-- Added Medvi article to `System/backlog.md` with full takeaway synthesis
+- Created `sideprojects/rekko.md` — first context file for the Rekko side project. Captured: what it is, team dynamics, current status (0 paying customers), Daniel's perspective, ML tracks, strategic options
+- Added Medvi article to `system/backlog.md` with full takeaway synthesis
 - Prepped 3 talking points for Daniel conversation: $1 revenue framing, pick-one-bet-for-30-days, "is the content pipeline the real product?"
 
 **Decisions:**
@@ -113,7 +142,7 @@
 - Analyzed Dylan's PINvestigator breakthrough interaction (~5 hours of engagement, proactive promotion to PADS). Updated direct_manager.md with new "Strategic Partner + AI Guide" standing. AI/IC concern effectively dead.
 - Full org chart refresh: fixed leadership chain (Matt → Jeff → Rajat → Dylan), mapped all of Dylan's reports, added all Jeff directs. Updated organization.md with complete tree.
 - Grilled on 7 key people (Francisco, Tim, Karina, Faisal, Kaanon, Kartik, Shipeng). Added 7 new stakeholder profiles (#13-19). Reorganized stakeholder quick map into tiers.
-- Built `/context-update` skill: file index at System/file_index.md, 5-step flow (load → propose → execute → probe → capture), wired into /end-session Phase 5
+- Built `/context-update` skill: file index at system/file_index.md, 5-step flow (load → propose → execute → probe → capture), wired into /end-session Phase 5
 - Logged promo status sensor journal entry (April 1) — same pattern as March 27 comp comparison, different input
 
 **Decisions:**
@@ -122,7 +151,7 @@
 - Yan ownership position: contain CG scope to ML/retrieval core (HFContextualGraphBuilder only for GULP). Maintenance vs development split. May transition deadline.
 - 1:1 before group sync — use 1:1 for pre-alignment + AI walkthrough, group sync for tactical ownership resolution
 - Promo comparison: trust Dylan, approach in stages. "I want to do what I'm doing — push the frontier."
-- Context file index lives in System/file_index.md, not CLAUDE.md (keep CLAUDE.md lean)
+- Context file index lives in system/file_index.md, not CLAUDE.md (keep CLAUDE.md lean)
 - Three-beat managing up framework added to coaching.md as a core tool
 
 **Open:**
@@ -144,7 +173,7 @@
 - Established Pinsight milestones: M1 (HF Request Debugger, mid-April, Roberto parity), M2 (User Understanding, UIC eval tie-in), M3 (Scale Analysis, Reflex Detect layer)
 - Partnership strategy mapped: Darren (go deep — eval DS), Brian (forum visibility), Kent (pass), Roberto (ship first, collaborate later)
 - Built Dylan framing for AI investments: inform + invite perspective, not permission-seeking
-- Created `Work+Self/projects/pinsight.md` with full context (origin, logging, milestones, Reflex, partnerships)
+- Created `work+self/projects/pinsight.md` with full context (origin, logging, milestones, Reflex, partnerships)
 - Updated pinvestigator.md (JJ ownership, quality gate), goals.md (AI section rewritten), stakeholders.md (added Andrew, Darren, Brian, Roberto)
 
 **Decisions:**
@@ -253,14 +282,14 @@
 - Renamed Leo → Leo. Rewrote CLAUDE.md with new persona, folder index, context loading guide.
 - Full folder restructure: flat AIContext/ → 5 top-level domains (Work+Self, Learning, SideProjects, NotebookLM, System). Merged journal+growth, communication+speaking, q2_roadmap into goals.
 - Created team_members.md (17 reports with context, risks, dynamics). Removed redundant files (timeline, pinterest2025).
-- NotebookLM MCP: installed Chrome in WSL, stable auth, tested end-to-end. Created /consult-notebook skill + NotebookLM/ folder with registry + query log.
+- NotebookLM MCP: installed Chrome in WSL, stable auth, tested end-to-end. Created /consult-notebook skill + notebooklm/ folder with registry + query log.
 - ELT talk tracks rewritten using "How to Speak" notebook (Wes Kao: BLUF, compressed funnel, $6.5M moved up).
 - Created speaking_reminders (6 patterns + checklist), merged into communication.md.
 - Created growth.md with Roberto/altitude lesson, success definition Q2-Q3, coaching triggers.
 - CLR + P2P LR deep technical references + codebase learning notes written.
 - Added escape hatches to CLAUDE.md and skills. Enhanced end-session with Phase 4.
-- Created Leo improvement backlog (System/leo_backlog.md) with skills, automation, monetization, side projects.
-- Moved Pinvestigator skill to Work+Self/projects/pinvestigator-skill/.
+- Created Leo improvement backlog (system/leo_backlog.md) with skills, automation, monetization, side projects.
+- Moved Pinvestigator skill to work+self/projects/pinvestigator-skill/.
 
 **Decisions:**
 - Leo (not Leo). Folder structure: Work+Self, Learning, SideProjects, NotebookLM, System.

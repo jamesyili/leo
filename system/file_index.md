@@ -6,7 +6,7 @@ Last updated: 2026-04-02
 
 ---
 
-## Work+Self/
+## work+self/
 
 | File | Description | Last updated |
 |------|-------------|-------------|
@@ -15,7 +15,7 @@ Last updated: 2026-04-02
 | `coaching.md` | David (strategy) + Rodney (mindset) session logs, tools, behavioral frameworks | 2026-04-01 |
 | `communication.md` | DISC profile, audience playbooks, speaking patterns + checklist | 2026-03-01 |
 
-### Work+Self/people/
+### work+self/people/
 
 | File | Description | Last updated |
 |------|-------------|-------------|
@@ -24,7 +24,7 @@ Last updated: 2026-04-02
 | `dylan_1on1_log.md` | Rolling 1:1 log + prep for upcoming meetings | 2026-04-03 |
 | `team_members.md` | Direct report profiles (if exists — may overlap with stakeholders §8) | Unknown |
 
-### Work+Self/projects/
+### work+self/projects/
 
 | File | Description | Last updated |
 |------|-------------|-------------|
@@ -38,13 +38,13 @@ Last updated: 2026-04-02
 | `learned_dynamic_triggering_elt.md` | Dynamic Triggering / PhP: ELT presentation context | Unknown |
 | `pinvestigator-skill/` | PINvestigator skill: architecture, MCP setup, prompts, references | Ongoing |
 
-### Work+Self/org/
+### work+self/org/
 
 | File | Description | Last updated |
 |------|-------------|-------------|
 | `organization.md` | Org chart, scope boundaries, technical systems, 2025 outcomes, 2026 roadmap | 2026-04-01 |
 
-## System/
+## system/
 
 | File | Description | Last updated |
 |------|-------------|-------------|
@@ -52,14 +52,14 @@ Last updated: 2026-04-02
 | `leo_backlog.md` | Leo improvement ideas: skills to build, system improvements, automation | 2026-03-29 |
 | `backlog.md` | General thinking backlog: articles, ideas to explore | 2026-04-02 |
 
-## SideProjects/
+## sideprojects/
 
 | File | Description | Last updated |
 |------|-------------|-------------|
 | `rekko.md` | Rekko (rekko.ai): prediction market analysis + content + trading side project with Daniel | 2026-04-02 |
 | `file_index.md` | This file — canonical index of all context files | 2026-04-01 |
 
-## Learning/
+## learning/
 
 | File | Description | Last updated |
 |------|-------------|-------------|
@@ -69,7 +69,7 @@ Last updated: 2026-04-02
 | `articles/` | 945 ingested articles across 13 sources, organized by source slug | 2026-04-02 |
 | `digest/` | Daily digest files linking to newly ingested articles | 2026-04-02 |
 
-## NotebookLM/
+## notebooklm/
 
 | File | Description | Last updated |
 |------|-------------|-------------|

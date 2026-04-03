@@ -18,7 +18,7 @@ Items to think through with Leo when there's time.
 - The lesson for Rekko isn't "use more AI" — it's "find the money pipe." Rekko has sophisticated tech but no feedback loop proving the analysis works and no paying customers.
 - Uncomfortable truth: Medvi required willingness to operate in regulatory gray zones. The clean version of this lesson is *speed + market selection + distribution focus* beat *product sophistication*.
 
-**Action:** James talking to Daniel 2026-04-03 about Rekko direction. See `SideProjects/rekko.md`.
+**Action:** James talking to Daniel 2026-04-03 about Rekko direction. See `sideprojects/rekko.md`.
 
 ---
 

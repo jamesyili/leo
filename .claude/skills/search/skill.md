@@ -23,14 +23,14 @@ Search these locations in parallel:
 
 **Context files** (highest priority):
 ```
-Work+Self/          # Goals, coaching, communication, stakeholders
-Learning/           # Learning agenda, concept notes
-System/             # Session log, backlog
+work+self/          # Goals, coaching, communication, stakeholders
+learning/           # Learning agenda, concept notes
+system/             # Session log, backlog
 ```
 
 **Ingested articles:**
 ```
-Learning/articles/  # All ingested content, organized by source
+learning/articles/  # All ingested content, organized by source
 ```
 
 Use Grep with the query terms across all `.md` files. Search for:

@@ -6,9 +6,9 @@ Last updated: 2026-03-29
 
 ---
 
-## Update Work+Self/org/organization.md
+## Update work+self/org/organization.md
 
-- [ ] **Refresh the org chart** — James will provide a screenshot of the current org chart. Update `Work+Self/org/organization.md` with the latest structure, reporting lines, and scope. Current file may be stale post-reorg (Dylan's org expanded with ~30-40 new people).
+- [ ] **Refresh the org chart** — James will provide a screenshot of the current org chart. Update `work+self/org/organization.md` with the latest structure, reporting lines, and scope. Current file may be stale post-reorg (Dylan's org expanded with ~30-40 new people).
 
 
 ## Skills to Build
@@ -18,13 +18,13 @@ Last updated: 2026-03-29
 - [x] **`/debrief`** — Daily debrief. James dumps the day, Leo extracts signals, decisions, cross-meeting synthesis, updates context files. *(done 2026-03-29)*
 - [ ] **`/1pager`** — Generate a structured one-pager (problem, proposal, alternatives, ask) from a grill session or raw notes
 - [ ] **`/decision`** — Decision doc generator with options, tradeoffs, and recommendation
-- [x] **`/context-update`** — Guided update of context files when things change (reorg, new stakeholder, project pivot). Includes file index at `System/file_index.md`. *(done 2026-04-01)*
+- [x] **`/context-update`** — Guided update of context files when things change (reorg, new stakeholder, project pivot). Includes file index at `system/file_index.md`. *(done 2026-04-01)*
 
 ## Leo System Improvements
 
 - [ ] **Evals system** — Build rubrics for common Leo tasks (presentation prep, stakeholder analysis, communication drafting). Track quality over time instead of judging by feel. Start simple: after each task, rate output 1-5 on a few dimensions. Log to a file. Look for trends. **Must include trace logging** — capture input/output/context for each task so we have concrete examples to evaluate against, not just scores. Traces enable systematic improvement: spot failure patterns, test prompt changes against real examples, build a dataset over time. **PRIORITY: Next session.**
 - [ ] **Meta-prompting workflow** — When a skill underperforms, feed the failed output + original skill prompt into Claude and ask it to rewrite the skill. Systematic prompt improvement instead of manual tweaking.
-- [ ] **Mid-session process notes** — Before context compaction hits, Leo writes a checkpoint file summarizing decisions, open threads, and session state. Reads it back after compaction to maintain continuity.
+- [x] **Mid-session process notes** — PreCompact hook now logs compaction events and injects recovery instructions. *(done 2026-04-03)*
 - [x] **End-session auto-propose context updates** — Replaced Phase 5 of end-session with `/context-update` integration. Runs after session log, scans for stale files, proposes updates, probes for gaps. *(done 2026-04-01)*
 - [ ] **Better context structure** — Audit and restructure `AIContext/` for optimal loading. Questions to answer: Which files are loaded too often? Which are too large? Should CLAUDE.md be an index that points to context files loaded on-demand rather than describing everything inline? How to minimize context window waste while keeping Leo well-informed.
 
@@ -46,6 +46,7 @@ Last updated: 2026-03-29
 ## Research & Investigation
 
 - [ ] **Investigate kuberwastaken/claude-code** — Cloned to `/home/james/src/claude-code-reference/`. Explore what this project does, what patterns or ideas are worth borrowing for Leo. Look for: skill design patterns, prompt engineering techniques, automation approaches, anything that could level up Leo's architecture or workflows.
+- [ ] **Continue ECC deep-dive** — Remaining techniques from `system/ecc_techniques.md` not yet built: context modes (dynamic behavior switching), layered CLAUDE.md rules directory, hook recipes (file size guards, config protection, desktop notifications), MCP context budget monitoring. Source: https://github.com/affaan-m/everything-claude-code
 
 ## Learning & Craft Projects
 

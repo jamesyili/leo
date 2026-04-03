@@ -21,9 +21,9 @@ from datetime import date
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent
-ARTICLES_DIR = BASE_DIR / "Learning" / "articles" / "lennys-podcast"
-THEMES_DIR = BASE_DIR / "Learning" / "themes"
-MANIFEST_FILE = BASE_DIR / "Learning" / ".themes_manifest.json"
+ARTICLES_DIR = BASE_DIR / "learning" / "articles" / "lennys-podcast"
+THEMES_DIR = BASE_DIR / "learning" / "themes"
+MANIFEST_FILE = BASE_DIR / "learning" / ".themes_manifest.json"
 DISCOVERED_FILE = THEMES_DIR / "_discovered.md"
 
 CLAUDE_MODEL = "claude-opus-4-6"
@@ -196,7 +196,7 @@ def call_claude(prompt, episode_slug):
 # ---------------------------------------------------------------------------
 
 def write_theme_file(theme_slug, episode_slug, guest, title, passages):
-    """Write extracted passages to Learning/themes/{theme}/{episode}.md"""
+    """Write extracted passages to learning/themes/{theme}/{episode}.md"""
     theme_dir = THEMES_DIR / theme_slug
     theme_dir.mkdir(parents=True, exist_ok=True)
 

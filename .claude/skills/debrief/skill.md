@@ -49,13 +49,13 @@ Only surface what's actually interesting. If today was routine, say so.
 Auto-update the relevant files based on everything captured. Don't ask for approval — just do it and report what changed.
 
 **Routing guide:**
-- New intel on Dylan → `Work+Self/people/direct_manager.md`
-- New intel on Rajat, Dhruvil, Anna, or other stakeholders → `Work+Self/people/stakeholders.md`
-- New intel on direct reports → `Work+Self/people/team_members.md`
-- Decisions that affect project direction → relevant file in `Work+Self/projects/`
-- Goal or trajectory shifts → `Work+Self/goals.md`
-- New coaching pattern → `Work+Self/coaching.md`
-- 1:1 with Dylan → append to `Work+Self/people/dylan_1on1_log.md`
+- New intel on Dylan → `work+self/people/direct_manager.md`
+- New intel on Rajat, Dhruvil, Anna, or other stakeholders → `work+self/people/stakeholders.md`
+- New intel on direct reports → `work+self/people/team_members.md`
+- Decisions that affect project direction → relevant file in `work+self/projects/`
+- Goal or trajectory shifts → `work+self/goals.md`
+- New coaching pattern → `work+self/coaching.md`
+- 1:1 with Dylan → append to `work+self/people/dylan_1on1_log.md`
 
 Only write things that would change how James operates with that person or on that project. Skip vague impressions.
 

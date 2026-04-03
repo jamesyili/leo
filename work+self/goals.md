@@ -344,7 +344,7 @@ This section operates on a longer timeline deliberately. The 6–12 month goals 
 ---
 
 ### [Now]
-- ~~Land the must-win presentation (March 30).~~ **LANDED (March 30).** Jeff fully bought in, pushing for ambition (type 2: new capabilities). Rajat asking about more surfaces. Kurchi positioning but not blocking. Dynamic Triggering funding gate also cleared same day (ELT). See `Work+Self/projects/upp_must_win_march2026.md` Section 15 for full debrief.
+- ~~Land the must-win presentation (March 30).~~ **LANDED (March 30).** Jeff fully bought in, pushing for ambition (type 2: new capabilities). Rajat asking about more surfaces. Kurchi positioning but not blocking. Dynamic Triggering funding gate also cleared same day (ELT). See `work+self/projects/upp_must_win_march2026.md` Section 15 for full debrief.
 - Hire experienced EM. Draft JD targeting Two-Track Org end state. Run pipeline, Dylan in for finals.
 - Ship Retentive Recs / p(UIC) integration into anticipation flow. Andrew needs CTO-demo-ready data.
 - Start JJ's promo packet (April). Address ML depth gap.

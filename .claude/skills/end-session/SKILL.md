@@ -30,9 +30,9 @@ Run the grill-me protocol, focused on session capture. Ask ONE question at a tim
 
 ### Phase 2: Produce Session Log
 
-Once aligned, write the session log entry following the format in `System/session-log.md`:
+Once aligned, write the session log entry following the format in `system/session-log.md`:
 
-1. Read `System/session-log.md`
+1. Read `system/session-log.md`
 2. Prepend a new entry (newest first) with:
    - Date and one-line summary
    - **Done:** (2-5 concrete bullets)
@@ -64,7 +64,7 @@ Scan the full conversation for self-improvement findings. Auto-apply anything cl
 - Permanent Leo behavior changes → edit `CLAUDE.md`
 - Skill-specific fixes → edit the relevant skill file
 - One-off insights Leo should remember → save to auto memory
-- Ideas that need more thought → add to `System/leo_backlog.md`
+- Ideas that need more thought → add to `system/leo_backlog.md`
 
 After applying, present a summary in two sections:
 
@@ -74,10 +74,48 @@ After applying, present a summary in two sections:
 **No action needed:**
 1. [what was observed] — already covered / too minor / not actionable
 
+### Phase 4b: Instinct Extraction
+
+Scan the conversation for **correction signals** (James pushing back, redirecting, or saying "not like that") and **confirmation signals** (James accepting a non-obvious approach, saying "yes exactly," or not pushing back where he easily could have).
+
+For each signal found:
+
+1. **Check `system/instincts/`** for an existing instinct that matches the behavior.
+2. **If match found:** Bump its `confidence` (add 0.15 for corrections, 0.1 for confirmations), increment `evidence_count`, append the new evidence with date and quote.
+3. **If no match:** Create a new instinct file in `system/instincts/` using this format:
+
+```markdown
+---
+id: kebab-case-name
+trigger: When [specific situation where this behavior applies]
+behavior: [What Leo should do / not do]
+confidence: 0.3
+evidence_count: 1
+created: YYYY-MM-DD
+last_updated: YYYY-MM-DD
+status: active
+---
+
+## Evidence
+
+### YYYY-MM-DD
+> "[Quote or paraphrase of the correction/confirmation]"
+Context: [Brief description of what was happening]
+Signal: [correction | confirmation]
+```
+
+4. **Promotion check:** If any instinct reaches confidence >= 0.8, flag it for promotion — it should become a CLAUDE.md operating principle, a skill modification, or a permanent memory. Present the candidate to James: "This instinct has hit 0.8 confidence — ready to promote to [target]. Agree?"
+
+**Rules:**
+- Cap confidence at 0.95 (never fully certain — leave room for edge cases)
+- Only create instincts for behavioral patterns, not one-time factual corrections
+- If the Stop hook already flagged corrections during the session (via `detect-corrections.sh`), use those as a starting point but review them — the hook pattern-matches, you understand context
+- If no corrections or notable confirmations occurred, say "No instinct signals this session" and move on
+
 ### Phase 5: Context Update
 
 Run `/context-update` in end-of-session mode (tight, not deep). This:
-1. Reads `System/file_index.md` to know what exists
+1. Reads `system/file_index.md` to know what exists
 2. Scans the conversation for stale or missing context
 3. Proposes specific updates to James
 4. After confirmation, makes the edits and updates index timestamps

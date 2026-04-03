@@ -34,7 +34,7 @@ NotebookLM responses can be verbose and cite sources. Your job:
 - Distill to the 3-5 most actionable insights
 - Map each insight to a specific change James should make
 - Flag anything that conflicts with James's existing approach or context files
-- If relevant, reference `Work+Self/communication.md` patterns
+- If relevant, reference `work+self/communication.md` patterns
 
 ### Step 4: Offer to Apply
 After presenting insights, offer to directly modify the artifact (talk track, draft, plan) based on the notebook's recommendations. Don't just advise — do the work.

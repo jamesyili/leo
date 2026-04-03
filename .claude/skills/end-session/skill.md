@@ -31,9 +31,9 @@ Run the grill-me protocol, focused on session capture. Ask ONE question at a tim
 
 ### Phase 2: Produce Session Log
 
-Once aligned, write the session log entry following the format in `System/session-log.md`:
+Once aligned, write the session log entry following the format in `system/session-log.md`:
 
-1. Read `System/session-log.md`
+1. Read `system/session-log.md`
 2. Prepend a new entry (newest first) with:
    - Date and one-line summary
    - **Done:** (2-5 concrete bullets)

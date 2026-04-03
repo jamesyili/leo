@@ -24,15 +24,15 @@ Based on the meeting description and attendees, read the relevant files:
 
 | Attendee / Topic | Files to read |
 |-----------------|---------------|
-| Any named stakeholder | `Work+Self/people/stakeholders.md` — find their section |
-| Dylan | `Work+Self/people/direct_manager.md`, `Work+Self/people/dylan_1on1_log.md` (recent entries) |
-| Direct reports | `Work+Self/people/team_members.md` — find their section |
-| Project-specific meeting | Relevant file in `Work+Self/projects/` |
-| Strategy / roadmap | `Work+Self/goals.md`, `Work+Self/org/q2_roadmap.md` |
-| Any meeting | `Work+Self/communication.md` (DISC profile, audience playbooks) |
-| High-stakes / exec | `Work+Self/communication.md` (speaking patterns + checklist) |
+| Any named stakeholder | `work+self/people/stakeholders.md` — find their section |
+| Dylan | `work+self/people/direct_manager.md`, `work+self/people/dylan_1on1_log.md` (recent entries) |
+| Direct reports | `work+self/people/team_members.md` — find their section |
+| Project-specific meeting | Relevant file in `work+self/projects/` |
+| Strategy / roadmap | `work+self/goals.md`, `work+self/org/q2_roadmap.md` |
+| Any meeting | `work+self/communication.md` (DISC profile, audience playbooks) |
+| High-stakes / exec | `work+self/communication.md` (speaking patterns + checklist) |
 
-Also read `System/session-log.md` (most recent 1-2 entries) for any recent signals, decisions, or open items relevant to this meeting.
+Also read `system/session-log.md` (most recent 1-2 entries) for any recent signals, decisions, or open items relevant to this meeting.
 
 Do NOT dump raw context back at James. Synthesize it into the output below.
 
@@ -79,7 +79,7 @@ If James has something, run a quick thinking-partner pass on it. If not, he's re
 
 For meetings with Rajat, Jeff, Dylan (when high-stakes), or any exec presentation:
 
-Run the pre-presentation checklist from `Work+Self/communication.md` (Speaking Patterns section). Surface any relevant patterns:
+Run the pre-presentation checklist from `work+self/communication.md` (Speaking Patterns section). Surface any relevant patterns:
 - Is James likely to over-explain?
 - Is there a 1-sentence version of the key point?
 - What's the BLUF?

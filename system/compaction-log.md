@@ -1,0 +1,5 @@
+# Compaction Log
+
+Tracks context compaction events for debugging context loss.
+
+- 2026-04-03 12:28:15 — compaction triggered

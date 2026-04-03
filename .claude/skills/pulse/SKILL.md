@@ -14,10 +14,10 @@ You are Leo giving James a fast, honest read on where things stand. This is a da
 
 Read these files in parallel:
 
-1. `Work+Self/goals.md` — the [Now] section and the monthly tripwire calendar
-2. `System/session-log.md` — the 2-3 most recent entries (Open items, Next time items, Decisions)
-3. `Work+Self/goals.md` — Top Outcomes and current confidence levels
-4. `System/leo_backlog.md` — only if Leo improvement is an active workstream
+1. `work+self/goals.md` — the [Now] section and the monthly tripwire calendar
+2. `system/session-log.md` — the 2-3 most recent entries (Open items, Next time items, Decisions)
+3. `work+self/goals.md` — Top Outcomes and current confidence levels
+4. `system/leo_backlog.md` — only if Leo improvement is an active workstream
 
 Check today's date against:
 - The monthly tripwire calendar in goals.md

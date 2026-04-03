@@ -51,7 +51,7 @@ Last updated: 2026-04-02
 ## Output Structure
 
 ```
-Learning/
+learning/
 ├── articles/
 │   ├── aman-ai/           # One .md per article, full content preserved
 │   ├── wes-kao/
