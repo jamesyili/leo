@@ -1,5 +1,33 @@
 # Session Log
 
+## 2026-04-02 (evening) — Knowledge base ingest pipeline: 945 articles, 13 sources, daily cron
+
+**Done:**
+- Designed and built automated knowledge ingest system inspired by Karpathy's LLM Knowledge Bases post
+- Researched and curated 13 content sources: Aman.ai, Wes Kao, Eugene Yan, Lilian Weng, Sebastian Raschka, Chip Huyen, Jay Alammar, Karpathy, Cameron Wolfe, Nathan Lambert, Simon Willison, Jefferson Fisher, Ethan Evans
+- Built `scripts/ingest.py` — handles Aman.ai bulk backfill, Substack pagination, RSS feed checking, daily digest generation
+- Backfilled 945 articles into `Learning/articles/` organized by source. Full content preserved (Substack/Aman.ai) or excerpts (blog RSS)
+- Created `/ingest` and `/search` skills. Wired up daily cron at 6am PT via remote trigger
+
+**Decisions:**
+- Knowledge base lives as markdown in-repo, not NotebookLM-first — control matters, NLM layers on later
+- Full content preservation, no summarization — just relevance tags + metadata on top
+- Daily digest + individual article files (both formats)
+- Blog excerpt-only sources accepted for now — full HTML-to-markdown fetch is phase 2
+- Obsidian deferred — revisit after ingest pipeline shows volume growth
+- Shreyas Doshi, RecSys academics, YouTube transcripts all parked for phase 2
+
+**Open:**
+- Cron job first run tomorrow 6am PT — needs validation that remote agent runs successfully
+- Aman.ai content is unformatted (search.json strips HTML) — readable but not pretty
+
+**Next time:**
+- Validate cron output — check tomorrow's 6am run, review first digest
+- Evals system with trace logging (carried forward)
+- Phase 2 ingest: full-fetch for blog sources, additional sources
+
+---
+
 ## 2026-04-03 — Medvi/Rekko strategy + Dylan 1:1 debrief + PM tone coaching
 
 **Done:**

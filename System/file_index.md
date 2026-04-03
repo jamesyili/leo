@@ -65,6 +65,9 @@ Last updated: 2026-04-02
 |------|-------------|-------------|
 | `learning_agenda.md` | 5-track curriculum, prioritized for Q2 2026 | Unknown |
 | `clr_codebase_notes.md` | CLR/P2P learning notes from codebase exploration | Unknown |
+| `sources.md` | Knowledge base source registry — 13 curated feeds, sync status | 2026-04-02 |
+| `articles/` | 945 ingested articles across 13 sources, organized by source slug | 2026-04-02 |
+| `digest/` | Daily digest files linking to newly ingested articles | 2026-04-02 |
 
 ## NotebookLM/
 
