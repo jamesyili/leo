@@ -1,5 +1,28 @@
 # Session Log
 
+## 2026-04-02 — Medvi analysis, Rekko strategic direction, Daniel conversation prep
+
+**Done:**
+- Analyzed NYT Medvi article ($401M→$1.8B, 2 employees, GLP-1 telehealth) — extracted lessons for Rekko via Techmeme, HN, Marginal Revolution
+- Strategic assessment: Rekko has sophisticated tech but no feedback loop or revenue. Medvi lesson = market selection + distribution focus > product sophistication
+- Created `SideProjects/rekko.md` — first context file for the Rekko side project. Captured: what it is, team dynamics, current status (0 paying customers), Daniel's perspective, ML tracks, strategic options
+- Added Medvi article to `System/backlog.md` with full takeaway synthesis
+- Prepped 3 talking points for Daniel conversation: $1 revenue framing, pick-one-bet-for-30-days, "is the content pipeline the real product?"
+
+**Decisions:**
+- Don't start over on a new idea — the content pipeline infrastructure is the real asset, question is what market to point it at
+- Tomorrow's conversation should focus on monetization as forcing function, not technical gaps
+
+**Open:**
+- Daniel conversation (2026-04-03) — direction decision pending
+- No TikTok engagement data yet — key unknown for content-first path
+- Salmon.ai investment ($10K) outcome TBD
+
+**Next time:**
+- Debrief the Daniel conversation — what was decided, what's the 30-day plan?
+
+---
+
 ## 2026-04-01 — Dylan 1:1 prep, org chart refresh, /context-update skill, PINvestigator breakthrough
 
 **Done:**

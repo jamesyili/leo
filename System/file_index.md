@@ -2,7 +2,7 @@
 
 > Canonical index of all context files. Read by `/context-update` to identify what exists and what might be stale. Keep descriptions to one line.
 
-Last updated: 2026-04-01
+Last updated: 2026-04-02
 
 ---
 
@@ -50,7 +50,13 @@ Last updated: 2026-04-01
 |------|-------------|-------------|
 | `session-log.md` | Rolling session log for cross-session continuity | 2026-04-01 |
 | `leo_backlog.md` | Leo improvement ideas: skills to build, system improvements, automation | 2026-03-29 |
-| `backlog.md` | General thinking backlog: articles, ideas to explore | 2026-03-28 |
+| `backlog.md` | General thinking backlog: articles, ideas to explore | 2026-04-02 |
+
+## SideProjects/
+
+| File | Description | Last updated |
+|------|-------------|-------------|
+| `rekko.md` | Rekko (rekko.ai): prediction market analysis + content + trading side project with Daniel | 2026-04-02 |
 | `file_index.md` | This file — canonical index of all context files | 2026-04-01 |
 
 ## Learning/
