@@ -28,6 +28,7 @@ DISCOVERED_FILE = THEMES_DIR / "_discovered.md"
 
 CLAUDE_MODEL = "claude-opus-4-6"
 RATE_LIMIT_WAIT = 60  # seconds to wait on rate limit
+CLAUDE_TIMEOUT = 900  # 15 min — long transcripts through Opus can be slow
 
 THEMES = {
     "managing-up-exec-presence": (
@@ -166,12 +167,16 @@ Respond with ONLY valid JSON. No preamble, no commentary, no markdown code fence
 def call_claude(prompt, episode_slug):
     """Call claude CLI with the prompt. Retries on rate limit."""
     while True:
-        result = subprocess.run(
-            ["claude", "-p", prompt, "--model", CLAUDE_MODEL],
-            capture_output=True,
-            text=True,
-            timeout=300,
-        )
+        try:
+            result = subprocess.run(
+                ["claude", "-p", prompt, "--model", CLAUDE_MODEL],
+                capture_output=True,
+                text=True,
+                timeout=CLAUDE_TIMEOUT,
+            )
+        except subprocess.TimeoutExpired:
+            print(f"    Timeout for {episode_slug} — skipping")
+            return None
 
         if result.returncode == 0:
             return result.stdout.strip()
