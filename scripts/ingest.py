@@ -5,6 +5,7 @@ Fetches content from curated sources and creates markdown article files.
 
 Usage:
     python ingest.py backfill-aman          # Bulk ingest all Aman.ai content
+    python ingest.py backfill-lenny         # Bulk ingest all Lenny's Podcast transcripts (GitHub)
     python ingest.py backfill-substack      # Bulk ingest all Substack sources (Wes Kao, etc.)
     python ingest.py check-rss              # Check RSS feeds for new content
     python ingest.py daily                  # Full daily run (check-aman + check-rss + digest)
@@ -18,6 +19,7 @@ import re
 import sys
 import time
 import urllib.request
+import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, date
 from pathlib import Path
@@ -53,6 +55,9 @@ SUBSTACK_BACKFILL_SOURCES = [
     # (slug, base_url, default_tags)
     ("wes-kao", "https://newsletter.weskao.com", ["managing-up", "exec-comms", "leadership"]),
 ]
+
+LENNY_GITHUB_REPO = "ChatPRD/lennys-podcast-transcripts"
+LENNY_DEFAULT_TAGS = ["product-management", "leadership", "growth", "career"]
 
 
 # ---------------------------------------------------------------------------
@@ -447,6 +452,100 @@ def backfill_substack():
 
 
 # ---------------------------------------------------------------------------
+# Lenny's Podcast (GitHub transcript repo)
+# ---------------------------------------------------------------------------
+
+def backfill_lenny():
+    """Bulk ingest all episode transcripts from the Lenny's Podcast GitHub repo."""
+    print(f"Backfilling Lenny's Podcast transcripts from GitHub...")
+
+    # List all transcript files via GitHub API
+    tree_url = f"https://api.github.com/repos/{LENNY_GITHUB_REPO}/git/trees/main?recursive=1"
+    tree_data = json.loads(fetch_url(tree_url))
+    episode_paths = [
+        f["path"] for f in tree_data.get("tree", [])
+        if f["type"] == "blob" and f["path"].startswith("episodes/") and f["path"].endswith("/transcript.md")
+    ]
+    print(f"  Found {len(episode_paths)} episode transcripts")
+
+    manifest = load_manifest()
+    ingested = set(manifest["ingested_urls"])
+
+    created_articles = []
+    skipped = 0
+
+    for path in episode_paths:
+        raw_url = f"https://raw.githubusercontent.com/{LENNY_GITHUB_REPO}/main/{path}"
+
+        if raw_url in ingested:
+            skipped += 1
+            continue
+
+        try:
+            encoded_path = urllib.parse.quote(path, safe='/')
+            raw_url = f"https://raw.githubusercontent.com/{LENNY_GITHUB_REPO}/main/{encoded_path}"
+            content = fetch_url(raw_url, timeout=30)
+        except Exception as e:
+            print(f"    Error fetching {path}: {e}")
+            continue
+
+        # Parse frontmatter for title, date, keywords
+        title = ""
+        tags = list(LENNY_DEFAULT_TAGS)
+        lines = content.splitlines()
+        in_frontmatter = False
+        frontmatter_done = False
+        body_start = 0
+
+        for i, line in enumerate(lines):
+            if i == 0 and line.strip() == "---":
+                in_frontmatter = True
+                continue
+            if in_frontmatter and line.strip() == "---":
+                frontmatter_done = True
+                body_start = i + 1
+                break
+            if in_frontmatter:
+                if line.startswith("title:"):
+                    raw_title = line[len("title:"):].strip().strip("'\"")
+                    title = raw_title
+                elif line.startswith("- ") and not frontmatter_done:
+                    # keyword list items
+                    kw = slugify(line[2:].strip())
+                    if kw and kw not in tags:
+                        tags.append(kw)
+
+        if not title:
+            # Derive from path slug
+            title = path.split("/")[1].replace("-", " ").title()
+
+        body = "\n".join(lines[body_start:]).strip() if frontmatter_done else content
+
+        filepath, was_created = create_article_md(
+            title=title,
+            source_slug="lennys-podcast",
+            url=raw_url,
+            content=body,
+            tags=tags,
+        )
+
+        if was_created:
+            created_articles.append((title, filepath))
+            ingested.add(raw_url)
+        else:
+            skipped += 1
+
+        time.sleep(0.1)  # Be polite to GitHub
+
+    manifest["ingested_urls"] = list(ingested)
+    manifest["last_synced"]["lennys-podcast"] = datetime.now().isoformat()
+    save_manifest(manifest)
+
+    print(f"  {len(created_articles)} transcripts created, {skipped} skipped")
+    return created_articles
+
+
+# ---------------------------------------------------------------------------
 # Daily digest
 # ---------------------------------------------------------------------------
 
@@ -522,6 +621,9 @@ def main():
 
     if command == "backfill-aman":
         ingest_aman(check_only=False)
+
+    elif command == "backfill-lenny":
+        backfill_lenny()
 
     elif command == "backfill-substack":
         backfill_substack()

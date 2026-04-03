@@ -12,6 +12,7 @@ Last updated: 2026-04-02
 |--------|------|-----|----------|--------|
 | **Aman.ai** | Static library | aman.ai | `/search.json` (587 pages, full text) | Pending backfill |
 | **Wes Kao** | Substack | newsletter.weskao.com | `/feed` (107 posts, all free) | Pending backfill |
+| **Lenny's Podcast** | GitHub transcript repo | github.com/ChatPRD/lennys-podcast-transcripts | GitHub API + raw file fetch (303 transcripts) | Pending backfill |
 
 ## Tier 2 — RSS Daily Check
 
