@@ -1,0 +1,9 @@
+# Primers • SVM Kernel/Polynomial Trick
+
+**Source:** https://aman.ai/primers/ai/svm-kernel-trick/
+**Ingested:** 2026-04-02
+**Tags:** ml-fundamentals
+
+---
+
+table of contents toc kernel polynomial trick in classic mathematical induction the goal of a classification task is to learn a function y f x theta aka fit a model or a curve to the data with a decision boundary that separates the classes say approve reject loan applications the diagram below from prithvi da https www linkedin com in prithivirajdamodaran summarizes the approaches primers ai assets kernel trick kernel trick jpeg fig a if the data points are linearly separable it s simple you can fit a linear model using algorithms like logistic regression or svm fig b what do you do if the data points are not linearly separable of course we can fit a neural network which in theory can learn any borel measurable function under the sky but we have a simple solution especially if you have a smaller tabular dataset fig c shows you can simply magically transform a line to a parabola and then learn a function that linearly separates the data points this idea of applying a non linear transformation using a special function called a kernel to convert linear input space y mx c 1st degree polynomial to a high degree polynomial x 2 4ay 2nd degree polynomial is the gist of the kernel trick the bottom line is that learning a linear model in the higher dimensional space is equivalent to learning a non linear model in the original lower dimensional input space tl dr it pays in spades to bend the problem literally sometimes references prithvi da on linkedin https www linkedin com posts prithivirajdamodaran explain polynomial trick to 5 year olds activity 6901421431121440768 i tu citationif you found our work useful please cite it as article chadha2020distilledkerneltrick title kernel trick author chadha aman journal distilled ai year 2020 note url https aman ai

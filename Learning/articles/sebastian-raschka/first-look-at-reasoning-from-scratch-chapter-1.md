@@ -1,0 +1,43 @@
+# First Look at Reasoning From Scratch: Chapter 1
+
+**Source:** https://magazine.sebastianraschka.com/p/first-look-at-reasoning-from-scratch
+**Ingested:** 2026-04-02
+**Tags:** llms, ml-research
+
+---
+
+Hi everyone,
+
+As you know, I've been writing a lot lately about the latest research on reasoning in LLMs. Before my next research-focused blog post, I wanted to offer something special to my paid subscribers as a thank-you for your ongoing support.
+
+So, I've started writing a new book on how reasoning works in LLMs, and here I'm sharing the first Chapter 1 with you. This ~15-page chapter is an introduction reasoning in the context of LLMs and provides an overview of methods like inference-time scaling and reinforcement learning.
+
+Thanks for your support! I hope you enjoy the chapter, and stay tuned for my next blog post on reasoning research!
+
+Happy reading,
+*Sebastian*
+
+**Chapter 1: Introduction**
+
+Welcome to the next stage of large language models (LLMs): *reasoning*. LLMs have transformed how we process and generate text, but their success has been largely driven by statistical pattern recognition. However, new advances in reasoning methodologies now enable LLMs to tackle more complex tasks, such as solving logical puzzles or multi-step arithmetic. Understanding these methodologies is the central focus of this book.
+
+In this introductory chapter, you will learn:
+
+What "reasoning" means specifically in the context of LLMs.
+
+How reasoning differs fundamentally from pattern matching.
+
+The conventional pre-training and post-training stages of LLMs.
+
+Key approaches to improving reasoning abilities in LLMs.
+
+Why building reasoning models from scratch can improve our understanding of their strengths, limitations, and practical trade-offs.
+
+After building foundational concepts in this chapter, the following chapters shift toward practical, hands-on coding examples to directly implement reasoning techniques for LLMs.
+
+**1.1 What Does "Reasoning" Mean for Large Language Models?**
+
+      
+
+          
+              Read more

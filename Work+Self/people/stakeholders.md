@@ -1,5 +1,5 @@
 # stakeholders.md  
-Last Updated: 2026-04-01  
+Last Updated: 2026-04-03  
 ---  
   
 # Stakeholders & Dynamics  
@@ -1029,3 +1029,39 @@ Jinfeng operates through **positioning and narrative control**, not direct obstr
 
 ## Operating plan
 - **Low priority.** Kaanon's scope doesn't intersect with James's. Monitor if the AI initiative creates overlap, but unlikely given the no-ML constraint.
+
+---
+
+# 20) Akshanta — PM, P13N-Experiences (Yan's team)
+
+## Role in my 6–12 month goals
+- **Cross-team PM on Yan's side.** Akshanta is the PM counterpart for Yan's team. Her work overlaps with James's team on the Explore/CG boundary — she needs updates and context from James's engineers.
+- **Dylan thinks she's good.** Dylan specifically named her when delivering PM tone feedback, signaling the source is credible and the relationship is worth investing in.
+
+## Current relationship
+- **Status:** Damaged / needs repair. Two incidents created a "territorial manager" impression:
+  1. Slack message routing her through Crystal instead of pinging engineers directly — correct ask, cold delivery (text-only, no warmth).
+  2. Likely heard about the Lili Li office hours incident through PM-to-PM channels.
+- **Trust level:** Low. James has no 1:1 with her, so every interaction has been a correction, never a collaboration.
+- **Dylan flag:** Akshanta (and/or Lili) surfaced tone concerns to Dylan. Dylan delivered the feedback to James on April 3.
+
+## Operating plan
+- **Send a warm DM** opening a door — not a formal sync, just a signal of partnership. "If you need updates, Crystal and I are the fastest path — happy to jump on a call anytime."
+- **Next time in a meeting together:** Ask her opinion on something publicly. One signal of respect overwrites the DM impression.
+- **No recurring 1:1.** She's Yan's PM, not James's. Just reset the tone and be warmer in organic interactions.
+
+---
+
+# 21) Lili Li — PM (newer)
+
+## Role in my 6–12 month goals
+- **Low priority but tone risk.** Lili was pinging James's engineers directly for mundane tasks (adding users to holdouts, etc.), which frustrated Yu Ke enough that he escalated to James.
+- **Not a critical relationship** but contributes to James's PM-tone reputation if mismanaged.
+
+## Current relationship
+- **Status:** Strained. James told her to back off from pinging engineers — in front of TPMs (including Akshanta's TPM). Came off strong.
+- **Trust level:** Low.
+
+## Operating plan
+- **No formal outreach.** The ask was justified (Yu Ke escalated). Just be noticeably warmer in future interactions.
+- **Don't over-correct.** A formal apology or sync would feel performative and draw more attention to the incident.

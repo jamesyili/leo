@@ -4,7 +4,57 @@
 
 ---
 
-## 2026-04-03 (Thursday) — Dylan 1:1, then Group Sync (Yan/Dhruvil ownership)
+## 2026-04-03 (Thursday) — Dylan 1:1 Debrief
+
+**Outcome: Strong.** AI momentum confirmed. Dylan actively shielding James. PM tone feedback delivered.
+
+### What happened
+
+**AI / PINvestigator:**
+- Dylan pushed a PINvestigator PR at 11:30pm the night before, chased James + JJ to land it next morning. Senior Director writing code — extraordinary signal.
+- Majority of 1:1 spent on AI. Dylan is genuinely excited.
+- Dylan wants to shield James from unproductive cross-org conversations (e.g., ELT/Ads Dynamic Triggering with Kartik). "Let Mehdi drive, you focus on AI." This is active portfolio curation — Director-level treatment.
+- Dylan said her other directs aren't stepping up on AI the way James has. She's going to try to get them to do the same. **Clear peer differentiation signal.**
+- "Run things by me" — she wants to co-own the AI narrative. Feed her first looks on ideas.
+- Showed James asking her for code paths/pointers to model codebases — she's learning from him. Guide relationship solidifying.
+- Logging work (Alok/CSI for Cupcake) = what Roberto built for Search, but for Homefeed. Dylan very supportive. Extend to BMI/GULP.
+- Reflex: very supportive. Darren willing to fund Evals help. All of this is foundation for Reflex vision.
+
+**Yan / Ownership:**
+- Yan stepping up is a friendly gesture — good for James since team is stretched.
+- Agreed to showcase Yan's proposal to tech leads for technical comments, then go from there. Collaborative approach.
+
+**PM tone feedback:**
+- Some newer PMs (Akshanta, Lili Li) have told Dylan that James's tone could be better when they approach him with asks.
+- Dylan delivered softly. Specifically flagged Akshanta as someone she thinks is good — meaning the source is credible.
+- James committed to watching his tone with newer PMs.
+- Root cause: two incidents — (1) James told Lili to back off from pinging engineers for mundane tasks (in front of TPMs, came off strong), (2) Slack to Akshanta routing her through Crystal instead of pinging engineers directly (text-only, no warmth).
+- Action: James will send a warm DM to Akshanta opening a door. Lighter touch with Lili — just be warmer in future interactions.
+
+**EM Hiring:**
+- Started sourcing, intake last week, working with Daniel McCray again.
+- Leadership round interviewers: Dylan, Jiajing, Bo (will ping), Krishna.
+
+**Health:**
+- Dylan told James to take more time off for kidney stone recovery as needed. James is determined to be present.
+
+**UPP Retrieval Strategy (FYI from notes):**
+- 5-prong approach: Scale HF/Base CLR (GPU serving), Cross-surface Training (Zihao driving, Piyush/Hongtao/Jaewon supporting), ReDesign CLR with P2P (Piyush), Notif & Finetuning (Hongtao's major Q2 project), Finetuning models for HF+BMI (junior end-to-end opportunity).
+- ELT presentation → Kartik asked to connect with Ads on Dynamic Triggering. Mehdi Ben Ayed will drive. Dylan shielding James from this.
+- Cost asks (Adaptive and GPU) are fine.
+
+### Signals summary
+| Signal | Meaning |
+|--------|---------|
+| PR at 11:30pm + morning chase | Dylan is personally invested in PINvestigator, not just supportive |
+| "Shield you from unproductive convos" | Active portfolio curation — she's managing the environment around James |
+| "Other directs not stepping up on AI" | James is differentiated among peers on this dimension |
+| "Run things by me" | She wants to co-own the AI narrative — managing-up opportunity |
+| PM tone feedback (delivered softly) | Real but not severe — she's doing him a favor by surfacing it early |
+
+---
+
+## 2026-04-03 (Thursday) — PREP NOTES (pre-meeting)
 
 **Context:** MW and ELT presentations landed well (March 30). Bowen departed March 26. James recovering from kidney stone surgery (post-op checkup Thursday morning). PINvestigator had a breakthrough day on April 1 — Dylan personally ran the tool, spent ~5 hours engaging with it, called the investigation doc "great," proactively suggested sharing with Karim/PADS, and wants James to show her skills in the 1:1. The AI/IC concern is effectively dead — Dylan is now pulling James in as her AI guide. Dylan moved the 1:1 to BEFORE the group sync.
 

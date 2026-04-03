@@ -1,0 +1,9 @@
+# Primers • Convolutional Neural Networks
+
+**Source:** https://aman.ai/primers/ai/cnn/
+**Ingested:** 2026-04-02
+**Tags:** ml-fundamentals, computer-vision
+
+---
+
+overview summary references citationoverviewsummary cnn convolutional neural network is a deep learning model designed for processing visual data it uses convolutional layers to learn hierarchical representations and extract meaningful features from images here are the constituent layers from input to output in a typical cnn architecture image input an image is represented as a matrix of pixel values with each pixel having 3 values red green blue ranging from 0 black to 255 white convolutional layers convolutional layers apply filters or kernels to the input image creating feature maps that identify important features like edges lines and textures relu rectified linear unit the relu layer applies the non linear function max 0 x to all inputs increasing the cnn model s non linearity pooling layers pooling layers reduce feature map dimensionality while retaining essential information max pooling selects the maximum value from the filter covered section of the image fully connected layers fully connected layers enable high level reasoning as neurons connect to all activations in the previous layer output layer the final layer uses softmax and sigmoid functions to output class probabilities softmax for multi class sigmoid for binary classification classification result the class with the highest probability is the cnn s final prediction for the input image cnns learn hierarchical patterns achieving impressive accuracy in image classification tasksreferences cnn explainer learn convolutional neural network cnn in your browser citationif you found our work useful please cite it as article chadha2020distilledcnns title convolutional neural networks author chadha aman journal distilled ai year 2020 note url https aman ai

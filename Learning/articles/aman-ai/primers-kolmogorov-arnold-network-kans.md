@@ -1,0 +1,9 @@
+# Primers • Kolmogorov-Arnold Network (KANs)
+
+**Source:** https://aman.ai/primers/ai/KAN/
+**Ingested:** 2026-04-02
+**Tags:** ml-fundamentals
+
+---
+
+background kolmogorov arnold networks kans examplebackground neural networks are renowned for their capacity to approximate functions through the use of neuron layers each neuron executes a transformation and the network employs standard differentiable continuous functions known as activation functions to introduce essential non linearities the learning process involves adjusting weights to minimize error across these layers kolmogorov arnold networks kans kolmogorov arnold networks kans derive their principles from the kolmogorov arnold representation theorem which states that any multivariable continuous function can be decomposed into a finite sum of compositions of continuous single variable functions unlike multilayer perceptrons mlps kans are specifically designed to emulate the theorem s decomposition structure this is achieved through a unique network architecture where inputs undergo transformation through a series of function compositions ensuring that each layer s structure aligns with the theorem s stipulations additionally kans feature learned activations for each specific feature example consider the complex task of predicting stock market trends which involves multiple variables such as past prices trading volumes and economic indicators for an investor or financial analyst utilizing an mlp may be advantageous when accuracy is the primary objective as mlps can effectively model the intricate and subtle dynamics of the market however kans might be preferable when there is a need to comprehend the impact of specific economic factors on stock prices this understanding is particularly valuable in strategic decision making where insights into the influence of distinct variables can guide more sophisticated investment strategies

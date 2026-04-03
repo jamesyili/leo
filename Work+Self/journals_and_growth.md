@@ -2,7 +2,7 @@
 
 > Synthesized lessons and forward-looking growth edges on top; chronological journal entries as evidence below. When a journal entry surfaces a new pattern, it graduates into a lesson above.
 
-Last updated: 2026-04-01
+Last updated: 2026-04-03
 
 ---
 
@@ -342,3 +342,17 @@ This is what Lesson 1 (Match Altitude to Audience Appetite) and Lesson 4 (Lettin
 
 ### Connection to the status sensor
 Less than 6 hours before this interaction, the promo comparison loop was firing. "Am I first? Am I last?" And then this happened — not because I chased anything, but because I built something real. The internal scoreboard works. The energy went to building, and the building created its own gravity.
+
+## 2026-04-03 — PM tone feedback: the D:88% pattern with new PMs
+
+### What happened
+Dylan gave feedback that newer PMs (Akshanta, Lili Li) told her James's tone could be better. Two incidents: (1) told Lili to stop pinging engineers for mundane tasks — in front of TPMs, came off strong; (2) Slack to Akshanta routing her through Crystal — correct process, cold delivery.
+
+### The pattern
+This is the same root cause as the February "eggshells" feedback, but lower severity and different targets. The D:88% efficiency instinct reads as dismissive to people who don't have relationship capital with James. With peers and senior stakeholders (Dhruvil, Dylan, Rajat), the directness lands fine because there's trust. With new PMs who have zero history, every interaction is a data point — and every data point so far has been a correction.
+
+### Why it's different from February
+February was about senior peers feeling like they were walking on eggshells — that was a red alert, a "behavioral probation" moment. This is a yellow flag: newer, lower-leverage stakeholders, and Dylan delivered it softly as a favor. But the underlying mechanic is the same: James's default mode assumes existing relationship capital that doesn't exist yet.
+
+### The fix
+Not about being less direct. It's about building the relationship before the correction lands. The structural gap: James has no 1:1 or regular touchpoint with these PMs, so the *only* interactions are boundary enforcement. The ratio of collaboration-to-correction needs to flip. One warm DM to Akshanta + being visibly warmer in meetings will do more than any behavioral overhaul.

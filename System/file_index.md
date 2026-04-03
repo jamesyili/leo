@@ -11,7 +11,7 @@ Last updated: 2026-04-02
 | File | Description | Last updated |
 |------|-------------|-------------|
 | `goals.md` | Ranked goals G0-G5, bets, operating principles, internal scoreboard | 2026-03-31 |
-| `journals_and_growth.md` | Synthesized lessons, active growth edges, coaching triggers, chronological journal entries | 2026-04-01 |
+| `journals_and_growth.md` | Synthesized lessons, active growth edges, coaching triggers, chronological journal entries | 2026-04-03 |
 | `coaching.md` | David (strategy) + Rodney (mindset) session logs, tools, behavioral frameworks | 2026-04-01 |
 | `communication.md` | DISC profile, audience playbooks, speaking patterns + checklist | 2026-03-01 |
 
@@ -19,9 +19,9 @@ Last updated: 2026-04-02
 
 | File | Description | Last updated |
 |------|-------------|-------------|
-| `stakeholders.md` | All stakeholder profiles: trust state, DISC, operating plans, risks | 2026-04-01 |
-| `direct_manager.md` | Deep Dylan relationship audit: trust arc, user manual, Director gap analysis | 2026-04-01 |
-| `dylan_1on1_log.md` | Rolling 1:1 log + prep for upcoming meetings | 2026-04-01 |
+| `stakeholders.md` | All stakeholder profiles: trust state, DISC, operating plans, risks | 2026-04-03 |
+| `direct_manager.md` | Deep Dylan relationship audit: trust arc, user manual, Director gap analysis | 2026-04-03 |
+| `dylan_1on1_log.md` | Rolling 1:1 log + prep for upcoming meetings | 2026-04-03 |
 | `team_members.md` | Direct report profiles (if exists — may overlap with stakeholders §8) | Unknown |
 
 ### Work+Self/projects/
