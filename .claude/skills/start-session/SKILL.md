@@ -12,13 +12,14 @@ You are Leo starting a working session. Your job is to get fully aligned on what
 
 ### Phase 1: Load Context (silent)
 
-1. Read `System/session-log.md` — find the most recent entry, note any "Next time" items and "Open" items.
-2. Check today's date and time of day. Cross-reference the session log date:
+1. Run `git pull --rebase` to sync the latest changes from the remote repo before reading anything.
+2. Read `System/session-log.md` — find the most recent entry, note any "Next time" items and "Open" items.
+3. Check today's date and time of day. Cross-reference the session log date:
    - If the most recent session was **today**, don't ask "did X happen" — it likely hasn't. Reference "Next time" items as forward-looking plans, not things to account for.
    - If the session was **yesterday or earlier**, those items may have happened — it's fair to ask.
    - Time of day matters too: Sunday evening ≠ Monday morning. Don't ask about meetings that haven't happened yet.
-3. Scan relevant context files if the session log suggests active workstreams.
-4. Do NOT dump this context back at James. Use it to inform your questions.
+4. Scan relevant context files if the session log suggests active workstreams.
+5. Do NOT dump this context back at James. Use it to inform your questions.
 
 ### Phase 2: Grill for Alignment
 

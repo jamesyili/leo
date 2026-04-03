@@ -1,5 +1,32 @@
 # Session Log
 
+## 2026-04-03 (evening) — NotebookLM integration + coaching capture + start-session improvement
+
+**Done:**
+- Added `git pull --rebase` as step 1 in `/start-session` skill so sessions always start with latest remote state
+- Researched Lenny's Podcast transcripts — found GitHub repo (269 episodes as markdown with YAML frontmatter)
+- Installed NotebookLM MCP server (`notebooklm-mcp`) for direct notebook querying from Claude Code
+- Added "Signal, not truth" (March 27) coaching journal entry to `coaching.md`
+- Prepped NotebookLM source files: `decisive-book-notes.md` (WRAP framework from Chip/Dan Heath) and `coaching-patterns-and-growth.md` (curated behavioral patterns, growth evidence, PM tone incidents)
+- Scoped Coaching Playbook notebook: included PM tone pattern + Dylan feedback, excluded stakeholder profiles (staleness risk)
+
+**Decisions:**
+- Decisive framework: NotebookLM notebook first, `/decide` skill layer later (notebook = knowledge, skill = process)
+- Coaching notebook sources: `coaching.md` + curated patterns file; no stakeholder profiles (dynamics change too fast for static notebook sources)
+- NotebookLM MCP installed at project level for future notebook querying
+
+**Open:**
+- James creating Decisive + Coaching Playbook notebooks in NotebookLM manually — needs to provide IDs
+- MCP not loaded yet — needs session restart + Google auth
+- Daniel conversation debrief still pending
+
+**Next time:**
+- Authenticate NotebookLM MCP, list all existing notebooks, update registry
+- Register Decisive + Coaching Playbook notebooks once IDs provided
+- Daniel conversation debrief — what was decided on Rekko's 30-day plan?
+
+---
+
 ## 2026-04-02 (evening) — Knowledge base ingest pipeline: 945 articles, 13 sources, daily cron
 
 **Done:**
