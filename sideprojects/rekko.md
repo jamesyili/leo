@@ -36,35 +36,37 @@ Rekko (rekko.ai, @rekko.ai on TikTok) is an automated prediction market analysis
 - No feedback loop — no engagement data, no validated track record
 - No evidence the analysis actually works (364 runs, zero validated against outcomes)
 
-### Daniel's read (2026-04-02)
-- Feels it's too early to pivot — "only done the groundwork"
-- Has people signing up and kicking tires, no paying customers
-- Wants more time for growth hacking before changing direction
-- Full product suite is launched, content/SEO happening
+### Daniel conversation debrief (2026-04-03)
 
-### Strategic assessment (from Daniel's Claude + our Medvi analysis)
-- Core problem: product pointed in every direction, no single flywheel spinning
-- Three potential bets: (1) shadow trading to prove analysis works, (2) TikTok content-first distribution, (3) API for AI agents via MCP + x402
-- Recommended sequence: shadow trading first (cheapest way to validate), then TikTok, then decide
-- Medvi comparison: Rekko has far more sophisticated tech but Medvi found a money pipe (GLP-1 demand) and focused entirely on distribution. Rekko needs to find its equivalent demand signal.
+**Core question resolved:** What have we built that's truly hard to replicate and has enduring value?
 
-## James's ML Tracks
+**Answer: The video generation pipeline.** Agreed to bet on building an engine to hyper-produce trending AI videos and farm engagement at scale. Monetization angle TBD — first priority is building up an audience.
+
+**Decisions:**
+- P1: AI video engine for trending content. Daniel has an exact recipe for what works. James to put together a plan and share tonight/tomorrow.
+- ML models paused for now — too far off from traction.
+- James needs to understand Daniel's video generation pipeline before planning next steps.
+
+**P2 ideas (parked, not dead):**
+- Whale watching — monitoring large prediction market bets as content/signal
+- Automated index fund for prediction markets — passive diversified exposure
+- Peptides e-commerce — inspired by Medvi, unregulated niche but growing. Legality questioned; agreed to discuss later.
+
+**Inspiration:** @raycfu (Rui Fu, ex-Meta SWE, 98K followers) — content-first audience building + productized knowledge + done-for-you services. Potential model for monetizing once audience exists.
+
+## James's ML Tracks (paused)
 
 | Track | Status | Notes |
 |-------|--------|-------|
-| A: Category trading rules | Ready now | Tennis/NCAA mispricing is real and exploitable |
-| B: Content ranking | Blocked | Needs engagement data from published videos |
-| C: Price movement prediction | Explorable | 1.6M hourly ticks available |
+| A: Category trading rules | Paused | Tennis/NCAA mispricing is real but deprioritized |
+| B: Content ranking | Paused | Needs engagement data from published videos |
+| C: Price movement prediction | Paused | 1.6M hourly ticks available |
 | D: Watchlist (clean data) | Background | Check ~late April for 50+ resolved pairs |
-| E: Anomaly detection | Deferred | After A and C |
+| E: Anomaly detection | Paused | After A and C |
 
-## Open Questions (for Daniel conversation 2026-04-03)
+## Next Steps (James)
 
-1. What does TikTok engagement actually look like on published videos?
-2. Should they pick ONE bet and go all-in for 30 days?
-3. Is the prediction market vertical big enough, or should the content pipeline point at a bigger market (sports betting, stocks, crypto)?
-4. What's the Medvi-equivalent demand signal — where is demand massively outstripping supply?
-
-## Conversation framing (2026-04-03)
-
-Goal: talk through how to make money. Not technical gaps — finding traction. Daniel has said James gave him a lot to think about (re: Medvi analysis). Use monetization as the forcing function to focus.
+1. Understand Daniel's video generation pipeline (codebase review)
+2. Put together a plan for the AI video engine bet
+3. Share plan with Daniel tonight or tomorrow
+4. Follow up on peptides legality question
