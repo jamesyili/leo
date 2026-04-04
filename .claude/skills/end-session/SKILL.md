@@ -54,12 +54,13 @@ Once aligned, write a new session log file in `system/session-logs/`:
 
 ### Phase 3: Commit Changes
 
-After writing the session log, commit all changes from the session:
+**MANDATORY — never skip this step.** After writing the session log, commit and push all changes:
 
 1. Run `git status` to review what's being committed.
-2. Mark any in-progress or completed tasks in the task list as done.
+2. Stage all relevant files by name (session log, context files, skill files, backlog, etc.).
 3. Write a concise commit message summarizing the session's work (not just "end session" — capture what was actually done).
-4. `git add -A`, commit, and push to remote.
+4. Commit and `git push` to remote.
+5. **Verify the push succeeded.** If it fails, diagnose and retry.
 
 ### Phase 4: Self-Improvement Pass
 
@@ -110,6 +111,10 @@ Run `/context-update` in end-of-session mode (tight, not deep). This:
 5. Asks 1-2 targeted probing questions about potential gaps (keep it brief — James is wrapping up)
 
 If context files were already heavily updated during the session, this may be a quick "nothing additional needed" pass. Don't re-propose updates that were already made.
+
+### Phase 6: Final Commit
+
+If phases 4, 4b, or 5 produced any file changes (memory files, CLAUDE.md edits, backlog updates, context file updates), commit and push them now. Use a message like "End-session: self-improvement + context updates". **Never end a session with uncommitted changes.**
 
 ## Rules
 
