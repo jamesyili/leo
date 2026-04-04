@@ -46,7 +46,7 @@ Last updated: 2026-03-29
 ## Research & Investigation
 
 - [ ] **Investigate kuberwastaken/claude-code** — Cloned to `/home/james/src/claude-code-reference/`. Explore what this project does, what patterns or ideas are worth borrowing for Leo. Look for: skill design patterns, prompt engineering techniques, automation approaches, anything that could level up Leo's architecture or workflows.
-- [ ] **Continue ECC deep-dive** — Remaining techniques from `system/ecc_techniques.md` not yet built: context modes (dynamic behavior switching), layered CLAUDE.md rules directory, hook recipes (file size guards, config protection, desktop notifications), MCP context budget monitoring. Source: https://github.com/affaan-m/everything-claude-code
+- [ ] **Continue ECC deep-dive** — Remaining techniques from `system/ecc_techniques.md` not yet built: context modes (dynamic behavior switching), ~~layered CLAUDE.md rules directory~~, hook recipes (file size guards, config protection, desktop notifications), MCP context budget monitoring. Source: https://github.com/affaan-m/everything-claude-code *(rules directory + mgrep skill deprioritized 2026-04-04)*
 
 ## Learning & Craft Projects
 

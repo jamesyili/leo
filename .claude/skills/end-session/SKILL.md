@@ -28,6 +28,17 @@ Run the grill-me protocol, focused on session capture. Ask ONE question at a tim
 
 5. **Anything to update in context files?** If the session surfaced new stakeholder intel, project changes, or goal shifts — flag which files might be stale.
 
+### Phase 1b: Reconcile Backlog and Session Log
+
+Before writing the session log, reconcile decisions made during this session against tracked items:
+
+1. **Read `system/leo_backlog.md`** and scan for any items whose status changed during this session (deprioritized, completed, deferred, cut).
+2. **Check that all decision changes are already persisted** in the backlog file. If any were acknowledged verbally but not written to the file, fix them now.
+3. **Cross-check "Next time" items** you're about to write against the backlog. Don't list items that were deprioritized or cut. Don't omit items that are still active.
+4. If you find a mismatch, fix the source file and flag it: "Caught a missed update — [what was fixed]."
+
+This phase exists because decisions made mid-conversation can get lost if only captured verbally. The backlog and session log must agree.
+
 ### Phase 2: Produce Session Log
 
 Once aligned, write a new session log file in `system/session-logs/`:

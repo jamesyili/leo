@@ -18,8 +18,8 @@
 
 **Next time:**
 - Build Leo subagents (researcher, notebook-consultant, context-auditor, writer)
-- Explore rules directory pattern (modular CLAUDE.md principles)
-- Build mgrep skill (upgraded grep)
+- ~~Explore rules directory pattern~~ *(deprioritized)*
+- ~~Build mgrep skill~~ *(deprioritized)*
 - Dig deeper into Affaan's ECC thread: https://x.com/affaanmustafa/status/2014040193557471352
 - Memory persistence improvements across sessions
 - Evals + trace system
