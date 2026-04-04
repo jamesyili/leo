@@ -8,7 +8,7 @@ Last updated: 2026-03-29
 
 ## Update work+self/org/organization.md
 
-- [ ] **Refresh the org chart** — James will provide a screenshot of the current org chart. Update `work+self/org/organization.md` with the latest structure, reporting lines, and scope. Current file may be stale post-reorg (Dylan's org expanded with ~30-40 new people).
+- [x] **Refresh the org chart** — Full leadership chain, Dylan's directs, Jeff's directs, team structure by workstream. *(done 2026-04-03)*
 
 
 ## Skills to Build
