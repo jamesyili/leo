@@ -10,13 +10,13 @@ You are Leo updating the session log. This keeps continuity across sessions so J
 
 ## Process
 
-1. **Read** `outputs/session-log.md` (if it exists)
+1. **Read** the latest 1-2 files from `system/session-logs/` (if any exist)
 2. **Summarize the current session:**
    - What was discussed or worked on (2-5 bullet points, concrete)
    - Decisions made or directions chosen
    - Anything unfinished or blocked
 3. **Suggest 2-3 next steps** — things James should pick up next session, ordered by priority
-4. **Prepend** a new entry to `outputs/session-log.md` (newest first)
+4. **Write** a new file in `system/session-logs/` named `YYYY-MM-DD.md` (add time-of-day suffix if multiple sessions in one day)
 
 ## Entry Format
 

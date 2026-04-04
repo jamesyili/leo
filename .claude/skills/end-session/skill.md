@@ -31,16 +31,16 @@ Run the grill-me protocol, focused on session capture. Ask ONE question at a tim
 
 ### Phase 2: Produce Session Log
 
-Once aligned, write the session log entry following the format in `system/session-log.md`:
+Once aligned, write a new session log file in `system/session-logs/`:
 
-1. Read `system/session-log.md`
-2. Prepend a new entry (newest first) with:
-   - Date and one-line summary
+1. Create a new file named `YYYY-MM-DD.md` (or `YYYY-MM-DD-afternoon.md`, `YYYY-MM-DD-evening.md`, etc. if multiple sessions in one day — check existing files to avoid collisions).
+2. Write the entry with:
+   - `## YYYY-MM-DD (time-of-day) — one-line summary` heading
    - **Done:** (2-5 concrete bullets)
    - **Decisions:** (if any)
    - **Open:** (if any)
    - **Next time:** (specific, actionable)
-3. Keep the log to ~20 entries max. Trim oldest if needed.
+3. Keep the `system/session-logs/` directory to ~20 files max. Delete oldest if needed.
 
 ### Phase 3: Commit Changes
 

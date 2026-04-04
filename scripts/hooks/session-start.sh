@@ -1,17 +1,25 @@
 #!/bin/bash
-# SessionStart hook: Auto-load the most recent session log entry into context.
+# SessionStart hook: Auto-load the two most recent session log entries into context.
 # stdout is injected as a system message at session start.
 
-SESSION_LOG="/home/james/src/leo/system/session-log.md"
+SESSION_DIR="/home/james/src/leo/system/session-logs"
 
-if [ ! -f "$SESSION_LOG" ]; then
+if [ ! -d "$SESSION_DIR" ]; then
   exit 0
 fi
 
-# Extract the most recent entry: from the first "## " heading to the first "---" separator
+# Get the two most recent session files (sorted by name, which is date-based)
+LATEST=$(ls -1 "$SESSION_DIR"/*.md 2>/dev/null | sort -r | head -2)
+
+if [ -z "$LATEST" ]; then
+  exit 0
+fi
+
 echo "=== LAST SESSION CONTEXT (auto-loaded by SessionStart hook) ==="
-awk '
-  /^## / { if (found) exit; found=1 }
-  found { print }
-' "$SESSION_LOG"
+for f in $LATEST; do
+  cat "$f"
+  echo ""
+  echo "---"
+  echo ""
+done
 echo "=== END LAST SESSION CONTEXT ==="

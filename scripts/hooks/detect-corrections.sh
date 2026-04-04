@@ -5,7 +5,7 @@
 
 PROJECT_DIR="$HOME/.claude/projects/-home-james-src-leo"
 MARKER_FILE="/tmp/leo-correction-marker"
-INSTINCT_DIR="/home/james/src/leo/system/instincts"
+MEMORY_DIR="$HOME/.claude/projects/-home-james-src-leo/memory"
 
 # Find the most recently modified conversation transcript
 TRANSCRIPT=$(ls -t "$PROJECT_DIR"/*.jsonl 2>/dev/null | head -1)
@@ -93,8 +93,8 @@ if [ -n "$CORRECTIONS" ]; then
   echo ""
   echo "$CORRECTIONS"
   echo ""
-  echo "Consider creating or updating an instinct in system/instincts/."
-  echo "Format: id, trigger, behavior, confidence (start at 0.3), evidence."
-  echo "If an existing instinct matches, bump its confidence and add evidence."
+  echo "Consider saving a feedback memory (type: feedback) if this is a behavioral pattern worth remembering."
+  echo "Check MEMORY.md first — update an existing memory if one matches, otherwise create a new one."
+  echo "Only save if the correction applies to future sessions, not one-off factual corrections."
   echo "=== END CORRECTION SIGNAL ==="
 fi

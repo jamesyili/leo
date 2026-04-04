@@ -4,6 +4,17 @@
 
 ---
 
+## 2026-04-04 — Wes Kao Frameworks + Karen Agent Design
+
+**Notebook:** Wes Kao Frameworks (How to Speak)
+**Context:** Building adversarial advisor agent "Karen" — needed frameworks for reading intent, challenging blind spots, accountability, and proposing alternatives
+
+**Query 1:** Frameworks for Karen's system prompt — reading intent (QBQ), challenging without being dismissed (OARB), accountability (Rigorous Thinking), proposing alternatives (OAV)
+- **Key frameworks extracted:** QBQ, OARB, "Even More" Technique, Rigorous Thinking / "Bad Things Good Things", OAV, BLUF + Sales Not Logistics
+- **Action:** Embedded all 6 frameworks directly into Karen agent's system prompt as operating principles
+
+---
+
 ## 2026-03-29 — How to Speak + ELT Presentation
 
 **Notebook:** How to Speak

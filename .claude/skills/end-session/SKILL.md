@@ -30,16 +30,16 @@ Run the grill-me protocol, focused on session capture. Ask ONE question at a tim
 
 ### Phase 2: Produce Session Log
 
-Once aligned, write the session log entry following the format in `system/session-log.md`:
+Once aligned, write a new session log file in `system/session-logs/`:
 
-1. Read `system/session-log.md`
-2. Prepend a new entry (newest first) with:
-   - Date and one-line summary
+1. Create a new file named `YYYY-MM-DD.md` (or `YYYY-MM-DD-afternoon.md`, `YYYY-MM-DD-evening.md`, etc. if multiple sessions in one day — check existing files to avoid collisions).
+2. Write the entry with:
+   - `## YYYY-MM-DD (time-of-day) — one-line summary` heading
    - **Done:** (2-5 concrete bullets)
    - **Decisions:** (if any)
    - **Open:** (if any)
    - **Next time:** (specific, actionable)
-3. Keep the log to ~20 entries max. Trim oldest if needed.
+3. Keep the `system/session-logs/` directory to ~20 files max. Delete oldest if needed.
 
 ### Phase 3: Commit Changes
 
@@ -74,43 +74,20 @@ After applying, present a summary in two sections:
 **No action needed:**
 1. [what was observed] — already covered / too minor / not actionable
 
-### Phase 4b: Instinct Extraction
+### Phase 4b: Memory Extraction
 
 Scan the conversation for **correction signals** (James pushing back, redirecting, or saying "not like that") and **confirmation signals** (James accepting a non-obvious approach, saying "yes exactly," or not pushing back where he easily could have).
 
 For each signal found:
 
-1. **Check `system/instincts/`** for an existing instinct that matches the behavior.
-2. **If match found:** Bump its `confidence` (add 0.15 for corrections, 0.1 for confirmations), increment `evidence_count`, append the new evidence with date and quote.
-3. **If no match:** Create a new instinct file in `system/instincts/` using this format:
-
-```markdown
----
-id: kebab-case-name
-trigger: When [specific situation where this behavior applies]
-behavior: [What Leo should do / not do]
-confidence: 0.3
-evidence_count: 1
-created: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-status: active
----
-
-## Evidence
-
-### YYYY-MM-DD
-> "[Quote or paraphrase of the correction/confirmation]"
-Context: [Brief description of what was happening]
-Signal: [correction | confirmation]
-```
-
-4. **Promotion check:** If any instinct reaches confidence >= 0.8, flag it for promotion — it should become a CLAUDE.md operating principle, a skill modification, or a permanent memory. Present the candidate to James: "This instinct has hit 0.8 confidence — ready to promote to [target]. Agree?"
+1. **Check `MEMORY.md`** for an existing memory that covers this behavior.
+2. **If match found:** Update the existing memory file with the new evidence or refinement.
+3. **If no match and it's a durable pattern:** Create a new feedback memory using the standard memory format (see CLAUDE.md auto memory instructions).
 
 **Rules:**
-- Cap confidence at 0.95 (never fully certain — leave room for edge cases)
-- Only create instincts for behavioral patterns, not one-time factual corrections
+- Only save behavioral patterns that apply to future sessions, not one-time factual corrections
 - If the Stop hook already flagged corrections during the session (via `detect-corrections.sh`), use those as a starting point but review them — the hook pattern-matches, you understand context
-- If no corrections or notable confirmations occurred, say "No instinct signals this session" and move on
+- If no corrections or notable confirmations occurred, say "No memory signals this session" and move on
 
 ### Phase 5: Context Update
 

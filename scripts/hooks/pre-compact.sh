@@ -20,7 +20,7 @@ echo "- $TIMESTAMP — compaction triggered" >> "$COMPACT_LOG"
 cat <<'EOF'
 === CONTEXT COMPACTION OCCURRED ===
 Context was just compacted. To recover session state:
-1. Re-read system/session-log.md for the latest entry
+1. Re-read the latest file in system/session-logs/ for context
 2. If mid-task, re-read any active context files relevant to the current work
 3. Ask James to re-state the current goal if unclear
 === END COMPACTION NOTICE ===

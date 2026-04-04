@@ -32,7 +32,7 @@ Based on the meeting description and attendees, read the relevant files:
 | Any meeting | `work+self/communication.md` (DISC profile, audience playbooks) |
 | High-stakes / exec | `work+self/communication.md` (speaking patterns + checklist) |
 
-Also read `system/session-log.md` (most recent 1-2 entries) for any recent signals, decisions, or open items relevant to this meeting.
+Also read the latest 1-2 files from `system/session-logs/` for any recent signals, decisions, or open items relevant to this meeting.
 
 Do NOT dump raw context back at James. Synthesize it into the output below.
 
