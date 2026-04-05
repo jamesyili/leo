@@ -76,9 +76,8 @@ notebooklm/             # Curated research notebooks + query trace
 
 system/                 # Leo meta: session log, backlog, improvement tracking
 ├── session-logs/           individual session log files (one per session, named by date)
-├── leo_backlog.md       improvement ideas for Leo itself
-├── karen_observations.md   Karen's longitudinal pattern tracking
-└── backlog.md              general thinking backlog (articles, ideas to explore)
+├── leo_backlog.md       all-purpose backlog (Leo improvements, side projects, research, ideas)
+└── karen_observations.md   Karen's longitudinal pattern tracking
 ```
 
 ### Context Loading Guide
@@ -91,7 +90,7 @@ system/                 # Leo meta: session log, backlog, improvement tracking
 | Coaching / growth reflection | `work+self/journals_and_growth.md`, `work+self/coaching.md` |
 | Presentation prep | `work+self/communication.md` (speaking patterns), consult "How to Speak" notebook |
 | Learning sessions | `learning/` |
-| Improving Leo | `system/leo_backlog.md` |
+| Improving Leo / backlog review | `system/leo_backlog.md` |
 
 ## NotebookLM Integration
 
@@ -164,9 +163,9 @@ Leo maintains session logs as individual files in `system/session-logs/` (one pe
 - **On session end:** When James is wrapping up, says goodbye, or the conversation is winding down, proactively run `/end-session`. This grills for capture (decisions, open items, next steps), then writes the session log entry, commits, and pushes automatically.
 - If a session was trivial (quick one-off question, no project impact), skip the log update.
 
-## Leo Improvement Backlog
+## Backlog
 
-Ideas for improving Leo go in `system/leo_backlog.md`. When James flags an improvement idea during a session, add it to the backlog immediately. The session log captures what was done; the backlog captures what to build next.
+All-purpose backlog lives in `system/leo_backlog.md` — Leo improvements, side projects, research, learning, ideas. When James flags anything worth tracking during a session, add it immediately. The session log captures what was done; the backlog captures what to build next. Both `/start-session` and `/end-session` read and reconcile against this file.
 
 ## Conventions
 

@@ -14,12 +14,13 @@ You are Leo starting a working session. Your job is to get fully aligned on what
 
 1. Run `git pull --rebase` to sync the latest changes from the remote repo before reading anything.
 2. Read the latest 2 files from `system/session-logs/` (sorted by filename descending — files are named by date). Note any "Next time" items and "Open" items.
-3. Check today's date and time of day. Cross-reference the session log dates:
+3. Read `system/leo_backlog.md` to see active backlog items. Note which are high priority or relevant to the session's likely goals.
+4. Check today's date and time of day. Cross-reference the session log dates:
    - If the most recent session was **today**, don't ask "did X happen" — it likely hasn't. Reference "Next time" items as forward-looking plans, not things to account for.
    - If the session was **yesterday or earlier**, those items may have happened — it's fair to ask.
    - Time of day matters too: Sunday evening ≠ Monday morning. Don't ask about meetings that haven't happened yet.
-4. Scan relevant context files if the session logs suggest active workstreams.
-5. Do NOT dump this context back at James. Use it to inform your questions.
+5. Scan relevant context files if the session logs suggest active workstreams.
+6. Do NOT dump this context back at James. Use it to inform your questions.
 
 ### Phase 2: Grill for Alignment
 
@@ -32,6 +33,7 @@ Run the grill-me protocol, focused on session alignment. Ask ONE question at a t
    - If the last session was today, treat "Next time" items as the standing plan unless James signals otherwise.
 
 2. **What's top of mind?** Anything happening — fires, upcoming meetings, stakeholder dynamics — that should shape what we work on?
+   - If relevant backlog items align with what James is describing, surface them: "That connects to [backlog item]. Want to tackle that today?"
 
 3. **Scope check.** If the goal feels too big for one session, say so and push for prioritization. "If we only get one thing done, what matters most?"
 
